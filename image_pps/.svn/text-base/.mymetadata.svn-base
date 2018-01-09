@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="image_pps"
+  id="myeclipse.1387085775007"
+  context-root="/pps"
+  j2ee-spec="6.0"
+  archive="image_pps.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

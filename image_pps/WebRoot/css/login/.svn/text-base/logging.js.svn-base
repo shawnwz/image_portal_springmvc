@@ -1,0 +1,1 @@
+var CorbisUI=CorbisUI||{};CorbisUI.Logging=CorbisUI.Logging||{};(function(a,b){b.logError=function(c){var d=this;a.ajax({type:"POST",cache:false,dataType:"json",url:"/jserror",data:"error="+escape(escape(c))});};})(jQuery,CorbisUI.Logging);

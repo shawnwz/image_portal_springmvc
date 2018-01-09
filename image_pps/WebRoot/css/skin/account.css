@@ -1,0 +1,35 @@
+/* Mar 13, to be merged. */
+
+.account_form_errors_wrapper { width: 380px; padding: 20px 20px 20px 55px; background: #DEDEDE url(../images/images/icon_error.png) 15px 20px no-repeat; }
+.account_form_errors { line-height: 20px; }
+.account_left_panel_message { line-height: 120px; text-align: center; }
+
+
+.account_div a.account_ico5{background-position:-364px 0;}
+.account_div a.account_ico5:hover{background-position:-364px -96px;}
+
+.hover-popup {
+    background-color: #E8E8E8;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 0 0 5px #000000;
+    color: #1A1A1A;
+    font-size: 12px;
+    position: absolute;
+    width: 280px;
+    z-index: 500;
+}
+.hover-popup h3 {
+    background-color: #DBDBDB;
+    border-radius: 7px 7px 7px 7px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 8px;
+}
+.hover-popup p {
+    line-height: 16px;
+    padding: 8px;
+}
+.hdn {
+    display: none;
+}

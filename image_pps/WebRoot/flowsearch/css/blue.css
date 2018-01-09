@@ -1,0 +1,334 @@
+/* iCheck plugin Square skin, blue
+----------------------------------- */
+.icheckbox_square-blue,
+.iradio_square-blue {
+display: inline-block;
+*display: inline;
+vertical-align: middle;
+margin: 0 5px 3px 0;
+padding: 0;
+width: 20px;
+height: 20px;
+border: 2px #323232 solid;
+cursor: pointer;
+}
+
+.iradio_square-blue{
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+}
+
+label:hover .icheckbox_square-blue{
+background:#fff;
+}
+
+label:hover .iradio_square-blue{
+background-color:#fff;
+}
+
+.icheckbox_square-blue.checked, .iradio_square-blue.checked{
+border: 2px #6031ba solid;
+color:#6031ba;
+text-align:center;
+}
+.icheckbox_square-blue.checked:before{
+font-family: 'icomoon';
+content: "\e116";
+font:16px;
+line-height:18px;
+}
+
+.iradio_square-blue.checked{
+background:url(../images/radioCore.png) center center no-repeat;
+}
+.doubleCancle .iradio_square-blue.checked{
+background:none; 
+}
+
+.doubleCancle .iradio_square-blue.checked:before{
+font-family: 'icomoon';
+content: "\e116";
+font:16px;
+line-height:18px;
+}
+
+.icheckbox_square-blue.disabled, .iradio_square-blue.disabled{
+border: 2px #999 solid;
+cursor: default;
+color:#999;
+}
+
+
+label.disabled{
+cursor:default!important;
+color:#999!important;
+}
+
+label{
+display:inline-block;
+}
+
+
+label.checked{
+color:#6031ba;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* scroll bar */
+
+#scrollbar{
+width:100%;
+padding:120px 0 20px 0;
+height:100%;
+margin:0px;
+position:absolute;
+left:0;
+top:0;
+}
+
+#scrollbar .viewport{
+overflow:hidden;
+position:relative;
+height:100%;
+}
+
+#scrollbar .overview{
+list-style:none;
+position:absolute;
+left:0;
+top:0;
+padding-right:25px;
+width:100%;
+}
+
+#scrollbar.disableWrap .overview{
+padding-right:0px; 
+}
+
+#scrollbar .scrollbar{
+position:absolute;
+background-position:0 0;
+right: 8px;
+top:120px;
+z-index:3;
+width:8px;
+}
+
+#scrollbar .track{
+height:100%;
+position:relative;
+width:8px;
+background:#e2e2e2;
+}
+
+#scrollbar .thumb{
+background:#7d7d7d;
+height:20px;
+width:100%;
+cursor:pointer;
+overflow:hidden;
+position:absolute;
+top:0;
+left:0px;
+}
+
+#scrollbar .disable{
+display:none;
+}
+
+
+/* scrollbar2 */
+
+.scrollbar2{
+width:100%;
+height:435px;
+margin:0px;
+border:1px #7d7d7d solid;
+padding:8px 15px;
+position:relative;
+}
+
+.scrollbar2 .viewport{
+overflow:hidden;
+position:relative;
+height:100%;
+}
+
+.scrollbar2 .overview{
+list-style:none;
+position:absolute;
+left:0;
+top:0;
+padding-right:25px;
+width:100%;
+}
+
+.scrollbar2.disableWrap .overview{
+padding-right:0px; 
+}
+
+.scrollbar2 .scrollbar{
+position:absolute;
+background-position:0 0;
+right: 8px;
+top:10px;
+z-index:3;
+width:8px;
+}
+
+.scrollbar2 .track{
+height:100%;
+position:relative;
+width:8px;
+background:#e2e2e2;
+}
+
+.scrollbar2 .thumb{
+background:#7d7d7d;
+height:20px;
+width:100%;
+cursor:pointer;
+overflow:hidden;
+position:absolute;
+top:0;
+left:0px;
+}
+.scrollbar2 .thumb:hover {
+ background:#323232;
+}
+
+.scrollbar2 .disable{
+display:none;
+}
+
+.scrollbar2 label{
+ display:block;
+ cursor:pointer;
+ font-size:12px;
+ margin:0;
+}
+.scrollbar2 label:hover{
+ color:#6031ba;
+}
+
+.scrollbar2 label:hover .icheckbox_square-blue{
+background:none;
+}
+
+.scrollbar2 .icheckbox_square-blue{
+border: none;
+text-align:center;
+margin:0 5px 0 0;
+line-height:20px;
+}
+
+
+.scrollbar2 .icheckbox_square-blue:before{
+content: "\e117";
+font-family:'icomoon';
+
+}
+
+.scrollbar2 .icheckbox_square-blue.checked:before{
+content: "\e116";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.noSelect{
+user-select:none;
+-o-user-select:none;
+-moz-user-select:none;
+-khtml-user-select:none;
+-webkit-user-select:none;
+}
+
+
+
+
+
+
+
+.hover{
+ background:#ccc;
+}
+
+
+.ui-draggable-dragging{
+width: 80px!important;
+height: 80px!important;
+-webkit-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+-moz-box-shadow: rgba(0,0,0,0.8)  0 0 10px;
+box-shadow: rgba(0,0,0,0.8)  0 0 10px;
+}
+
+.selectBox {
+background:#fff;
+border: 1px solid #D7D7D7;
+float: left;
+height: 34px;
+line-height: 34px;
+width:100%;
+display:block;
+}
+
+.filterPanel .selectBox, .filterPanel .selectBox-arrow, .bgGreyInner .selectBox, .bgGreyInner .selectBox-arrow{
+ background:#F0F0F0;
+}
+
+.bgGreyInner .selectBox{
+ border:1px #7d7d7d solid;
+}

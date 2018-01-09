@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+            http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+            http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+            http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:configure.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="dataSource"
+		class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<property name="driverClass">
+			<value>com.mysql.jdbc.Driver</value>
+		</property>
+		<property name="jdbcUrl">
+			<value>${db.url}</value>
+		</property>
+		<property name="user">
+			<value>${db.user}</value>
+		</property>
+		<property name="password">
+			<value>${db.password}</value>
+		</property>
+		<property name="initialPoolSize">
+			<value>3</value>
+		</property>
+		<property name="minPoolSize">
+			<value>5</value>
+		</property>
+		<property name="maxPoolSize">
+			<value>100</value>
+		</property>
+		<property name="checkoutTimeout">
+			<value>5000</value>
+		</property>
+		<property name="maxIdleTime">
+			<value>1800</value>
+		</property>
+		<property name="idleConnectionTestPeriod">
+			<value>300</value>
+		</property>
+		<property name="acquireIncrement">
+			<value>5</value>
+		</property>
+		<property name="autoCommitOnClose">
+			<value>true</value>
+		</property>
+		<property name="testConnectionOnCheckout">
+			<value>true</value>
+		</property>
+		<property name="preferredTestQuery">
+			<value>select 1 from fr_user</value>
+		</property>
+	</bean>
+
+
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">
+					org.hibernate.dialect.MySQLDialect
+				</prop>
+				<prop key="hibernate.show_sql">
+					${hibernate.show_sql}
+				</prop>
+				<prop key="hibernate.format_sql">
+					${hibernate.format_sql}
+				</prop>
+				<prop key="hibernate.use_sql_comments">
+					${hibernate.use_sql_comments}
+				</prop>
+				<prop key="current_session_context_class">thread</prop>
+				<prop key="hibernate.format_sql">true</prop>
+				<prop key="hibernate.transaction.factory_class">
+					org.hibernate.transaction.JDBCTransactionFactory
+				</prop>
+				<prop key="hibernate.jdbc.fetch_size">50</prop>
+				<prop key="hibernate.jdbc.batch_size">50</prop>
+				<prop key="hibernate.max_fetch_depth">0</prop>
+			</props>
+		</property>
+		<property name="packagesToScan" value="com.gaopin.entity" />
+	</bean>
+
+	<bean id="hibernateTemplate"
+		class="org.springframework.orm.hibernate3.HibernateTemplate">
+		<property name="sessionFactory">
+			<ref local="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="jdbcTemplate"
+		class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	<bean name="hibernateGenericController"
+		class="com.gaopin.frame.HibernateGenericController">
+		<property name="jdbcTemplate">
+			<ref local="jdbcTemplate" />
+		</property>
+		<property name="hibernateTemplate">
+			<ref local="hibernateTemplate" />
+		</property>
+	</bean>
+	
+	<!-- memcached -->
+	<bean id="memcached" class="com.gaopin.cache.memcached.MemCachedClientWrapper" init-method="init"  destroy-method="destroy"> 
+  		<property name="name"> 
+   				 <value>${memcache.name}</value> 
+  		</property> 
+  		<property name="serverList"> 
+    			<value>${memcache.servers}</value> 
+  		</property> 
+  		<property name="weightList"> 
+    			<value>${memcache.weights}</value> 
+  		</property> 
+  		<property name="maxConn"> 
+   				 <value>${memcache.maxConn}</value> 
+  		</property> 
+  		<property name="minConn"> 
+    			<value>${memcache.minConn}</value> 
+  		</property> 
+  		<property name="initConn"> 
+    			<value>${memcache.initConn}</value> 
+ 		</property>
+ 		<property name="dogpilePreventionEnabled">
+ 				<value>false</value>
+ 		</property> 
+ 	</bean>
+
+	<!-- 线程池 -->
+	<bean id="threadPoolTaskExecutor"
+		class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+		<property name="corePoolSize"
+			value="${threadpool.corePoolSize}" />
+		<property name="maxPoolSize" value="${threadpool.maxPoolSize}" />
+		<property name="queueCapacity"
+			value="${threadpool.queueCapacity}" />
+		<property name="keepAliveSeconds"
+			value="${threadpool.keepAliveSeconds}" />
+		<property name="rejectedExecutionHandler">
+			<bean
+				class="java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy" />
+		</property>
+	</bean>
+
+	<!-- 配置事务管理器 -->
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+	<!-- 声明式事务管理 
+		<aop:config>
+		<aop:pointcut id="allServiceMethod"
+		expression="execution(* com.guoke.cms.service.impl.*.*(..))" />
+		<aop:advisor pointcut-ref="allServiceMethod" advice-ref="txAdvice" />
+		</aop:config>
+		
+		<tx:advice id="txAdvice" transaction-manager="transactionManager">
+		<tx:attributes>
+		<tx:method name="get*" read-only="true" />
+		<tx:method name="*" propagation="REQUIRED" />
+		</tx:attributes>
+		</tx:advice>
+	-->
+	<!-- 使Spring关注Annotation -->
+	<context:annotation-config />
+	<!-- 让Spring通过自动扫描来查询和管理Bean -->
+	<context:component-scan base-package="com.gaopin">
+	</context:component-scan>
+</beans>

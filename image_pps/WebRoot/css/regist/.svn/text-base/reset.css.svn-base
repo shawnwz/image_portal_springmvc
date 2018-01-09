@@ -1,0 +1,13 @@
+*{padding:0;margin:0;border:0;vertical-align:baseline;font-weight:inherit;font-family:inherit;font-style:inherit;font-size:100%}
+b{font-weight:bold}
+i{font-style:italic}
+fieldset,form,input,select,textarea{font-family:'Trebuchet MS','Lucida Grande',Arial,Helvetica,sans-serif,'Unicode MS'}
+body{background-color:#1A1A1A;color:#999;font-family:'Trebuchet MS','Lucida Grande',Arial,Helvetica,sans-serif,'Unicode MS';font-size:12px;position:relative}
+a{color:#69C;cursor:pointer;text-decoration:none}
+a:hover,a:active{border-bottom:1px dotted #69C}
+a img{border:0}
+input[type="text"],input[type="password"]{border:solid 1px #999;height:20px;color:#333}
+textarea,input,select{outline:0}
+input{font-family:'Trebuchet MS','Lucida Grande',Arial,Helvetica,sans-serif,'Unicode MS';font-size:12px;padding:0}
+select{color:#333;font-size:12px}
+textarea{border:1px solid #999;color:#333;font-family:'Trebuchet MS','Lucida Grande',Arial,Helvetica,sans-serif,'Unicode MS';font-size:12px;line-height:12px;padding:0}

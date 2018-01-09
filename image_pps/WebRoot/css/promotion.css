@@ -1,0 +1,179 @@
+.content_1 {
+	text-align: center;
+	font-size:16px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	line-height:12px;
+}
+
+.content_2 {
+	width: 100%;
+	float: left;
+}
+
+.left_img_beijing {
+	float: left;
+}
+
+div#text_beijing {
+	width: 40%;
+	float: right;
+}
+.font_padding_left{
+	padding-bottom:10px;
+}
+.content_3 {
+	width: 100%;
+	float: left;
+	padding-bottom:10px;
+}
+.right_img_small_left{
+	float: left;
+	padding-left:0px;
+	padding-top:5px;
+}
+
+.right_img_small_right{
+	float: left;
+	padding-left:200px;
+}
+.right_img_small_right_guangzhou{
+	float: left;
+	padding-left:212px;
+}
+.font_size_left{
+	float: left;
+	font-size:24px;
+	padding-left:10px;
+	padding-bottom:10px;
+}
+
+.font_size_right{
+	float: right;
+	font-size:24px;
+}
+.result{
+	font-size:30px;
+	padding-bottom:25px;
+}
+div#menu_right {
+	width: 100%;
+	float: left;
+}
+
+.centent_2 {
+	width: 100%;
+	float: left;
+}
+
+div#centent_4 {
+	width: 40%;
+	float: left;
+}
+
+.right_img_small_shanghai {
+	width: 40%;
+	float: right;
+}
+
+div#shanghai {
+	width: 40%;
+	float: left;
+}
+
+.menu_left {
+	float: left;
+	width:100%;
+}
+
+.right_img_shanghai {
+	float: right;
+}
+
+.centent_2 {
+	width: 100%;
+	float: left;
+	padding-bottom:70px;
+}
+
+.left_img_guangzhou {
+	float: left;
+}
+
+div#text_guangzhou {
+	width: 40%;
+	float: left;
+}
+
+div#centent_3 {
+	width: 100%;
+	float: left;
+}
+
+.right_img_small{
+	float: left;
+	padding-left:300px;
+}
+
+div#guangzhou {
+	width: 40%;
+	float: left;
+}
+
+div#menu_right {
+	width: 100%;
+	float: left;
+}
+
+.ul_right {
+	text-align: right;
+	font-size:16px;
+}
+.ul_left{
+	text-align: left;
+	font-size:16px;
+	padding-left:0px;
+}
+
+.pfooter{
+	width: 745px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom:70px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: right;
+	text-align:right;
+	font-size:10px;
+}
+
+li {
+	list-style: none;
+}
+
+.contentContainer {
+	width: 745px;
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.img_size {
+    width:100%;
+}
+.img_size_right {
+    width:100%;
+    float:right;
+}
+
+.topContainer{
+	width:1140px;
+	padding-left:0px;
+	padding-right:0px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}

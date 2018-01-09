@@ -1,0 +1,22 @@
+#Sat Dec 20 14:57:58 CST 2014
+eclipse.preferences.version=1
+encoding//WebRoot/WEB-INF/jsp/inc/pageheader.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/page/imagessets.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/page/imagessetslading.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/page/photographer.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/page/photostock659.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/page/photostock661.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/questionnaire/index.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/questionnaire/step2.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/questionnaire/step3.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/questionnaire/step4.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/search/search.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/search/searchflow_adv.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/search/searchflow_cids.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/search/searchfresult.jsp=UTF-8
+encoding//WebRoot/css/myDialog/NewDialog.css=UTF-8
+encoding//WebRoot/css/myqp.css=UTF-8
+encoding//WebRoot/css/ui-lightness/NewDialog.css=UTF-8
+encoding//WebRoot/index.jsp=UTF-8
+encoding//src/config/config_property.properties=UTF-8
+encoding/<project>=UTF-8

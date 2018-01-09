@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/master/!svn/ver/506/image_pps/src/service/com/gaopin/service/pps
+END
+UserService.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/UserService.java
+END
+ImageCategoryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/ImageCategoryService.java
+END
+LightBoxService.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/LightBoxService.java
+END
+LotteryDrawService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/master/!svn/ver/492/image_pps/src/service/com/gaopin/service/pps/LotteryDrawService.java
+END
+KeywordService.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/KeywordService.java
+END
+UserPrivilegeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/UserPrivilegeService.java
+END
+ContentProviderService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/ContentProviderService.java
+END
+CartService.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/master/!svn/ver/406/image_pps/src/service/com/gaopin/service/pps/CartService.java
+END
+LotteryKeywordsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/master/!svn/ver/457/image_pps/src/service/com/gaopin/service/pps/LotteryKeywordsService.java
+END
+CollectionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/CollectionService.java
+END
+VirtualCdService.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/VirtualCdService.java
+END
+SearchRuleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/SearchRuleService.java
+END
+ImageInfoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/ImageInfoService.java
+END
+ImageSetService.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/ImageSetService.java
+END
+ImageGroupService.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/master/!svn/ver/190/image_pps/src/service/com/gaopin/service/pps/ImageGroupService.java
+END
+KeywordCollectionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/KeywordCollectionService.java
+END
+BottomPageService.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/BottomPageService.java
+END
+PhotographerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/PhotographerService.java
+END
+ImageGalleryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/master/!svn/ver/371/image_pps/src/service/com/gaopin/service/pps/ImageGalleryService.java
+END
+IndexPageService.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/IndexPageService.java
+END
+LotteryAwardsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/master/!svn/ver/457/image_pps/src/service/com/gaopin/service/pps/LotteryAwardsService.java
+END
+SearchService.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/master/!svn/ver/293/image_pps/src/service/com/gaopin/service/pps/SearchService.java
+END
+DownloadService.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/master/!svn/ver/367/image_pps/src/service/com/gaopin/service/pps/DownloadService.java
+END
+ClarificationService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/ClarificationService.java
+END
+VariablesService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/master/!svn/ver/457/image_pps/src/service/com/gaopin/service/pps/VariablesService.java
+END
+BatchDownloadService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/BatchDownloadService.java
+END

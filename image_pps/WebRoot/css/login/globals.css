@@ -1,0 +1,30 @@
+.hdn{display:none}
+#fade_page,.fade_page{background-color:black;opacity:.7;-moz-opacity:.70;filter:alpha(opacity=70);z-index:3;height:100%;width:100%;background-repeat:repeat;position:fixed;top:0;left:0}
+.js_button,.js_buttonBig{color:#FFF;display:inline-block;background-position:top left;padding:0 5px 0 10px;margin-right:15px;position:relative;text-decoration:none;font-size:12px}
+.js_button{line-height:22px}
+.js_buttonBig{line-height:29px}
+.js_button:hover,.js_buttonBig:hover{background-position:bottom left;border-bottom:0}
+.js_button span,.js_buttonBig span{top:0;background-position:top right;display:block;position:absolute;right:-5px;width:5px}
+.js_button span{height:22px}
+.js_buttonBig span{height:29px}
+.js_button:hover span,.js_buttonBig:hover span{background-position:bottom right}
+.primary_btn,.primary_btn span{background-image:url("/images/button-blue-sprite.png")}
+.primary_btnBig,.primary_btnBig span{background-image:url("/images/button-blue-big-sprite.png")}
+.secondary_btn,.secondary_btn span{background-image:url("/images/button-gray-sprite.png")}
+.blue_btn,.blue_btn span{background-image:url("/images/button-blue-sprite.png")}
+.blue_btn_rc,.gray_btn_rc{height:18px;background-position:-5px 0;color:#f1f1f1;padding:2px 10px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
+.blue_btn_rc:hover,.gray_btn_rc:hover{border:0;background-position:-5px -22px}
+.blue_btn_rc{background-image:url("/images/button-blue-sprite.png")}
+.gray_btn_rc{background-image:url("/images/button-gray-sprite.png")}
+div.clear{clear:both}
+.checkbox_label{padding:0 0 0 7px;position:relative;top:-2px}
+.button{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;cursor:pointer;position:relative}
+.button.medium{height:20px;line-height:20px;color:#f1f1f1;vertical-align:top;padding:1px 15px 0 15px;font-size:12px}
+.button.medium.primary{background:url("/Images/btnBlue363636.gif") repeat-x 0 -44px}
+.button.medium.primary:hover{border:0;background-position:0 -110px}
+.button.medium.secondary{background:url("/Images/btnGray363636.gif") repeat-x 0 -44px}
+.button.medium.secondary:hover{border:0;background-position:0 -110px}
+.disabled{opacity:.4;filter:alpha(opacity=40)}
+input#at16filt{height:auto}
+.dropshadow{-moz-box-shadow:2px 2px 2px rgba(0,0,0,0.4);-webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.4);box-shadow:2px 2px 2px rgba(0,0,0,0.4)}
+.truncatedText{overflow:hidden;white-space:nowrap;word-wrap:break-word;text-overflow:ellipsis;-o-text-overflow:ellipsis;-ms-text-overflow:ellipsis}

@@ -1,0 +1,1 @@
+var CorbisUI=CorbisUI||{};CorbisUI.Localization=CorbisUI.Localization||{};CorbisUI.Localization={loading:"载入中&hellip;&hellip;"};jQuery.noConflict();(function(a){a.ajaxSetup({cache:false});a(document).ready(function(b){a(".truncatedText").ellipsis();});isBase=true;})(jQuery);

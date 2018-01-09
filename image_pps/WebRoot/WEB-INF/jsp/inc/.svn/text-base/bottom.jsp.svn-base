@@ -1,0 +1,82 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<script>
+function openPage(url){
+	window.open(url, "", 
+			"toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=yes, width=800, height=600");
+	
+}
+
+function openPage1000(url){
+	window.open(url, "", 
+			"toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=yes, width=1030, height=600");
+	
+}
+</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?06d046c45fc354feaec92ccb1e49f895";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<div class="index-bottom-menu"><div class="index-bottom-menu-middle">
+   	<div>
+       	<p>创意类</p>
+           <p><a href="photostock/7">版权管理图片</a></p>
+           <p><a href="photostock/8">免版税图片</a></p>
+           <p><a href="photostock/9">插图</a></p>
+           <p style="display:none;"><a href="photostock">虚拟CD</a></p>
+       </div>
+   	<div>
+       	<p>编辑类</p>
+           <p><a href="photostock/1">纪实</a></p>
+           <p><a href="photostock/2">艺术作品</a></p>
+           <p><a href="photostock/3">档案</a></p>
+           <p><a href="photostock/4">时事及体育</a></p>
+           <p><a href="photostock/5">娱乐</a></p>
+           <p><a href="photostock/6">Outline</a></p>
+           <p><a href="search#cate_id=690&p=1"  style="display:none;">娱乐在线</a></p>
+       </div>
+   	<div>
+       	<p>我的账户</p>
+           <p><a href="my/person">档案资料</a></p>
+           <p><a href="my/myqp">小样图下载记录</a></p>
+           <p><a href="my/myod">OnDemand记录</a></p>
+           <p><a href="my/lightbox">灯箱</a></p>
+       </div>
+   	<div>
+       	<p>我们的政策</p>
+           <p><a href="javascript:openPage('usera')">网站使用协议</a></p>
+           <p><a href="javascript:openPage('privacy')">隐私保护政策</a></p>
+           <p><a href="javascript:openPage('cookie')">Cookie政策</a></p>
+           <p><a href="images/Certified_EULA_CN.pdf">授权条款及条件</a></p>
+       </div>
+   	<div>
+       	<p>客户服务</p>
+           <p><a href="javascript:openPage('callme')">与我们联系</a></p>
+           <p><a href="javascript:void(0);">搜索提示</a></p>
+           <p style="display:none;"><a href="javascript:void(0);">网站使用帮助</a></p>
+       </div>
+   	<div>
+       	<p>公司简介</p>
+           <p><a href="javascript:openPage('myinfo')">关于我们</a></p>
+           <p><a href="job" target="_blank" style="display:none;">招聘信息</a></p>
+       </div>
+   </div>
+</div>
+   
+<div class="index-friend-bg">
+	<a href="http://www.corbisimages.com/" target="_blank"><img src="images/friend1.png" /></a>
+	<a href="http://www.corbismotion.com/" target="_blank"><img src="images/friend2.png" /></a>
+<!-- 	<a href="http://corbisentertainment.com/"><img src="images/friend3.png" /></a>
+	<a href="http://www.splashnews.com"><img src="images/friend4.png" /></a>
+	 -->
+</div>
+
+<div class="index-bottom">
+	© 2014由高品（上海）图像服务有限公司提供。本网站所有影像均由高品（上海）图像服务有限公司授权发布。侵权必究。
+	<a href="http://www.miibeian.gov.cn/" target="_blank" style="color: #6699cc;font-size: 11px;">沪ICP备09095511号</a>
+</div>

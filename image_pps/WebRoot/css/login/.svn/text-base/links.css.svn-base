@@ -1,0 +1,12 @@
+#header-toplinks{font-size:11px;right:20px;top:10px;position:absolute}
+html>body #header-toplinks{*z-index:5}
+#customerServiceHolder,#signinholder{margin:0 15px 0 0;padding:0 7px 0 0;border-right:solid 1px #333;position:relative;display:inline}
+#language{font-size:11px}
+#customerServiceHolder{color:#69C;cursor:pointer}
+#languageholder{display:inline;color:#69C;cursor:pointer}
+#languageholder img{vertical-align:bottom;margin:0 3px 3px 0}
+#username{color:#ccc;font-weight:bold;padding:0 5px 0 0}
+#activeSubscription{background:url(/Images/icon-chrome-picplan.gif) no-repeat;padding:0 7px 0 20px;margin:0 15px 0 0;border-right:1px solid #333;position:relative;display:inline}
+#signout{font-size:10px}#header-toplinks{font-size:12px}
+#signout{font-size:12px}
+#username{font-size:11px!important}

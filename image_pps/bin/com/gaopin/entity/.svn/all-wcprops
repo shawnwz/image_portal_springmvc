@@ -1,0 +1,335 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity
+END
+JobSapSync.class
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/JobSapSync.class
+END
+User.class
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/User.class
+END
+ImageCategory.class
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/ImageCategory.class
+END
+LightBox.class
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/LightBox.class
+END
+ImageSets.class
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/ImageSets.class
+END
+BatchFile.class
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/BatchFile.class
+END
+IndexBigview.class
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/IndexBigview.class
+END
+ContentProvider.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/ContentProvider.class
+END
+ImageOnline.class
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/ImageOnline.class
+END
+ContactsInfo.class
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/ContactsInfo.class
+END
+Info.class
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/Info.class
+END
+VirtualCd.class
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/VirtualCd.class
+END
+BillInfo.class
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/BillInfo.class
+END
+ImageGroup.class
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/ImageGroup.class
+END
+CodeRestriction.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/CodeRestriction.class
+END
+VirtualCdRel.class
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/VirtualCdRel.class
+END
+CollectionSort.class
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/CollectionSort.class
+END
+BatchHistory.class
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/BatchHistory.class
+END
+ImageGroupTopicCategory2del.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/ImageGroupTopicCategory2del.class
+END
+ImageThematicContent2del.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/ImageThematicContent2del.class
+END
+Menu.class
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/Menu.class
+END
+SystemRole.class
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/SystemRole.class
+END
+SystemOperateLog.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/SystemOperateLog.class
+END
+SearchLog.class
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/SearchLog.class
+END
+Clarification.class
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/Clarification.class
+END
+Keywords.class
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/Keywords.class
+END
+PageTemplate.class
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/PageTemplate.class
+END
+SystemVariables.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/SystemVariables.class
+END
+Category.class
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/Category.class
+END
+FinanceInfo.class
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/FinanceInfo.class
+END
+SystemAction.class
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/SystemAction.class
+END
+LightBoxRel.class
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/LightBoxRel.class
+END
+SystemUser.class
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/SystemUser.class
+END
+UserPrivilege.class
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/UserPrivilege.class
+END
+OrgiImages.class
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/OrgiImages.class
+END
+KeywordPropertyMap.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/KeywordPropertyMap.class
+END
+DownloadHistory.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/DownloadHistory.class
+END
+IndexMenu.class
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/IndexMenu.class
+END
+SearchRule.class
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/SearchRule.class
+END
+ImagePartialSets.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/ImagePartialSets.class
+END
+ImageInfo.class
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/ImageInfo.class
+END
+ImageCollection.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/ImageCollection.class
+END
+KeywordCollection.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/KeywordCollection.class
+END
+ImportImages.class
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/ImportImages.class
+END
+PreviewImageInfo.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/PreviewImageInfo.class
+END
+Customer.class
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/Customer.class
+END
+ImageGroupImage.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/ImageGroupImage.class
+END
+Photographer.class
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/Photographer.class
+END
+SearchResult.class
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/SearchResult.class
+END
+SystemRoleAction.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/SystemRoleAction.class
+END
+SystemActionUrl.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/SystemActionUrl.class
+END
+SystemUserRole.class
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/SystemUserRole.class
+END
+ImageInfoExtend.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/ImageInfoExtend.class
+END
+GroupRel2del.class
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/GroupRel2del.class
+END
+SystemMenu.class
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/entity/SystemMenu.class
+END

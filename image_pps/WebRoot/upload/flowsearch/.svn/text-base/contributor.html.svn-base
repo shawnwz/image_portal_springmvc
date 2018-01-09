@@ -1,0 +1,575 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,user-scalable=no"/>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Gao Pin Images</title>
+<!-- InstanceEndEditable -->
+<link rel="Shortcut Icon" href="images/favorite.ico" type="image/x-icon" />
+<link rel="Bookmark" href="images/favorite.ico" type="image/x-icon" />
+<link rel="icon" href="images/favorite.ico" type="image/x-icon" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/layout.css" rel="stylesheet" type="text/css" />
+<link href="css/font.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery.selectBox.css" rel="stylesheet" type="text/css" />
+<link href="css/nav.css" rel="stylesheet" type="text/css" />
+<link href="css/cont.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.ui.datepicker-zh-CN.js"></script>
+<link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/favourite.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.10564.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/banner.js"></script>
+<script type="text/javascript" src="js/jquery.md5.js"></script>
+<script type="text/javascript" src="js/youziku.js"></script>
+<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="js/jquery.infinitescroll.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+<link href="css/jcarousel.responsive.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.selectBox.js"></script>
+<script type="text/javascript" src="js/icheck.js"></script>
+<link href="css/blue.css" rel="stylesheet" type="text/css" />
+<link href="css/tooltipster.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.tooltipster.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="js/form.js"></script>
+<!--[if lte IE 9]>
+<script type="text/javascript" src="js/respond.min.js"></script>
+<![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<script type="text/javascript" src="js/default.js"></script>
+<script type="text/javascript" src="js/search.js"></script>
+<!-- InstanceEndEditable -->
+</head>
+
+<!-- InstanceBeginEditable name="bodyClass" -->
+<body class="pageContributor">
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="nav" -->
+		
+<div id="topBar">
+    <div class="container">
+        <div class="navWrap">
+		<div id="logo"><a href="index.html"><img src="images/logo.png"/></a></div>
+		<div id="navRight">
+			<ul>
+				<li class="visible-md visible-lg"><a href="#" class="icon-font icon-3-chat"></a></li>
+				<li class="visible-md visible-lg"><a href="#" class="icon-font icon-15-shoppingCart"></a></li>
+				<li class="visible-md visible-lg"><a href="#" class="icon-font icon-11-favourite"></a></li>
+				
+			</ul>
+		</div>
+		<div id="navLeft" class="autoCloseWrap">
+			<div class="collapse visible-xs visible-sm icon-font icon-5-collapse"></div>
+			<ul class="Source-Han-Light">
+				<li class="active"><a href="#">创意图片</a>
+					<ul>
+						<li><a href="#">导航之一</a></li>
+						<li><a href="#">导航之二</a></li>
+					</ul>
+				</li>
+				<li><a href="#">编辑图片</a>
+					<ul>
+						<li><a href="#">导航之一</a></li>
+						<li><a href="#">导航之二</a></li>
+						<li><a href="#">导航之3</a></li>
+					</ul>
+				</li>
+				<li><a href="#">高品专辑</a>
+					<ul>
+						<li><a href="#">导航之一</a></li>
+						<li><a href="#">导航之二</a></li>
+						<li><a href="#">导航之3</a></li>
+						<li><a href="#">导航之4</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div><!--navLeft-->
+	</div><!--navWrap-->
+	
+	<div class="lightBoxWrapOut">
+		<div class="lightBoxWrap hidden-sm hidden-xs">
+			<div class="leftPanel">
+				<div class="lightBoxList selectWrap">
+					<div class="selectValue">我的收藏版一<span class="num">6</span><span>图片</span></div>
+					<div class="selectList">
+						<ul>
+							<li class="active" lightBoxId="1">我的收藏版一<span class="num">6</span><span>图片</span></li>
+							<li lightBoxId="2">我的收藏版二<span class="num">2</span><span>图片</span></li>
+							<li lightBoxId="3">我的收藏版三<span class="num">2</span><span>图片</span></li>
+							<li lightBoxId="4">我的收藏四<span class="num">2</span><span>图片</span></li>
+							<li lightBoxId="5">我的收藏五<span class="num">2</span><span>图片</span></li>
+							<li lightBoxId="6">我的收藏六<span class="num">2</span><span>图片</span></li>
+						</ul>
+						<div class="createNew"><input name="" type="text" class="listName" placeholder="创造新的收藏版"/><div class="btnAdd"></div></div>
+					</div>
+				</div><!--lightBoxList-->
+				
+				<div class="btnWrap iconWrap">
+					<a href="#" class="icon-font icon-31-shoppingCart2"></a>
+					<a href="#" class="icon-font icon-22-download"></a>
+					<a href="#" class="icon-font icon-14-setting"></a>
+				</div>
+			</div><!--leftPanel-->
+			<div class="rightPanel">
+				<div class="jcarousel-wrapper">
+					<div class="jcarousel">
+						<ul>
+							<li><a href="#"><img src="images/search/thumb305_1.jpg" width="80" imgId="100"/></a><span class="icon-font icon-8-delete"></span></li>
+							<li><a href="#"><img src="images/search/thumb305_2.jpg" width="80" imgId="101"/></a><span class="icon-font icon-8-delete"></span></li>
+							<li><a href="#"><img src="images/search/thumb305_3.jpg" width="80" imgId="102"/></a><span class="icon-font icon-8-delete"></span></li>
+							<li><a href="#"><img src="images/search/thumb305_4.jpg" width="80" imgId="103"/></a><span class="icon-font icon-8-delete"></span></li>
+							<li><a href="#"><img src="images/search/thumb305_1.jpg" width="80" imgId="104"/></a><span class="icon-font icon-8-delete"></span></li>
+							<li><a href="#"><img src="images/search/thumb305_2.jpg" width="80" imgId="105"/></a><span class="icon-font icon-8-delete"></span></li>
+							
+						</ul>
+					</div>
+					<a href="#" class="btnMore">查看所有</a>
+					<div class="currentPage"></div>
+					<div class="closeJcarousel"> &times; </div>
+					<p class="jcarousel-pagination"></p>
+					
+					<a href="#" class="jcarousel-control-prev icon-font icon-1-arrowLeft"></a>
+					<a href="#" class="jcarousel-control-next icon-font icon-2-arrowRight"></a>
+				</div>
+			</div><!--rightPanel-->
+		</div><!--lightBoxWrap-->
+	</div><!--lightBoxWrapOut-->
+
+
+    </div><!--container1920-->
+</div><!--topBar-->
+		
+<!-- InstanceEndEditable -->
+
+
+<!-- InstanceBeginEditable name="cont" -->
+<div id="sectionCont">
+	<div class="container">
+		<!--pageCreativeRM-->
+		<div class="topBanner590 clearBoth">
+			<div class="bgImg"><img src="images/contributor/topBanner.jpg"/></div>
+			<div class="bannerCont">
+				<div class="pageHeaderWrap">
+					<div class="SiYuanBold header">成为高品供稿伙伴</div>
+					<div class="col-xs-8 col-xs-offset-2">
+						<div class="headerSub Source-Han-Light">
+							高品诚邀高水平摄影师！如果您有独特的视角；<br/>
+							如果您有独具创意的思维；如果您有鲜明的拍摄风格；<br/>
+							如果您有高品质的图像作品，欢迎加入我们！
+						</div>
+					</div>
+				</div><!--pageHeaderWrap-->
+			</div>
+			
+		</div><!--topBanner590-->
+		
+		<div class="stepFeature">
+			<div class="stepBox">
+				<div class="numIndex">1</div>
+				<div class="cont">
+					<div class="header">50张小样图</div>
+					<p>每张不小于3MB，发送至contributorrelations@gaopinimages.com</p>
+				</div>
+			</div>
+			<div class="stepBox">
+				<div class="numIndex">2</div>
+				<div class="cont">
+					<div class="header">一周的评估时间</div>
+					<p>我们需要至少5个工作日对您的作品进行评估及筛选</p>
+				</div>
+			</div>
+			<div class="stepBox">
+				<div class="numIndex">3</div>
+				<div class="cont">
+					<div class="header">成功签约</div>
+					<p>作品成功通过评估，我们将联系您商讨签约事宜</p>
+				</div>
+			</div>
+			<div class="stepBox">
+				<div class="numIndex">4</div>
+				<div class="cont">
+					<div class="header">上传高质量图</div>
+					<p>签约后，请按要求和指定通道上传高质量图片</p>
+				</div>
+			</div>
+			<div class="stepBox">
+				<div class="numIndex">5</div>
+				<div class="cont">
+					<div class="header">收获稿费</div>
+					<p>作品成功售出后，我们会在次月底前根据约定比例支付您的稿费</p>
+				</div>
+			</div>
+		
+		</div><!--stepFeature-->
+		
+				
+				
+		<div class="row row2">
+			<h2>为什么成为高品供稿人</h2>
+		
+		
+			<div class="col-xs-4 box">
+				<img src="images/contributor/subBanner1.jpg"/>
+				<h3>题目题目题目</h3>
+				<p>这里集合全球优质商业摄影图片及影像等创意素材，是拥有卓越创意的视觉展示平台；搭配以客户为导向的市场策略，最大限度提高优质图像的销售潜力。</p>
+			</div>
+			
+			<div class="col-xs-4 box">
+				<img src="images/contributor/subBanner2.jpg"/>
+				<h3>题目题目题目</h3>
+				<p>这里集合全球优质商业摄影图片及影像等创意素材，是拥有卓越创意的视觉展示平台；搭配以客户为导向的市场策略，最大限度提高优质图像的销售潜力。</p>
+			</div>
+			
+			<div class="col-xs-4 box">
+				<img src="images/contributor/subBanner3.jpg"/>
+				<h3>题目题目题目</h3>
+				<p>这里集合全球优质商业摄影图片及影像等创意素材，是拥有卓越创意的视觉展示平台；搭配以客户为导向的市场策略，最大限度提高优质图像的销售潜力。</p>
+			</div>
+		</div><!--row2-->
+		
+		
+		
+		<div class="row3">
+			<div class="topBanner530">
+				<div class="bgImg"><img src="images/contributor/btmBanner.jpg"/></div>
+				<div class="bannerCont">
+					<div class="pageHeaderWrap">
+						<div class="SiYuanBold header">题目题目题目</div>
+						<div class="col-xs-6 col-xs-offset-3">
+							<div class="headerSub Source-Han-Light">
+								这里有顶级的广告公司及设计机构等客户群体，更有北京、上海、广州三地机构与经验丰富的团队为您提供最专业的版权与销售服务。
+							</div>
+						</div>
+					</div><!--pageHeaderWrap-->
+				</div>
+			</div><!--topBanner530-->
+		</div>
+		
+		
+		
+		<div class="applyWrap">
+			<form role="form" method="post" class="formContributor">
+				<div class="headerBar"><div class="toggleBtn"></div><span class="SiYuan-ExtraLight">现在申请</span></div>
+				
+				<div class="applyContWrap">
+					<div class="stepCont step1">
+						<div class="stepProcess">
+							<div class="dot active">1</div>
+							<div class="bar"></div>
+							<div class="dot">2</div>
+							<div class="bar"></div>
+							<div class="dot">3</div>
+							<div class="bar"></div>
+							<div class="dot">4</div>
+						</div><!--stepProcess-->
+						<div class="contBox form-txtLabel form-lg">
+							<h5>联系方式</h5>
+							<div class="input-group focusWrap">
+								<div class="label">姓名</div>
+								<input id="formName" name="formName" class="form-control" type="text"></input>
+								<label class="has-error" for="formName" generated="true"></label>
+							</div>
+							<div class="input-group focusWrap">
+								<div class="label">地址</div>
+								<input id="" name="" class="form-control" type="text"></input>
+							</div>
+							<div class="input-group focusWrap">
+								<div class="label">电话</div>
+								<input id="formTel" name="formTel" class="form-control" type="text"></input>
+								<label class="has-error" for="formTel" generated="true"></label>
+							</div>
+							<div class="input-group focusWrap">
+								<div class="label">邮件</div>
+								<input id="formEmail" name="formEmail" class="form-control" type="text"></input>
+								<label class="has-error" for="formEmail" generated="true"></label>
+							</div>
+							<div class="input-group focusWrap">
+								<div class="label">网址</div>
+								<input id="formWeb" name="formWeb" class="form-control" type="text"></input>
+								<label class="has-error" for="formWeb" generated="true"></label>
+							</div>
+							<a href="#" class="btnNext btnJsNext">下一步</a>
+						</div><!--contBox-->
+					</div><!--stepCont-->
+				
+					<div class="stepCont step2">
+						<div class="stepProcess">
+							<div class="dot past">1</div>
+							<div class="bar past"></div>
+							<div class="dot active">2</div>
+							<div class="bar"></div>
+							<div class="dot">3</div>
+							<div class="bar"></div>
+							<div class="dot">4</div>
+						</div><!--stepProcess-->
+						<div class="contBox form-txtLabel form-lg">
+							<h5>您的专业经验</h5>
+							<div class="questionBox">
+								<div class="left title">您从事图像专业领域有多少年？</div>
+								<div class="right">
+									<div class="input-group focusWrap input-right">
+										<div class="label">年</div>
+										<input id="" name="" class="form-control" type="text"></input>
+									</div>
+								</div>
+							</div><!--questionBox-->
+							<div class="questionBox">
+								<div class="title">哪类图像是您感兴趣的？</div>
+								<label><input name="" type="checkbox"/>摄影</label>
+								<label><input name="" type="checkbox"/>摄影</label>
+								<label><input name="" type="checkbox"/>摄影</label>
+							</div><!--questionBox-->
+							<div class="questionBox">
+								<div class="title">您擅长的领域是？</div>
+								<label><input name="" type="checkbox"/>商业类</label>
+								<label><input name="" type="checkbox"/>编辑类</label>
+								<label><input name="" type="checkbox"/>新闻、体育及娱乐</label>
+								<label><input name="" type="checkbox"/>名人肖像</label>
+								
+								<div class="paddingT15">
+									<div class="paddingT15 floLeft"><label><input name="" type="checkbox"/>其他</label></div>
+									<div class="input-group input-normal width356 focusWrap">
+										<input id="" name="" class="form-control" type="text"></input>
+									</div>		
+								</div>
+					
+							</div><!--questionBox-->
+							<a href="#" class="btnNext btnJsNext">下一步</a>
+						</div><!--contBox-->
+					</div><!--stepCont-->
+					
+					
+					
+					
+					
+					
+					<div class="stepCont step3">
+						<div class="stepProcess">
+							<div class="dot past">1</div>
+							<div class="bar past"></div>
+							<div class="dot past">2</div>
+							<div class="bar past"></div>
+							<div class="dot active">3</div>
+							<div class="bar"></div>
+							<div class="dot">4</div>
+						</div><!--stepProcess-->
+						<div class="contBox form-txtLabel form-lg">
+							<h5>您的投稿经历</h5>
+							<div class="questionBox doubleCancle">
+								<div class="title">您是否曾经与其他图像代理机构合作？</div>
+								<label><input name="radioGroup1" type="radio"/>是</label>
+								<label><input name="radioGroup1" type="radio"/>否</label>
+							</div><!--questionBox-->
+							<div class="questionBox">
+								<div class="title">如果仍在与其合作，请输入名字</div>
+								<div class="input-group input-normal focusWrap">
+									<input id="" name="" class="form-control" type="text"></input>
+								</div>	
+							</div><!--questionBox-->
+							<div class="questionBox doubleCancle">
+								<div class="title">您有兴趣为高品图像提供素材的方式是</div>
+								<label><input name="radioGroup2" type="radio"/>独家的</label>
+								<label><input name="radioGroup2" type="radio"/>非独家的</label>
+							</div><!--questionBox-->
+							<div class="questionBox">
+								<div class="title">您的作品以往主要的发布形式是</div>
+								<label><input name="" type="checkbox"/>报纸</label>
+								<label><input name="" type="checkbox"/>杂志</label>
+								<label><input name="" type="checkbox"/>书籍</label>
+								<label><input name="" type="checkbox"/>广告</label>
+							</div><!--questionBox-->
+							
+							<a href="#" class="btnNext btnJsNext">下一步</a>
+						</div><!--contBox-->
+					</div><!--stepCont-->
+					
+					<div class="stepCont step4">
+						<div class="stepProcess">
+							<div class="dot past">1</div>
+							<div class="bar past"></div>
+							<div class="dot past">2</div>
+							<div class="bar past"></div>
+							<div class="dot past">3</div>
+							<div class="bar past"></div>
+							<div class="dot active">4</div>
+						</div><!--stepProcess-->
+						<div class="contBox form-txtLabel form-lg">
+							<h5>您的作品情况</h5>
+							<div class="questionBox doubleCancle">
+								<div class="left title">您现在的作品数量是多少？</div>
+								<div class="right">
+									<div class="input-group focusWrap input-right">
+										<div class="label">张</div>
+										<input id="" name="" class="form-control" type="text"></input>
+									</div>
+								</div>
+							</div><!--questionBox-->
+							<div class="questionBox">
+								<div class="title">如何描述您的作品</div>
+								<div class="input-group input-normal focusWrap">
+									<input id="" name="" class="form-control" type="text"></input>
+								</div>	
+							</div><!--questionBox-->
+							<div class="questionBox doubleCancle">
+								<div class="left title">平均每月您可以提交多少幅作品？</div>
+								<div class="right">
+									<div class="input-group focusWrap input-right">
+										<div class="label">张</div>
+										<input id="" name="" class="form-control" type="text"></input>
+									</div>
+								</div>
+							</div><!--questionBox-->
+							<div class="questionBox doubleCancle">
+								<div class="left title">图像大小？</div>
+								<div class="right">
+									<div class="input-group focusWrap input-right">
+										<div class="label">MB</div>
+										<input id="" name="" class="form-control" type="text"></input>
+									</div>
+								</div>
+							</div><!--questionBox-->
+							
+							<div class="questionBox">
+								<div class="title">拍摄器材</div>
+								<div class="input-group input-normal focusWrap">
+									<input id="" name="" class="form-control" type="text"></input>
+								</div>	
+							</div><!--questionBox-->
+							<div class="col-xs-10 col-xs-offset-1"><a href="#" class="btnPurple btn-block btnJsNext">提 交</a></div>
+						</div><!--contBox-->
+					</div><!--stepCont-->
+					
+					
+					<div class="stepCont step5">
+						<div class="stepProcess">
+							<div class="dot past">1</div>
+							<div class="bar past"></div>
+							<div class="dot past">2</div>
+							<div class="bar past"></div>
+							<div class="dot past">3</div>
+							<div class="bar past"></div>
+							<div class="dot past">4</div>
+						</div><!--stepProcess-->
+						<div class="contBox">
+							<h2 class="Source-Han-Light icon-40-success">申请成功！</h2>
+							<p>感谢您关注高品图像。为了保持图片资源的水准，我们一直坚持以高标准的美学眼光以及技术水平挑选作品。您的申请将由我们的编辑团队成员审核。如果您符合我们的需求，我们将与您联系。同时也请谅解：考虑到巨大的照片提交量，我们无法对您的申请状态做出及时回复。</p>
+						</div><!--contBox-->
+					</div><!--stepCont-->
+	
+					
+					
+				</div><!--applyContWrap-->
+			</form>
+		</div><!--applyWrap-->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div><!--container-->
+</div><!--sectionCont-->
+<!-- InstanceEndEditable -->
+<div id="sectionBtm">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12"><a href="#" class="logo"><img src="images/logoFooter.png"/></a></div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-sm-6 boxContact">
+						<h6 class="hotline">热线：</h6>
+						400-820-0268
+						<br/><br/>
+						<h6 class="email">服务电邮：</h6>
+						<a href="mailto:service@gaopinimages.com" target="_blank">service@gaopinimages.com</a>
+					</div>
+					<div class="col-sm-6 boxAddr hidden-xs">
+						<h6>北京</h6>
+						<div class="addrRow"><span class="label">电话：</span><span class="cont">+86 10 6500 8152</span></div>
+						<div class="addrRow"><span class="label">传真：</span><span class="cont">+86 10 6500 8192</span></div>
+						<div class="addrRow"><span class="label">地址：</span><span class="cont">北京朝阳区工体北路4号院22.OFFICE 2层</span></div> 
+						<div class="addrRow"><span class="label">邮编：</span><span class="cont">100027</span></div>
+					</div>
+				</div><!--row-->
+				<div class="row">
+					<div class="col-sm-6 boxAddr hidden-xs">
+						<h6>上海</h6>
+						<div class="addrRow"><span class="label">电话：</span><span class="cont">+86 21 5407 5711</span></div>
+						<div class="addrRow"><span class="label">传真：</span><span class="cont">+86 21 5407 5712</span></div>
+						<div class="addrRow"><span class="label">地址：</span><span class="cont">上海黄浦区四川中路外滩181大楼401</span></div>
+						<div class="addrRow"><span class="label">邮编：</span><span class="cont">200002</span></div>
+					</div>
+					<div class="col-sm-6 boxAddr hidden-xs">
+						<h6>广州</h6>
+						<div class="addrRow"><span class="label">电话：</span><span class="cont">+86 20 3847 3900</span></div>
+						<div class="addrRow"><span class="label">传真：</span><span class="cont">+86 20 3847 3901</span></div>
+						<div class="addrRow"><span class="label">地址：</span><span class="cont">广州天河区体育东横街3号设计大厦17楼17B02</span></div>
+						<div class="addrRow"><span class="label">邮编：</span><span class="cont">510620</span></div>
+					</div>
+				</div><!--row-->
+			</div>
+			<div class="col-md-6">
+				
+				<div class="greyBg">
+					<div class="col-sm-6 boxMedia ">
+						<div class="header Source-Han-Light">微博</div>
+						<a href="#" class="icon icon-font icon-16-sina"></a>
+						<div class="label hidden-xs">分享最新热门资讯 </div>
+					</div>
+					<div class="col-sm-6 boxMedia hidden-xs">
+						<div class="header Source-Han-Light">微信</div>
+						<div class="icon"><img src="images/iconWeChat.gif"/></div>
+						<div class="label">参与互动给你惊喜</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div><!--sectionBtm-->
+
+<div id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 col-md-12 copyright"><div>&copy; 2014 由高品(上海)图像服务有限公司提供。本网站所有影像均由高品(上海)图像服务有限公司授权发布。侵权必究。       沪ICP备09095511号</div></div>
+			<div class="col-lg-5 hidden-xs">
+				<ul>
+					<li><a href="#">网站使用协议</a></li>
+					<li><a href="#">隐私保护政策</a></li>
+					<li><a href="#">Cookie政策</a></li>
+					<li><a href="#">授权条款及条件</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+			
+</body>
+<!-- InstanceEnd --></html>

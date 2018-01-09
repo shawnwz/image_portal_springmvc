@@ -1,0 +1,166 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>分类</title>
+<!-- TemplateEndEditable -->
+ 
+
+
+
+ 
+
+    
+<meta name="description" content="高品图像 – 高品质的图库摄影及插画">
+<meta name="Keywords" content="网上购物,网上商城,高品,图像,版权,高品质,图库,摄影,插画,设计,美术,创意">
+
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+<link href="../css/dialog.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery-ui-1.10.3.custom.min.js"></script>
+<link href="../css/minimal/aero.css" rel="stylesheet" type="text/css"> 
+ 
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+<![endif]-->
+<link href="../css/collections.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/collections.js"></script>
+ 
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+ 
+<body>
+
+
+	<div class="fullbackbox" style="z-index:998;width: 100%;height: 100%;position: fixed;display:none;opacity:0.5;background-color: black;"></div>
+	<div class="divforselect" style="z-index: 2002; width: 100%; height: 100%; position: fixed; display: none; opacity: 0; background-color: black;top: 0px;left: 0px;"></div>
+	<div class="top">
+    	<a href="/"><img src="../images/logo.png" class="logo" /></a>
+        <div class="imformation">
+        	<a href="javascript:void(0);"><font size=3><b>Timer[<span id="pageSize">50</span>]:　<span id="timer">--</span></b></font> ms</a>
+        	<a href="javascript:void(0);"><img src="../images/top_phone.png" />400-820-0268</a>
+        	
+            	<a href="../login">登录</a>
+            	<!--或者<a href="registpage">注册</a> -->
+            
+        </div>
+        <div class="user-control" id="userbox" onmouseover="boxshow('userbox')" onmouseout="boxhidden('userbox')">
+        	<a href="../my/person"><p>我的账户</p></a>
+            <a href="../my/lightbox"><p>灯箱</p></a>
+<!--          <a href="my/myod"><p>小样图下载记录</p></a> -->   
+            <a href="../logout.do"><p>退出</p></a>
+        </div>
+    </div>
+    <div class="menu">
+    	<div id="menubox1" onmouseover="meunshow('menubox1')" onmouseout="meunhidden('menubox1')" class="menu-box">
+        	<a href="javascript:void(0);" class="menu-a-hover">创意图片</a>
+        	<div class="menu-showbox">
+            	<a href="../photostock"><p><img src="../images/showmenu-pic1-1.png" /><span>版权管理图片</span><br />高品质商业类摄影</p></a>
+            	<a href="../photostock"><p><img src="../images/showmenu-pic1-2.png" /><span>免版税图片</span><br />无限制商业类及编辑类用途</p></a>
+            	<a href="../photostock"><p><img src="../images/showmenu-pic1-3.png" /><span>插画</span><br />从手绘线条到优美的插画</p></a>
+            	<a href="../photostock"><p><img src="../images/showmenu-pic1-4.png" /><span>虚拟CD</span><br />内容多样化的免版税图片库</p></a>
+            </div>
+        </div>
+    	<div id="menubox2" onmouseover="meunshow('menubox2')" onmouseout="meunhidden('menubox2')" class="menu-box">
+        	<a href="javascript:void(0);">编辑图片</a>
+        	<div class="menu-showbox" style="width:300px;">
+            	<a href="../photostock"><p><img src="../images/showmenu-pic2-1.png" /><span>纪实</span><br />文化、大自然、科学，以及摄影大师的作品</p></a>
+            	<a href="../photostock"><p><img src="../images/showmenu-pic2-2.png" /><span>艺术作品</span><br />多个世纪的大师级视像意念</p></a>
+            	<a href="../photostock"><p><img src="../images/showmenu-pic2-3.png" /><span>档案</span><br />记录历史性时刻的图像</p></a>
+            	<a href="../photostock"><p><img src="../images/showmenu-pic2-4.png" /><span>事实与体育</span><br />定期更新的时事及体育类图像</p></a>
+            	<a href="../photostock"><p><img src="../images/showmenu-pic2-5.png" /><span>娱乐</span><br />关于艺人及娱乐盛事的详尽报导</p></a>
+            	<a href="../photostock"><p><img src="../images/showmenu-pic2-6.png" /><span>Outline</span><br />为现在炙手可热的名人所拍摄的独家肖像图片</p></a>
+            </div>
+        </div>
+    	<div class="menu-box"><a href="javascript:void(0);">影像素材</a></div>
+    	<div class="menu-box"><a href="javascript:void(0);">娱乐新闻</a></div>
+    	
+    </div>
+
+ 
+
+ 
+<div class="main clearfix">
+<!-- TemplateBeginEditable name="cont" -->
+
+
+
+
+
+
+
+
+
+
+<!-- TemplateEndEditable -->
+</div>
+  
+<!-- 内容区结束-->
+
+    
+<div class="index-bottom-menu"><div class="index-bottom-menu-middle">
+   	<div>
+       	<p>创意类</p>
+           <p><a href="../photostock">版权管理图片</a></p>
+           <p><a href="../photostock">免版税图片</a></p>
+           <p><a href="../photostock">插图</a></p>
+           <p><a href="../photostock">虚拟CD</a></p>
+       </div>
+   	<div>
+       	<p>编辑类</p>
+           <p><a href="../photostock">纪实</a></p>
+           <p><a href="../photostock">艺术作品</a></p>
+           <p><a href="../photostock">档案</a></p>
+           <p><a href="../photostock">时事及体育</a></p>
+           <p><a href="../photostock">娱乐</a></p>
+       </div>
+   	<div>
+       	<p>我的账户</p>
+           <p><a href="../my/person">档案资料</a></p>
+           <p><a href="../my/myod">小样图下载记录</a></p>
+           <p><a href="../my/myqp">OnDemand记录</a></p>
+           <p><a href="../my/lightbox">灯箱</a></p>
+       </div>
+   	<div>
+       	<p>我们的政策</p>
+           <p><a href="javascript:void(0);">网站使用协议</a></p>
+           <p><a href="javascript:void(0);">隐私保护政策</a></p>
+           <p><a href="javascript:void(0);">Cookie政策</a></p>
+           <p><a href="javascript:void(0);">授权条款及条件</a></p>
+       </div>
+   	<div>
+       	<p>客户服务</p>
+           <p><a href="javascript:void(0);">与我们联系</a></p>
+           <p><a href="javascript:void(0);">搜索提示</a></p>
+           <p><a href="javascript:void(0);">网站使用帮助</a></p>
+       </div>
+   	<div>
+       	<p>公司简介</p>
+           <p><a href="javascript:void(0);">关于我们</a></p>
+           <p><a href="javascript:void(0);">招聘信息</a></p>
+       </div>
+   </div>
+</div>
+   
+<div class="index-friend-bg">
+	<a href="javascript:void(0);"><img src="../images/friend1.png" /></a>
+	<a href="javascript:void(0);"><img src="../images/friend2.png" /></a>
+	<a href="javascript:void(0);"><img src="../images/friend3.png" /></a>
+	<a href="javascript:void(0);"><img src="../images/friend4.png" /></a>
+</div>
+
+<div class="index-bottom">
+	© 2013由Gaopin Images 高品图像提供。本网站所有影像均由Gaopin Images 高品图像授权发布。侵权必究。 沪ICP备13010110号-1
+</div>
+
+</body>
+</html>
+  
+  
+  
+  

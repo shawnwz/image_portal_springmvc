@@ -1,0 +1,4 @@
+/*Ê×Ò³µ¯¿ò*/
+.drop_cont_ceng{ position:absolute; left:0; right:0; top:0; bottom:0;filter:Alpha(opacity=60); background:#000;background:rgba(0, 0, 0, 0.6) !important; z-index:2000}
+.load{width:37px;height:37px;display:block;position:absolute;top:50%;left:50%;background: url(../images/loading.gif) no-repeat; z-index:2001}
+.load_txt{position:absolute;top:50%;left:47%;margin-top:40px;font-size:14px;color:#676666;font-weight:bold; z-index:2001}

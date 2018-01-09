@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl
+END
+VariablesServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl/VariablesServiceImpl.class
+END
+BatchDownloadServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl/BatchDownloadServiceImpl.class
+END
+UserServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl/UserServiceImpl.class
+END
+ImageCategoryServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl/ImageCategoryServiceImpl.class
+END
+LightBoxServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl/LightBoxServiceImpl.class
+END
+KeywordServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl/KeywordServiceImpl.class
+END
+UserPrivilegeServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl/UserPrivilegeServiceImpl.class
+END
+CollectionServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl/CollectionServiceImpl.class
+END
+VirtualCdServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl/VirtualCdServiceImpl.class
+END
+SearchRuleServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl/SearchRuleServiceImpl.class
+END
+ImageInfoServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl/ImageInfoServiceImpl.class
+END
+ImageGroupServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl/ImageGroupServiceImpl.class
+END
+PhotographerServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl/PhotographerServiceImpl.class
+END
+IndexPageServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl/IndexPageServiceImpl.class
+END
+SearchServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl/SearchServiceImpl.class
+END
+DownloadServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl/DownloadServiceImpl.class
+END
+ClarificationServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/impl/ClarificationServiceImpl.class
+END

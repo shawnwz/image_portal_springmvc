@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/constants
+END
+Constants.class
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/constants/Constants.class
+END
+Constants$CommonStatus.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/constants/Constants$CommonStatus.class
+END
+Constants$SizeType.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/constants/Constants$SizeType.class
+END
+Constants$YesNo.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/constants/Constants$YesNo.class
+END
+Constants$Sex.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/constants/Constants$Sex.class
+END
+Constants$LicenseType.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/constants/Constants$LicenseType.class
+END
+Constants$MailType.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/constants/Constants$MailType.class
+END
+Constants$UserPrivilegeType.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/constants/Constants$UserPrivilegeType.class
+END
+Constants$OnlineStatus.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/constants/Constants$OnlineStatus.class
+END
+Constants$SelectionStatus.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/constants/Constants$SelectionStatus.class
+END

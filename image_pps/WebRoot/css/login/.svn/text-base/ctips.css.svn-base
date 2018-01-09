@@ -1,0 +1,11 @@
+.qtip.tica_qtip,.qtip.tica_qtip .qtip-wrapper,.qtip.tica_qtip .qtip-wrapper2,.qtip.tica_qtip .qtip-wrapper3,.qtip.tica_qtip .qtip-contentWrapper,.qtip.tica_qtip .qtip-content,.ctip-content.tica_tooltip_content{background:none repeat scroll 0 0 transparent;border-radius:0;border:0 none;margin:0;padding:0}
+.qtip.tica_qtip,.ctip.tica_tooltip{background:url("/Images/blacktrans1.png") repeat scroll 0 0 transparent;border-radius:0;padding:1px;width:250px}
+.qtip.tica_qtip .qtip-content,.ctip-content.tica_tooltip_content{background:none repeat scroll 0 0 #FFC;color:#1A1A1A;font-size:11px;line-height:16px;padding:5px}
+.ctip{position:absolute;z-index:4;-webkit-box-shadow:4px 4px 12px #222;box-shadow:4px 4px 12px #222;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
+.ctip-title{padding:10px;font-size:14px;font-weight:bold;overflow:auto;color:#1a1a1a;background-color:#dbdbdb;-webkit-border-radius:5px 5px 0 0;-moz-border-radius:5px 5px 0 0;border-radius:5px 5px 0 0}
+.ctip-content{padding:10px;overflow:auto;overflow-x:hidden;font-size:10pt;line-height:1.2em;background-color:#e8e8e8;-webkit-border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px}
+.ctip-footer{height:5px;background-color:#e8e8e8;-webkit-border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px}
+.ctip-button{background:url("/Images/iconClose.gif") no-repeat scroll 0 0 transparent;float:right;height:15px;width:15px;margin:2px 0 0 0}
+.ctip-button:hover{border-bottom:0}
+#ctip-popup{background-color:black;opacity:.0;-moz-opacity:.00;filter:alpha(opacity=00);z-index:3;height:100%;width:100%;background-repeat:repeat;position:fixed;top:0;left:0}
+#ctip-modal{background-color:black;opacity:.7;-moz-opacity:.70;filter:alpha(opacity=70);z-index:3;height:100%;width:100%;background-repeat:repeat;position:fixed;top:0;left:0}

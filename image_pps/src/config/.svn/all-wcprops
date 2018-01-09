@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/master/!svn/ver/465/image_pps/src/config
+END
+ehcache.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/master/!svn/ver/3/image_pps/src/config/ehcache.xml
+END
+default.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/master/!svn/ver/3/image_pps/src/config/default.jpg
+END
+config_property.properties
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/master/!svn/ver/465/image_pps/src/config/config_property.properties
+END
+water_vertical.320x480.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/master/!svn/ver/3/image_pps/src/config/water_vertical.320x480.png
+END
+mvc-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/master/!svn/ver/3/image_pps/src/config/mvc-config.xml
+END
+applicationContext-main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/master/!svn/ver/3/image_pps/src/config/applicationContext-main.xml
+END
+configure.properties
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/master/!svn/ver/185/image_pps/src/config/configure.properties
+END
+supermark_topright.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/master/!svn/ver/45/image_pps/src/config/supermark_topright.png
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/master/!svn/ver/3/image_pps/src/config/log4j.xml
+END
+water_horizontal.png
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/master/!svn/ver/188/image_pps/src/config/water_horizontal.png
+END
+water_vertical.png
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/master/!svn/ver/189/image_pps/src/config/water_vertical.png
+END

@@ -1,0 +1,55 @@
+10
+
+dir
+574
+https://to.gaopinimages.com:8443/svn/master/image_pps/common/com/gaopin
+https://to.gaopinimages.com:8443/svn/master
+
+
+
+2015-11-18T08:47:59.239743Z
+465
+sean.wang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a50f1749-3059-854f-a0a6-f756eb73e956
+
+mongo
+dir
+
+test
+dir
+
+utils
+dir
+
+cache
+dir
+
+annotation
+dir
+
+frame
+dir
+
+constants
+dir
+
+entity
+dir
+
+exception
+dir
+

@@ -1,0 +1,197 @@
+/* This file BatchDownloadServiceImpl.java is part of image_pps .
+*  Copyright © 2015 Gaopin Images. All rights reserved.  
+*  This software, including documentation, is protected by copyright controlled by Gaopin Images. All rights are reserved. 
+*  Copying, including reproducing, storing, adapting or translating, any or all of this material requires the prior written consent of Gaopin Images. 
+*  This material also contains confidential information which may not be disclosed to others without the prior written consent of Gaopin Images.
+* 
+*/
+package com.gaopin.service.pps.impl;
+
+import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Random;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Service;
+
+import com.gaopin.constants.Constants.SizeType;
+import com.gaopin.entity.BatchFile;
+import com.gaopin.entity.BatchHistory;
+import com.gaopin.entity.ImageInfo;
+import com.gaopin.service.impl.BaseServiceImpl;
+import com.gaopin.service.pps.BatchDownloadService;
+import com.gaopin.service.pps.SearchService;
+import com.gaopin.utils.KeyValue;
+import com.gaopin.utils.MD5;
+import com.gaopin.utils.PinYinUtils;
+import com.gaopin.utils.PropertyReader;
+import com.gaopin.utils.SearchUtils;
+import com.gaopin.utils.StrUtils;
+import com.gaopin.utils.ZipUtils;
+
+@Service("batchDownloadService")
+public class BatchDownloadServiceImpl extends BaseServiceImpl implements
+		BatchDownloadService {
+
+	public static String[] IMAGE_EXTS = new String[]{".jpg", ".tif"};
+	
+	@Resource
+	public SearchService searchService;
+	
+	@Override
+	public KeyValue<Boolean, String> compressImages(Integer userId, List<String> corbisIds,
+			List<Integer> sizeCodes, String fileName, Date expireDate, String comment) {
+		if(StrUtils.isBlank(comment)) {
+			comment = "";
+		}
+		else {
+			comment += "\r\n";
+		}
+		KeyValue<Boolean, String> kw = new KeyValue<Boolean, String>();
+		if(corbisIds==null || sizeCodes==null || corbisIds.size()!=sizeCodes.size()){
+			logger.warn("获取压缩文件失败，corbisIds, sizeCodes为空，或者列表数量不等， fileName="+fileName);
+			kw.setKey(false);
+			kw.setValue("corbisIds, sizeCodes为空，或者列表数量不等");
+			return kw;
+		}
+		// comment by xcb..不验证压缩文件名唯一性
+//		BatchFile batchFile = getController().findUniqueBy(BatchFile.class, "fileName", fileName);
+//		if(batchFile!=null){
+//			logger.warn("批量下载，压缩文件名已存在：fileName="+fileName);
+////			kw.setKey(false);
+////			kw.setValue("压缩文件名已存在：fileName="+fileName);
+////			return kw;
+//		}
+		
+		List<String> fileList = new ArrayList<String>();
+		for(int i=0; i<corbisIds.size(); i++){
+			String corbisId = corbisIds.get(i);
+			ImageInfo imageInfo = searchService.getImageInfoByCorbisIdCache(corbisId);
+			if(imageInfo==null) continue;
+			String rootPath = SearchUtils.getImageRootPath(imageInfo.getStorageId());
+			Integer sizeCode = sizeCodes.get(i);
+			sizeCode = sizeCode==null ? 0:sizeCode.intValue();
+			SizeType sizeType = SizeType.getEnum(sizeCode);
+			if(sizeType==null) {
+				comment += "【"+corbisId+"】图片未指定下载尺寸。\r\n";
+				continue;
+			}
+			
+			//zhu add. 
+			List<String> paths=sizeType.GetLowerPathList();
+			String imagePath =null;
+			for (String path : paths) {
+				imagePath=SearchUtils.getImagePathByExist(rootPath, path, corbisId, IMAGE_EXTS);
+				if(StrUtils.isNotBlank(imagePath))
+					break;
+			}
+			
+			if(StrUtils.isNotBlank(imagePath)){
+				fileList.add(imagePath);
+			}
+			else{
+				comment += "【"+corbisId+"】指定尺寸的图片【"+sizeType.getPath()+"】不存在。\r\n";
+			}
+		}
+		if(fileName.length()!=fileName.getBytes().length){
+			fileName = PinYinUtils.getFullPy(fileName);
+		}
+		String zipMd5 = MD5.getMd5Str(""+System.currentTimeMillis()).substring(0,2)+"/";
+		String zipUrl = zipMd5 + fileName;
+		String zipPath = PropertyReader.getString("bath.download.path")+"/"+zipUrl;
+		
+		try {
+			ZipUtils.compress(fileList, zipPath, "GBK", comment);
+		} catch (Exception e) {
+			logger.error("生成压缩文件异常[fileName="+fileName+"]:", e);
+			kw.setKey(false);
+			kw.setValue("生成压缩文件异常[fileName="+fileName+"]");
+			return kw;
+		}
+		String secretKey = MD5.getMd5Str(fileName+System.currentTimeMillis())+MD5.getMd5Str(zipUrl+new Random().nextInt(1000));
+		BatchFile bd = new BatchFile();
+		bd.setCreateTime(new Date());
+		bd.setExpireTime(expireDate);
+		bd.setPath(zipUrl);
+		bd.setSecretKey(secretKey);
+		bd.setFileName(fileName);
+		bd.setUserId(userId);
+		saveObject(bd);
+		kw.setKey(true);
+		String zipName = fileName;
+		//zipName = zipName.replaceAll(" ", "%20");
+		try{
+			zipName = URLEncoder.encode(zipName, "GBK");
+		}catch (Exception e) {
+		}
+		kw.setValue("batchDownload/"+zipMd5+zipName+"?s="+secretKey);
+		return kw;
+	}
+
+	@Override
+	public KeyValue<Boolean, String> download(Integer userId, String fileName,
+			String secretKey, String ip) {
+		KeyValue<Boolean, String> kw = new KeyValue<Boolean, String>();
+		
+		logger.info("batchservice download:"+userId+fileName+secretKey+ip);
+		// 判断secretKey
+		if(StrUtils.isBlank(secretKey)){
+			kw.setKey(false);
+			kw.setValue("下载地址非法");
+			return kw;
+		}
+		
+		BatchFile batchFile = getController().findUniqueBy(BatchFile.class, "secretKey", secretKey);
+		if(batchFile==null){
+			kw.setKey(false);
+			kw.setValue("待下载文件不存在！");
+			return kw;
+		}
+		
+		if(batchFile.getExpireTime().before(new Date())){ // 文件过期
+			kw.setKey(false);
+			kw.setValue("待下载文件已过期！");
+			return kw;
+		}
+		
+		if(batchFile.getUserId()!=null && batchFile.getUserId()>5){ // 指定用户可下载
+			if(userId==null){
+				kw.setKey(false);
+				kw.setValue("请登录后下载");
+				return kw;
+			}
+			else if(userId.intValue()!=batchFile.getUserId()){
+				System.out.println("userId=" + userId+", batchFile.getUserId=" + batchFile.getUserId());
+				kw.setKey(false);
+				kw.setValue("只有指定的用户可以下载");
+				return kw;
+			}
+		}
+		
+		// 符合条件可以下载，记录下载日志
+		BatchHistory history = new BatchHistory();
+		history.setBatchId(batchFile.getId());
+		history.setCreateTime(new Date());
+		history.setFileName(batchFile.getFileName());
+		history.setIp(ip);
+		history.setUserId(userId);
+		saveObject(history);
+		kw.setKey(true);
+		kw.setValue("SUCCESS");
+		return kw;
+	}
+
+	public static void  main(String[] args) {
+		
+		try{
+			System.out.println(URLEncoder.encode("aa.jpg", "GBK"));
+		}catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+	
+}

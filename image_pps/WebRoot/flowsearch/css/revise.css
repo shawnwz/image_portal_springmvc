@@ -1,0 +1,32 @@
+
+.groupStyle{
+position:absolute;
+right:10px;
+top:10px;
+}
+
+.blackgroundsix{
+background:rgb(74,28,161);
+}
+
+.groupAmount_six{
+font-size:12px;
+color:#ffffff;
+vertical-align:middle;
+}
+.right_hide{
+	padding-left:30px;
+	margin-left:254px;
+	display:none;
+	margin-bottom:20px;
+}
+.icon_group_id{
+	font-size:17px;
+}
+.icon_group_name{
+	font-size:18px;
+}
+.icon_group_describe{
+	font-size:14px;
+}
+

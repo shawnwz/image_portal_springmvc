@@ -1,0 +1,41 @@
+#bodyContentWrapper{margin:30px 0 30px 38px;min-width:865px}
+h1,h2{color:#fff;font-weight:normal;margin-top:0;font-size:24px}
+label.si_label{color:#ccc;font-weight:bold;display:block;width:150px;text-align:right;padding:3px 10px 0 0}
+#table{width:400px}
+#leftPane{/*width:412px;*/padding-right:30px}
+div.rightPartition{border-right:1px solid #666}
+#rightPane{border-left:1px solid #666;position:relative;left:-1px;padding-left:30px;width:412px}
+input.si_field,label.si_label,#leftPane,#rightPane{float:left}
+input.si_field{width:250px;margin-bottom:10px}
+div.clear{clear:both}
+#form{margin-top:20px}
+#forgot{margin-top:20px;color:#666;clear:both}
+#rightPane ul{list-style-image:url(bullet-arrow.gif);padding-left:20px;color:#CCC}
+#registerNow{font-size:14px}
+#signInButtonContainer{height:25px}
+#saveButtonContainer,#signInButtonContainer,#forgotPasswordButtonsContainer{margin-left:160px}
+.error{color:#FFC;display:none;padding-left:35px;background:url(iconError.png) no-repeat;min-height:21px;padding-top:2px}
+#signInButton{font-weight:bold;font-size:14px;text-transform:uppercase;float:left}
+#ajaxLoader{padding-left:5px;padding-top:1px;display:none;height:21px;width:21px;float:left}
+#ajaxLoaderSmall{position:relative;top:4px;left:-5px;display:none}
+#forgotPasswordButtonsContainer{padding-bottom:20px}
+#forgotPasswordForm,#forgotPasswordUsernameForm,#emptyUsernameOrEmail,#emptyPassword,#passwordRecoveredAlertContent,#passwordUpdatedAlertContent{display:none}
+#passwordRecoveredAlert{position:fixed;z-index:2;top:250px;width:350px;padding:5px}
+#modalButtonContainer{margin-top:10px;padding-bottom:5px;text-align:right}
+#invalidEmail,#usernameRequiredForRecovery{margin-bottom:20px}
+#updatePasswordUsername{padding-top:3px;float:left;height:25px}
+#recoverPasswordTitle{display:inline-block}
+#allFieldsRequired{color:Red;width:100%;text-align:right}
+.signin_ctip{width:300px;height:auto}
+.signin_ctip_content{-moz-border-radius-bottomright:7px;-moz-border-radius-bottomleft:7px;-webkit-border-bottom-left-radius:7px;-webkit-border-bottom-right-radius:7px;border-bottom-left-radius:7px;border-bottom-right-radius:7px;background:#E8E8E8;padding:10px 10px 10px 10px}
+.signin_ctip_title{-moz-border-radius-topright:7px;-moz-border-radius-topleft:7px;-webkit-border-top-left-radius:7px;-webkit-border-top-right-radius:7px;border-top-left-radius:7px;border-top-right-radius:7px;background:#DBDBDB;padding:10px;font-size:14px;color:#666}
+label.highlightedField{color:#FFC}
+p{margin-top:14px}
+p,ul{margin-bottom:14px}
+#signInButton,label.si_label{font-weight:normal}
+#SignIn-promo-1,#Register-promo-1{margin-top:12px}
+#search_summary-contents .promo-container,#search_refined_summary-contents .promo-container{width:316px;height:26px;position:absolute;top:4px;line-height:12px}
+#Cart-promo-1,#Cart-promo-2{width:290px;height:26px;position:relative;top:6px;left:50%;margin-left:-145px;margin-bottom:-32px}
+#Cart-promo-2{margin-top:-6px;margin-bottom:4px}
+#Checkout-promo-1{margin:10px 0;background-color:#CEE7EC;color:#000}
+

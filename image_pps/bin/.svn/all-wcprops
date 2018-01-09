@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/master/!svn/ver/185/image_pps/bin
+END
+ehcache.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/master/!svn/ver/3/image_pps/bin/ehcache.xml
+END
+config_property.properties
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/master/!svn/ver/3/image_pps/bin/config_property.properties
+END
+mvc-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/master/!svn/ver/3/image_pps/bin/mvc-config.xml
+END
+applicationContext-main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/master/!svn/ver/3/image_pps/bin/applicationContext-main.xml
+END
+configure.properties
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/master/!svn/ver/3/image_pps/bin/configure.properties
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/master/!svn/ver/3/image_pps/bin/log4j.xml
+END
+water_horizontal.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/master/!svn/ver/185/image_pps/bin/water_horizontal.png
+END
+water_vertical.png
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/master/!svn/ver/185/image_pps/bin/water_vertical.png
+END

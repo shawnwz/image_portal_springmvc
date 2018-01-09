@@ -1,0 +1,118 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<script>
+function openPage(url){
+	window.open(url, "", 
+			"toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=yes, width=800, height=600");
+	
+}
+
+function openPage1000(url){
+	window.open(url, "", 
+			"toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=yes, width=1030, height=600");
+	
+}
+</script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F5806742a351007966b422a845c2776ac' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+
+<div class="btnPageUp icon-font icon-35-arrowUp"></div>
+
+
+
+<!-- InstanceEndEditable -->
+<div id="sectionBtm">
+	<div class="container">
+
+        <div class="row">
+            <div class="col-lg-12"><a href="javascript:void(0)" class="logo"><img src="images/logoFooter.png"></a></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="boxContact">
+                    <h6 class="hotline">热线：</h6>
+                    400-820-0268
+                    <br><br>
+                    <h6 class="email">服务电邮：</h6>
+                    <a href="mailto:service@gaopinimages.com" target="_blank">service@gaopinimages.com</a>
+                </div>
+                <div class="aboutTitleFooter">关注我们</div>
+                <div class="greyBg">
+                    <div class="boxMedia">
+                        <div class="icon"><img src="images/iconWeChat.gif"></div>
+                        <div class="label">官方微信</div>
+                    </div>
+                    <div class="boxMedia ">
+                        <a href="javascript:void(0)" class="icon icon-font icon-16-sina"></a>
+                        <div class="label hidden-xs hidden-sm">官方微博</div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="visible-xs visible-sm hidden-md hidden-lg footerMobileLink">
+                    <a href="aboutus.html">ABOUT US</a><br>
+                    <a href="javascript:;" style="display:none;">搜索技巧</a>
+                </div>
+            </div>
+            <div class="col-md-2 col-md-offset-1">
+                <dl>
+                    <dt><a href="aboutus.html">ABOUT</a></dt>
+                    <dd><a href="aboutus.html"> About Gaopin</a></dd>
+                    <dd><a href="news.html"> 高品新闻</a></dd>
+                    <dd><a href="careers.html"> 加入我们</a></dd>
+                    <dd><a href="terms.html#horizontalTab1"> 网站使用协议</a></dd>
+                    <dd><a href="terms.html#horizontalTab2"> 隐私保护政策</a></dd>
+                    <dd><a href="terms.html#horizontalTab3"> Cookie政策</a></dd>
+                    <dd><a href="terms.html#horizontalTab4"> 授权条款及条件</a></dd>
+                </dl>
+            </div>
+            <div class="col-md-2">
+                <dl>
+                    <dt><a href="photostock659">创意图片</a></dt>
+                    <dd><a href="photostock660">创意RM</a></dd>
+                    <dd><a href="photostock662">创意RF</a></dd>
+                </dl>
+                <dl>
+                    <dt><a href="photostock661">编辑图片</a></dt>
+                    <dt><a href="imgsets">高品专题</a></dt>
+                    <dt style="display:none"><a href="javascript:;">高品视频</a></dt>
+                </dl>
+            </div>
+            <div class="col-md-2">
+                <dl>
+                    <dt><a href="Contributor/index.na">供稿通道</a></dt>
+                    <dd><a href="Contributor/index.na">申请成为供稿人</a></dd>
+                    <dd>&nbsp;</dd>
+                </dl>
+                <dl>
+                    <dt>我的账户</dt>
+                    <dd><a href="my/person">个人信息</a></dd>
+                    <dd><a href="my/lightbox">收藏夹</a></dd>
+					<dd><a href="my/myqp">下载记录</a></dd>
+                </dl>
+            </div>
+            <div class="col-md-2">
+                <dl>
+                    <dt>客户服务</dt>
+                    <dd><a href="contactus.html">联系我们</a></dd>
+                    <dd style="display:none"><a href="javascript:;">搜索技巧</a></dd>
+                </dl>
+            </div>
+        </div>
+
+    </div>
+</div><!--sectionBtm-->
+
+<div id="footer">
+	<div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 copyright"><div>© 2015 由高品(上海)图像服务有限公司提供。本网站所有影像均由高品(上海)图像服务有限公司授权发布。侵权必究。       沪ICP备09095511号</div></div>
+        </div>
+    </div>
+</div>
+
+
+
+

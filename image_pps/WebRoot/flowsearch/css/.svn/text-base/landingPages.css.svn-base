@@ -1,0 +1,473 @@
+#sectionBtm .aboutTitleFooter{
+    font-size: 24px;
+}
+.pageLanding {
+    margin-bottom: -30px;
+}
+.mobileFooterAbout{
+    font-size: 16px;
+    padding: 40px 0 60px 0;
+    border-top: 1px solid  rgb(61, 61, 61);
+}
+
+.pageLanding .searchBar {
+    position: absolute;
+    z-index: 9;
+    top: 55%;
+    width: 100%;
+    left: 0;
+}
+.landingPages .highest .button_collection{
+    margin-top: 340px;
+}
+.pageLanding .searchBar .container {
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px;
+}
+.pageLanding .searchBar .col-md-9 {
+    margin: 0 auto;
+    float: none;
+}
+.pageLanding .searchFiled {
+    border: 1px #323232 solid;
+}
+.pageLanding .proDecsBox {
+    top: 35%;
+}
+.pageLanding .bannerWrap {
+    margin-bottom: 30px;
+}
+.pageLanding .proDecsBox .title {
+    font-size: 48px;
+}
+.pageLanding .proDecsBox .property {
+    margin-top: 35px;
+}
+
+.pageLanding .searchBar {
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    width: 100%;
+    left: 0;
+}
+.pageLanding .searchBar .container {
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px;
+}
+.pageLanding .searchBar .col-md-9 {
+    margin: 0 auto;
+    float: none;
+}
+.pageLanding .searchFiled {
+    border: 1px #323232 solid;
+}
+.pageLanding .proDecsBox {
+    top: 35%;
+}
+.pageLanding .bannerWrap {
+    margin-bottom: 30px;
+}
+.pageLanding .proDecsBox .title {
+    font-size: 48px;
+}
+.pageLanding .proDecsBox .property {
+    margin-top: 21px;
+}
+
+.landingPages a.no_margin_links {
+    margin-top: 0;
+    height: 380px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.landingPages a.no_margin_links.heightShow {
+    height: 540px;
+}
+.landingPages a.no_margin_links.smallShow {
+    height: 255px;
+}
+.landingPages a.no_margin_links.height418{
+    height: 417px;
+}
+.landingPages a.no_margin_links.height638{
+    height: 640PX;
+}
+.landingPages .row:last-child div:first-child a.no_margin_links.smallShow{
+    margin-bottom: 30px;
+}
+
+.landingPages .heightShow .button_collection{
+    margin-top: 220px;
+}
+.landingPages .height638 .button_collection{
+    margin-top: 250px;
+}
+
+.landingPages .smallShow .button_collection{
+    margin-top: 80px;
+}
+
+.landingPages .button_collection {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 140px auto 22px auto;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#CC323232', endColorstr='#CC323232');
+    background: rgba(50,50,50,0.8);
+}
+/*.landingPages .row:last-child a.no_margin_links {
+    margin-bottom: 0;
+}
+.landingPages .row:last-child div:first-child a.no_margin_links {
+    margin-bottom: 30px;
+}*/
+.landingPages a.no_margin_links h3 {
+    font-size: 24px;
+    margin-bottom: 7px;
+    width: 100%;
+}
+
+.landingPagesTitle {
+    background: #323232;
+    color: #fff;
+    padding: 50px 40px;
+    height: 380px;
+}
+.landingPagesTitle.artPageTitle {
+    height: 230px;
+}
+.container .landingPagesTitle.artPageTitle h1{
+    padding-bottom: 0;
+    line-height: 130px;
+}
+.container .landingPagesTitle h1{
+    text-align: left;
+    font-size: 46px;
+    padding-top: 0;
+    padding-bottom: 42px;
+}
+.landingPagesTitle h1 span{
+    font-size: 58px;
+    vertical-align: text-bottom;
+    margin-right: 32px;
+}
+.landingPagesTitle p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #7d7d7d;
+}
+.landingPagesTitle.artPageTitle {
+    margin-bottom: 30px;
+}
+.landingPagesTitle.artPageTitle p {
+    margin-bottom: 0;
+    line-height: 20px;
+}
+.landingPagesTitle p:last-child {
+    padding-top: 35px;
+}
+.landingPagesTitle p span {
+    font-size: 36px;
+    color: #fff;
+    margin: 12px;
+}
+.landingPagesTitle p span:first-child {
+    margin-left: 0;
+}
+
+.landingPagesTitle {
+    background: #323232;
+    color: #fff;
+    padding: 50px 40px;
+    height: 380px;
+}
+.container .landingPagesTitle h1{
+    text-align: left;
+    font-size: 46px;
+    padding-top: 0;
+    padding-bottom: 42px;
+}
+.landingPagesTitle h1 span{
+    font-size: 58px;
+    vertical-align: text-bottom;
+    margin-right: 32px;
+}
+.landingPagesTitle p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #7d7d7d;
+}
+.landingPagesTitle p:last-child {
+    padding-top: 35px;
+}
+.landingPagesTitle p span {
+    font-size: 36px;
+    color: #fff;
+    margin: 12px;
+}
+.landingPagesTitle p span:first-child {
+    margin-left: 0;
+}
+
+.mobileFooterTest {
+    font-size: 12px;
+    color: #e8e8e8;
+}
+.mobileFooterTest a{
+
+  display: block;
+    float: left;color: #e8e8e8;
+}
+
+.landingPages a.no_margin_links.highest {
+    height: 790px;
+}
+
+.classification.col-md-2{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+@media (max-width: 1440px) {
+    .pageLanding .proDecsBox{
+        top: 39%;
+    }
+    .pageLanding .proDecsBox .property{
+        margin-top: -13px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .pageLanding .proDecsBox{
+        top: 38%;
+    }
+    .pageLanding .proDecsBox .property{
+        margin-top: -14px;
+    }
+	
+    .landingPages a.no_margin_links {
+        height: 300px;
+    }
+    .landingPages .button_collection {
+        margin-top: 100px;
+    }
+    .container .landingPagesTitle h1 {
+        font-size: 36px;
+        padding-bottom: 22px;
+    }
+    .landingPagesTitle h1 span {
+        font-size: 46px;
+    }
+    .landingPagesTitle p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .landingPagesTitle p span {
+        font-size: 30px;
+    }
+    .landingPagesTitle{
+        height: 300px;
+        padding: 30px;
+    }
+    .pageLanding .proDecsBox .property {
+        margin-top: 0px;
+    }
+    .pageLanding .proDecsBox {
+        top: 30%;
+    }
+    .pageLanding .searchBar {
+        top: 50%;
+    }
+    .landingPages a.no_margin_links.heightShow{
+        height: 443px;
+    }
+    .landingPages a.no_margin_links.smallShow {
+        height: 206px;
+    }
+    .landingPages .row:last-child div:first-child a.no_margin_links.smallShow {
+         margin-bottom: 31px;
+    }
+    .landingPages a.no_margin_links,
+    .landingPagesTitle {
+        height: 312px;
+    }
+    .landingPages a.no_margin_links.highest {
+        height: 654px;
+    }
+    .landingPages a.no_margin_links.height418 {
+        height: 394px;
+    }
+}
+
+@media (max-width: 991px) {
+	/* for all */
+    #logo {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: center!important;
+        color: #fff;
+    }
+    
+    .landingPagesTitle {
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .landingPages .row:last-child a.no_margin_links {
+        margin-bottom: 30px;
+    }
+    .pageLanding .searchBar {
+        top: 100%;
+        margin-top: -28px;
+    }
+    .landingPagesTitle{
+        margin-top: 28px;
+    }
+    .pageLanding .proDecsBox .title{
+        font-size: 36px;
+    }
+    .landingPages a.no_margin_links{
+        height: auto;
+        position: relative;
+    }
+    .landingPages a.no_margin_links.heightShow {
+        height: auto;
+    }
+    .landingPages .button_collection {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        margin-top: -25px !important;
+        margin-left: -25px;
+    }
+    .landingPages a.no_margin_links.height418 {
+        height: auto;
+    }
+
+    .landingPages a.no_margin_links.height638 {
+        height: auto;
+    }
+    .landingPagesTitle.artPageTitle{
+        height: auto;
+    }
+    .container .landingPagesTitle.artPageTitle h1{
+        text-align: center;
+    }
+    .landingPagesTitle.artPageTitle p{
+        text-align: center;
+    }
+    .landingPages a.no_margin_links.smallShow {
+        height: auto;
+    }
+    .container .landingPagesTitle h1{
+        text-align: center;
+    }
+    .landingPagesTitle p {
+        text-align: center;
+    }
+    .landingPages a.no_margin_links.highest {
+        height: auto;
+    }
+}
+
+@media (max-width: 769px) {
+
+    .landingPagesTitle.artPageTitle p{
+        font-size: 12px;
+    }
+
+    .landingPages .button_collection{
+        left: 49px;
+        bottom: 24px;
+        top: auto;
+        right: auto;
+    }
+    .landingPages a.no_margin_links h3.h3ForMobile{
+        width: auto;
+        height: 50px;
+        line-height: 50px;
+        left: 74px;
+        bottom: 24px;
+        padding: 0 10px;
+        font-size: 12px;
+        filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#CC323232', endColorstr='#CC323232');background:rgba(50,50,50,0.8);
+    }
+	:root .landingPages a.no_margin_links h3.h3ForMobile{filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#00323232', endColorstr='#00323232');}/*for IE9*/
+
+    .landingPages .button_collection{
+        width: 38px;
+        height: 38px;
+        font-size: 16px;
+        line-height: 38px;
+    }
+
+    .landingPages a.no_margin_links h3.h3ForMobile {
+        height: 38px;
+        line-height: 38px;
+    }
+    .landingPages a.no_margin_links h3.h3ForMobile{
+        left: 62px;
+    }
+
+    .pageLanding .proDecsBox .title{
+        padding: 0 15px;
+        font-size: 22px;
+    }
+
+    .proDecsBox .property{
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:480px) {
+	.editorialLanding a.no_margin_links h3.h3ForMobile{
+        height: 50px;
+        font-size: 22px;
+        line-height: 50px;
+    }
+    .landingPagesTitle p span {
+        font-size: 20px;
+    }
+    .landingPagesTitle p:last-child {
+        padding-top: 12px;
+    }
+
+
+    .landingPages a.no_margin_links h3.h3ForMobile {
+        font-size: 12px;
+    }
+
+
+    .landingPages .button_collection{
+        width: 38px;
+        height: 38px;
+        font-size: 16px;
+        line-height: 38px;
+    }
+
+    .landingPages a.no_margin_links h3.h3ForMobile {
+        height: 38px;
+        line-height: 38px;
+    }
+    .landingPages a.no_margin_links h3.h3ForMobile{
+        left: 62px;
+    }
+}

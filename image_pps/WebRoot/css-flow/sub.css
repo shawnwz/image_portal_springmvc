@@ -1,0 +1,588 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+.marginTop22{
+    margin-top: 22px;
+}
+.detailWrap{
+    border-top: 1px solid #323232;
+}
+.pageDetail .shareDiv{
+    padding-top: 34px;
+}
+.pageDetail .shareDiv .icon-1-arrowLeft{
+    margin-left: 14px;
+}
+.pageDetail .shareDiv a{
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 8px;
+    background: #ccc;
+    text-align: center;
+    float: right;
+}
+.pageDetail .shareDiv a:hover{
+    background: #6031ba;
+    color: #fff !important;
+}
+.pageDetail .shareDiv .shareAlink{
+    font-size: 20px;
+}
+.pageDetail .shareDiv .shareAlink img{
+    margin-top: 8px;
+}
+.pageDetail #logo a{
+    padding-left: 0;
+}
+.marginNagLeft15{
+    margin-left: -15px;
+}
+.pageDetail .mySlideTab{
+    overflow: hidden;
+}
+.pageDetail .mySlideTab ul{
+    width: 999999999px;
+}
+.pageDetail .mySlideTab ul li{
+    float: left;
+}
+.pageDetail .mySlideShowDiv{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: -20px;
+}
+.pageDetail .mySlideLi{
+    float: left;
+    width: 240px;
+    margin-right: 30px;
+}
+.pageDetail .detailPhotoRow{
+    padding: 20px 0 46px 0;
+}
+.pageDetail .detailPhoto{
+    text-align: center;
+}
+.pageDetail .detailPhoto img{
+    max-height: 650px;
+}
+.pageDetail .detailPhotoDesc .nav-tabs > li > a{
+    width: 30px;
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.pageDetail .detailPhotoDesc .detailTitle{
+    font-size: 18px;
+}
+.pageDetail .detailPhotoDesc .descP{
+    color: #7d7d7d;
+}
+.pageDetail .detailPhotoDesc .model{
+    width: 30px;
+    font-size: 14px;
+    display: inline-block;
+}
+.pageDetail .detailPhotoDesc .price{
+    width: 65px;
+    font-size: 14px;
+    display: inline-block;
+}
+.pageDetail .detailPhotoDesc .detailTab{
+    display: block;
+}
+.pageDetail .detailPhotoDesc .detailSpan{
+    font-size: 12px;
+}
+.pageDetail .detailPhotoDesc .btnCountacUs,.pageDetail .sendToUs{
+    display: block;
+    font-size: 20px;
+    padding: 6px;
+    background: #6031ba;
+    text-align: center;
+    color: #fff;
+    border: 2px #6031ba solid;
+}
+.pageDetail .detailPhotoDesc .btnCountacUs span{
+    margin-right: 30px;
+    margin-top: -4px;
+    font-size: 24px;
+}
+.pageDetail .detailPhotoDesc .btnCountacUs:hover,.pageDetail .sendToUs:hover{
+    background: #323232;
+    border: 2px #6031ba solid;
+    color: #fff;
+}
+.pageDetail .sendToUs{
+    width: 144px;
+    margin-top: 22px;
+}
+.pageDetail .detailPhotoDesc .btnBox{
+    margin-top: 20px;
+}
+.pageDetail .detailPhotoDesc .funcBox{
+    margin: 15px 0 30px 0;
+}
+.pageDetail .detailPhotoDesc .funcBox .iconFlag img{
+    width: 20px;
+}
+.pageDetail .detailPhotoDesc .funcBox .funcIcon a span{
+    font-size: 16px;
+    margin-left: 12px;
+}
+.pageDetail .detailPhotoDesc .funcIcon a:hover{
+    background: #7d7d7d;
+    color: #fff;
+}
+.pageDetail .detailPhotoDesc .funcBox .funcIcon .icon-font{
+    font-size: 20px;
+}
+.pageDetail .detailPhotoDesc .fullSescription{
+    font-size: 11px;
+}
+.pageDetail .fullSescription .posFex{
+    position: relative;
+}
+.pageDetail .fullSescription .popupType{
+    display: none;
+    position: absolute;
+    left: 35%;
+    border: 2px solid #323232;
+    background: #fff;
+    padding: 20px;
+}
+.pageDetail .radioMargin{
+    margin-bottom: 3px;
+}
+.pageDetail .fullSescription .popupType .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    cursor: pointer;
+}
+.pageDetail .detailPhotoDesc .fullSescription div span{
+    display: inline-block;
+    width: 70px;
+
+}
+.pageDetail .detailPhotoDesc .fullSescription{
+    color: #7d7d7d;
+}
+.pageDetail .detailPhotoDesc .fullSescription div a{
+    color: #323232;
+}
+.pageDetail .fullSescription .moreDesc{
+    display: none;
+    margin-top: 20px;
+    width: 100%;
+}
+.pageDetail .fullSescription .moreDesc .moreDescTime{
+    white-space:nowrap;
+}
+.pageDetail .fullSescription .moreDesc div{
+    width: 100%;
+}
+.pageDetail .detailPhotoDesc .viewMore{
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100px;
+    color: #323232;
+}
+.pageDetail .tab-pane .nextLi,.pageDetail .tab-pane .pervLi{
+    display: inline-block;
+    width: 60px;
+    height: 116px;
+    text-align: center;
+    background: #ccc;
+    color: #323232;
+    padding-top: 50px;
+    float: right;
+    margin-bottom: 1px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.pageDetail .tab-pane .nextLi:hover,.pageDetail .tab-pane .pervLi:hover{
+    background: #6031ba;
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.pageDetail .tab-pane .nextLi{
+    margin-top: 10px;
+}
+
+.pageDetail .detailPhotoDesc .viewMore:before{
+    content: "\e612";
+    font-family: 'icomoon';
+    font-size: 12px;
+    width: 30px;
+    float: right;
+    height: 30px;
+    line-height: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+.pageDetail .detailPhotoDesc .viewMoreUp{
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100px;
+    color: #323232;
+}
+
+.pageDetail .detailPhotoDesc .viewMoreUp:before{
+    content: "\e621";
+    font-family: 'icomoon';
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+    line-height: 0;
+    margin-top: 10px;
+    float: right;
+    text-align: center;
+}
+.pageDetail .keywordsRow{
+    background: #ccc;
+    padding: 10px 22px;
+    margin: 44px 0 40px 0
+}
+.pageDetail .keywordsRow .keywordSpan{
+    margin-right: 18px;
+    float: left;
+}
+.pageDetail .keywordsRow .keywordsBox{
+    padding-left: 60px;
+}
+.pageDetail .keywordsRow .keywordsBox a:hover span{
+    background: #6031ba;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.pageDetail .keywordsRow .badge{
+    /* display: inline-block; */
+    /* min-width: 10px; */
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #7d7d7d;
+    border-radius: 10px;
+    line-height: 30px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.pageDetail #sectionBtm{
+    margin-top: 0;
+}
+
+.pageDetail .viweMoreDiv{
+    float: right;
+    line-height: 40px;
+}
+
+
+.layer{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#7FFFFFFF', endColorstr='#7FFFFFFF');background:rgba(255,255,255,0.5);}
+:root .layer{filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#00FFFFFF', endColorstr='#00FFFFFF');}/*for IE9*/
+.popupDiv{
+    height: 706px;
+    z-index: 1001;
+    background: #fff;
+    padding: 30px;
+}
+.popupDiv .popLeft{
+    float: left;
+}
+.popupDiv .popRight{
+    float: left;
+    width: 500px;
+    margin-left: 30px;
+    padding-left: 30px;
+    border-left: 1px solid #ccc;
+    height: 100%;
+    padding-top: 40px;
+}
+.popupDiv .popRight .selectStyle{
+    border: 1px solid #323232;
+    line-height: 50px;
+    height: 50px !important;
+width:100%!important;
+}
+.popupDiv .selectBox-dropdown .selectBox-label{
+     padding: 0 15px;
+}
+
+.popupDiv .popRight .phoneNum{
+    margin-bottom: 22px;
+}
+.popupDiv .popRight span.customSelect:after {
+    content: "\e612";
+    font-family: 'icomoon';
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    z-index: 1;
+}
+.popupDiv .jqmClose{
+    position: absolute;
+    right: 9px;
+    top: 0;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    font-size: 28px;
+}
+.popupDiv .popRight input{
+    border: 1px solid #323232;
+    width: 100%;
+    height: 50px;
+    margin-top: 22px;
+    padding: 0 20px;
+}
+.popupDiv .popRight textarea{
+    margin-top: 22px;
+    border: 1px solid #323232;
+    width: 100%;
+    padding: 14px 20px;
+    height: 173px;
+}
+.popupDiv .photoBox img{
+    max-height: 250px;
+    max-width: 250px;
+}
+.popupDiv .photoBox{
+    width: 250px;
+    text-align: center;
+}
+.popupDiv .popPhotoDesc{
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    color: #7d7d7d;
+    text-align: left;
+}
+.popupDiv .dirConTitle{
+    font-size: 28px;
+    line-height: 60px;
+}
+.popupDiv .mailNumb{
+    margin-top: 15px;
+    line-height: 24px;
+}
+.popupDiv .hotNumb .icon-font,.popupDiv .mailNumb .icon-font{
+    font-size: 24px;
+    margin-right: 12px;
+}
+.popupDiv {
+    vertical-align: super;
+}
+
+.modal-dialog{
+    width: 872px;
+}
+.modal-header{
+    text-align: right;
+}
+.modal-dialog .close{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    font-size: 30px;
+    color:#323233;
+    background: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.modal-content{
+    border-radius: 0;
+}
+.modal-dialog .close:hover{
+    color: #fff;
+    background: #ccc;
+}
+.modal-header{
+    padding: 0;
+    border-bottom: none 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 9;
+    font-size: 20px;
+}
+.modal-backdrop{filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#7FFFFFFF', endColorstr='#7FFFFFFF');background:rgba(255,255,255,0.5);}
+:root .modal-backdrop{filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#00FFFFFF', endColorstr='#00FFFFFF');}/*for IE9*/
+
+
+/* tooltip */
+.tooltip.in{
+    opacity: 1;
+    filter:alpha(opacity=100);
+}
+.tooltip.bottom .tooltip-arrow{
+    border-bottom-color: #fff;
+}
+.tooltip-inner{
+    background: #fff;
+    color: #323232;
+    opacity: 1;
+    border-radius: 0;
+    -moz-box-shadow: 0px 0px 10px #000000;
+    -webkit-box-shadow: 0px 0px 10px #000000;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #323233;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #323233;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #323233;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #323233;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1200px) {
+    .pageDetail .mySlideLi{
+        width: 196px;
+    }
+}
+@media (max-width: 991px) {
+    .pageDetail .shareDiv .funcLeft{
+        float: left;
+        margin-left: 0;
+    }
+    .pageDetail .fullSescription .moreDesc{
+        display: block !important;
+        margin-top: 0;
+    }
+    .popupDiv{
+        width: 100%;
+        padding: 0;
+    }
+    .modal-dialog {
+         width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+     }
+    .popupDiv .popRight{
+        width: 382px;
+    }
+    .modal-dialog {
+        width: 695px;
+        margin: 30px auto;
+    }
+}
+
+
+
+@media (max-width: 769px) {
+    .pageDetail .detailPhotoDesc .nav-tabs > li > a{
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+    .modal-dialog {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .popupDiv{
+        width: 100%;
+        padding: 0;
+    }
+    .popupDiv .popRight{
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0;
+        border-left: none;
+    }
+    .popupDiv .photoBox img{
+        max-height: 45px;
+        max-height: 45px;
+    }
+    .popupDiv .popPhotoDesc{
+        float: right;
+        display: inline-block;
+        border-bottom: none;
+    }
+    .popupDiv .dirConTitle{
+        display: none;
+    }
+    .popupDiv .popRight .selectStyle{
+        height: 36px !important;
+        line-height: 36px;
+        margin-top: -36px;
+    }
+    .popupDiv .popRight input{
+        height: 36px;
+    }
+    .popupDiv .popRight textarea{
+        height: 120px;
+    }
+    .popupDiv .popRight span.customSelect:after{
+        top: 2px;
+    }
+    .popupDiv .popRight .phoneNum {
+        margin-bottom: 58px;
+    }
+    .pageDetail .detailPhotoDesc .detailTitle{
+        margin-top: 24px;
+    }
+    .pageDetail .detailPhotoDesc .detailTab{
+        padding-bottom: 50px;
+        border-bottom: 1px solid #323232;
+    }
+    .modal-dialog {
+        width: auto;
+    }
+}
+
+
+

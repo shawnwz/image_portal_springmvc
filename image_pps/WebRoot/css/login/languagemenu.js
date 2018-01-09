@@ -1,0 +1,1 @@
+(function(a){a(function(){CI.UI.Dialogs.Menu(a("#language-status"),a("#language-menu"),{position:{my:"right top",at:"right bottom"}});a("#language-menu").delegate("li","click",function(c){c.preventDefault();var b=a("a",a(this));var d=a.getLocationHref("#");window.location=b.attr("href")+a.URLEncode(d);});});})(window.jQuery);

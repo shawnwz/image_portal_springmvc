@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps
+END
+CollectionService.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/CollectionService.class
+END
+VirtualCdService.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/VirtualCdService.class
+END
+SearchRuleService.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/SearchRuleService.class
+END
+ImageInfoService.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/ImageInfoService.class
+END
+ImageGroupService.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/ImageGroupService.class
+END
+PhotographerService.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/PhotographerService.class
+END
+IndexPageService.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/IndexPageService.class
+END
+SearchService.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/SearchService.class
+END
+ClarificationService.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/ClarificationService.class
+END
+DownloadService.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/DownloadService.class
+END
+VariablesService.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/VariablesService.class
+END
+BatchDownloadService.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/BatchDownloadService.class
+END
+UserService.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/UserService.class
+END
+ImageCategoryService.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/ImageCategoryService.class
+END
+LightBoxService.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/LightBoxService.class
+END
+KeywordService.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/KeywordService.class
+END
+UserPrivilegeService.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/service/pps/UserPrivilegeService.class
+END

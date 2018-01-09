@@ -1,0 +1,1 @@
+if(!CorbisUI){var CorbisUI={};}CorbisUI.getMicroTimestamp=function(){var a=new Date();return a.getTime();};

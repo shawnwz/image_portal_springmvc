@@ -1,0 +1,22 @@
+
+.btnPageqq{
+    display:none;
+}
+@media (min-width:769px) {
+.btnPageqq{
+  display:block;
+  position: fixed;
+  bottom: 80px;
+  right: 30px;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  z-index: 99;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+}
+

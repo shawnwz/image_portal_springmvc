@@ -1,0 +1,2 @@
+<li><a href='#'><img src='images/search/thumb305_1.jpg' width='80' imgId='1099'/></a><span class='icon-font icon-8-delete'></span></li>
+<li><a href='#'><img src='images/search/thumb305_2.jpg' width='80' imgId='1059'/></a><span class='icon-font icon-8-delete'></span></li>

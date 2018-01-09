@@ -1,0 +1,398 @@
+<%@page import="com.gaopin.utils.StrUtils"%>
+<%@page import="com.gaopin.entity.User"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+
+<!-- InstanceBeginEditable name="nav" -->
+<div id="topBar">
+	<div class="container">
+		<div class="navWrap">
+			<div id="logo">
+				<a href="index"><img src="images/logo.png" /></a>
+			</div>
+			<div id="navRight" class="">
+				<ul>
+					<li><a href="javascript:void(0)"
+						class="hoverShow icon-font icon-5-collapse visible-xs visible-sm"
+						id="navMobileMenu" targetshow="navLeft"></a></li>
+					<li><a href="mailto:service@gaopinimages.com"
+						class="icon-font icon-3-chat  visible-md visible-lg"></a></li>
+					<!--                <li class="visible-md visible-lg"><a href="javascript:openPage('callme')" class="icon-font icon-15-shoppingCart"></a></li> -->
+					<%
+						User user = (User) session.getAttribute(User.class.getName());
+						if (user != null) {
+					%>
+					<li><a href="javascript:void(0);"
+						class="icon-font icon-11-favourite btnLightBox  visible-md visible-lg"></a></li>
+					<li><a href="javascript:void(0);"
+						class="hoverShow icon-font icon-17-user btnUser"
+						id="navUserCenter" targetShow="userCenterMobileMenu"><span
+							class="logInName visible-md-inline-block visible-lg-inline-block"><%=user.getUserName()%></span></a></li>
+					<%
+						} else {
+					%>
+					<li><a href="login"
+						class="icon-font icon-11-favourite btnLightBox1  visible-md visible-lg"></a></li>
+					<li><a href="login" class="icon-font icon-17-user btnUser"></a></li>
+					<%
+						}
+					%>
+					<!-- 					<li><a href="javascript:void(0)" class="hoverShow icon-font icon-5-collapse visible-xs visible-sm" id="navMobileMenu" target="navLeft"></a></li> -->
+				</ul>
+			</div>
+			<div id="navLeft" class="hoverShowTarget"
+				targetParent="navMobileMenu">
+				<ul class="Source-Han-Light">
+					<li><a href="photostock659" target="_blank" id="menu0">创意图片</a>
+						<span class="officeBtn icon-font icon-plus hidden-md hidden-lg"
+						rel="numb1"></span>
+						<div class="secondaryMenu">
+							<div class="container">
+								<span class="classification col-md-2"> <a
+									href="search#q=%E6%97%85%E6%B8%B8&p=2" id="menu_t_00"> <img
+										src="webres/upload/133102893322.jpg" alt=""/"> <span>查看更多</span>
+								</a> <a href="search#q=%E6%97%85%E6%B8%B8&p=2" id="menu_b_00">旅游</a>
+								</span> <span class="classification col-md-2"> <a
+									href="search#q=%E8%87%AA%E7%84%B6%E9%A3%8E%E6%99%AF&p=3"
+									id="menu_t_01"> <img src="webres/upload/133201439520.jpg"
+										alt="" /> <span>查看更多</span>
+								</a> <a href="search#q=%E8%87%AA%E7%84%B6%E9%A3%8E%E6%99%AF&p=3"
+									id="menu_b_01">自然风景</a>
+								</span> <span class="classification col-md-2"> <a
+									href="search#q=%E5%95%86%E5%8A%A1&p=1" id="menu_t_02"> <img
+										src="webres/upload/133200518013.jpg" alt="" /> <span>查看更多</span>
+								</a> <a href="search#q=%E5%95%86%E5%8A%A1&p=1" id="menu_b_02">商务</a>
+								</span> <span class="classification col-md-2"> <a
+									href="search#q=%E6%95%99%E8%82%B2&p=1" id="menu_t_03"> <img
+										src="webres/upload/133102258413.jpg" alt="" /> <span>查看更多</span>
+								</a> <a href="search#q=%E6%95%99%E8%82%B2&p=1" id="menu_b_03">教育</a>
+								</span> 
+								<span class="classification col-md-2"> 
+								<a
+									href="search#q=%E5%9C%B0%E6%A0%87%E5%BB%BA%E7%AD%91&p=1" id="menu_t_04"> 
+									<img
+										src="webres/upload/133200494066.jpg" alt="" /> <span>查看更多</span>
+								</a> 
+								<a href="search#q=%E5%9C%B0%E6%A0%87%E5%BB%BA%E7%AD%91&p=1" id="menu_b_04">地标建筑</a>
+								</span> 
+								<span class="classification col-md-2">
+								<a
+									href="search#q=%E5%8A%A8%E7%89%A9&p=1" id="menu_b_05"> <img
+									src="webres/upload/133201302093.jpg" alt="" /> <span>查看更多</span>
+									</a> 
+								<a href="search#q=%E5%8A%A8%E7%89%A9&p=1" id="menu_b_05">动物</a>
+								</span> 
+								
+								<span class="classification col-md-2"> 
+								<a
+									href="search#q=%E8%B4%AD%E7%89%A9&p=1" id="menu_t_06"> <img
+										src="webres/upload/133100290380.jpg" alt="" /> <span>查看更多</span>
+								</a> 
+								<a href="search#q=%E8%B4%AD%E7%89%A9&p=1" id="menu_b_06">购物</a>
+								</span>
+								
+								<span class="classification col-md-2"> 
+								<a
+									href="search#q=%E5%81%A5%E5%BA%B7&p=1" id="menu_t_06"> <img
+										src="webres/upload/133102902417.jpg" alt="" /> <span>查看更多</span>
+								</a> 
+								<a href="search#q=%E5%81%A5%E5%BA%B7&p=1" id="menu_b_06">健康</a>
+								</span>
+								
+								<span class="classification col-md-2"> 
+								<a
+									href="search#q=%E7%BE%8E%E5%AE%B9&p=1" id="menu_t_06"> <img
+										src="webres/upload/133102254401.jpg" alt="" /> <span>查看更多</span>
+								</a> 
+								<a href="search#q=%E7%BE%8E%E5%AE%B9&p=1" id="menu_b_06">美容</a>
+								</span>
+								
+								<span class="classification col-md-2"> 
+								<a
+									href="search#q=%E9%87%91%E8%9E%8D&p=1" id="menu_t_06"> <img
+										src="webres/upload/133102254401.jpg" alt="" /> <span>查看更多</span>
+								</a> 
+								<a href="search#q=%E9%87%91%E8%9E%8D&p=1" id="menu_b_06">金融</a>
+								</span>
+								
+								<span class="classification col-md-2"> 
+								<a
+									href="search#q=%E4%B8%80%E5%AE%B6%E4%BA%BA&p=1" id="menu_t_06"> <img
+										src="webres/upload/133101175184.jpg" alt="" /> <span>查看更多</span>
+								</a> 
+								<a href="search#q=%E4%B8%80%E5%AE%B6%E4%BA%BA&p=1" id="menu_b_06">一家人</a>
+								</span>
+							</div>
+							<div class="hotAlbums">
+								<div class="container">
+									<div class="hotAlbums">
+										<div class="container">
+											<div class="col-md-12">
+												<span class="label">热门专辑</span><a
+													href="search#q=%E7%BE%8E%E9%A3%9F&p=1"
+													class="navBadge active" id="menu_k_00">美食</a><a
+													href="search#q=%E9%81%93%E8%B7%AF&p=1" class="navBadge"
+													id="menu_k_01">道路</a><a
+													href="search#q=%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F&p=1"
+													class="navBadge" id="menu_k_02">生活方式</a><a
+													href="search#q=%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF&p=1"
+													class="navBadge" id="menu_k_03">科学技术</a><a
+													href="search#q=%E8%BF%90%E5%8A%A8&p=1" class="navBadge"
+													id="menu_k_04">运动</a><a
+													href="search#q=%E4%B8%9C%E6%96%B9%E4%BA%BA&p=1"
+													class="navBadge" id="menu_k_05">东方人</a><a
+													href="search#q=%E6%A6%82%E5%BF%B5&p=1" class="navBadge"
+													id="menu_k_06">概念</a><a
+													href="search#q=%E6%8F%92%E7%94%BB&p=1" class="navBadge"
+													id="menu_k_07">插画</a><a
+													href="search#q=%E5%A5%B3%E4%BA%BA&p=1" class="navBadge"
+													id="menu_k_08">女人</a><a
+													href="search#q=%E5%8C%BB%E7%96%97&p=1" class="navBadge"
+													id="menu_k_08">医疗</a><a
+													href="search#q=%E4%BA%B2%E5%AD%90&p=1" class="navBadge"
+													id="menu_k_08">亲子</a><a
+													href="search#q=%E6%B1%BD%E8%BD%A6%E8%83%8C%E6%99%AF&p=1"
+													class="navBadge" id="menu_k_08">汽车背景</a>
+													<a
+													href="search#q=%E5%AE%B6%E5%B1%85&p=1"
+													class="navBadge" id="menu_k_08">家居</a>
+											</div>
+										</div>
+									</div>
+								</div></li>
+					<li><a href="photostock661" target="_blank" id="menu1">编辑图片</a>
+						<span class="officeBtn icon-font icon-plus hidden-md hidden-lg"
+						rel="numb2"></span>
+						<div class="secondaryMenu pictureMenu">
+							<div class="container">
+								<span class="classification col-md-2"> <a
+									href="photostock691" id="menu_t_10"> <img
+										src="webres/upload/134202261171.jpg" alt="" /> <span>进入详情</span>
+								</a> <a href="photostock691" id="menu_b_10">纪实</a>
+									<p id="menu_b_10_p">搜索高品纪实图片</p>
+								</span> <span class="classification col-md-2"> <a
+									href="photostock666" id="menu_t_11"> <img
+										src="webres/upload/134203013956.jpg" alt="" /> <span>进入详情</span>
+								</a> <a href="photostock666" id="menu_b_11">历史</a>
+									<p id="menu_b_11_p">搜索高品历史图片</p>
+								</span> <span class="classification col-md-2"> <a
+									href="photostock680" id="menu_t_12"> <img
+										src="webres/upload/134202402702.jpg" alt="" /> <span>进入详情</span>
+								</a> <a href="photostock680" id="menu_b_12">艺术</a>
+									<p id="menu_b_12_p">搜索高品艺术图片</p>
+								</span> <span class="classification col-md-2"> <a
+									href="photostock682" id="menu_t_13"> <img
+										src="webres/upload/134202637389.jpg" alt="" /> <span>进入详情</span>
+								</a> <a href="photostock682" id="menu_b_13">娱乐</a>
+									<p id="menu_b_13_p">搜索高品娱乐图片</p>
+								</span>
+								
+							</div>
+							<div class="hotAlbums">
+								<div class="container">
+									<div class="col-md-12">
+										<span class="label">热门推荐 </span><a href="search#q=%E6%97%85%E6%B8%B8&p=1"
+											class="navBadge active" id="menu_k_10">旅游</a><a href="search#q=%E8%87%AA%E7%84%B6&p=1"
+											class="navBadge" id="menu_k_11">自然</a><a href="search#q=%E4%BA%BA%E6%96%87&p=1"
+											class="navBadge" id="menu_k_12">人文</a><a href="search#q=%E7%A7%91%E6%8A%80&p=1"
+											class="navBadge" id="menu_k_13">科技</a><a href="search#q=%E8%82%96%E5%83%8F&p=1"
+											class="navBadge" id="menu_k_14">肖像</a><a href="search#q=%E4%BA%8B%E4%BB%B6&p=1"
+											class="navBadge" id="menu_k_15">事件</a><a href="search#q=%E6%96%87%E6%98%8E&p=1"
+											class="navBadge" id="menu_k_16">文明</a><a href="search#q=%E5%93%B2%E5%AD%A6&p=1"
+											class="navBadge" id="menu_k_17">哲学</a><a href="search#q=%E5%AE%97%E6%95%99&p=1"
+											class="navBadge" id="menu_k_18">宗教</a><a href="search#q=%E5%BD%B1%E8%A7%86&p=1"
+											class="navBadge" id="menu_k_19">影视</a><a href="search#q=%E6%B5%B7%E6%8A%A5&p=1"
+											class="navBadge" id="menu_k_110">海报</a><a href="search#q=%E5%9C%BA%E8%AE%B0&p=1"
+											class="navBadge" id="menu_k_111">场记</a><a href="search#q=%E7%94%B5%E8%A7%86%E5%89%A7&p=1"
+											class="navBadge" id="menu_k_111">电视剧</a><a href="search#q=%E7%94%BB&p=1"
+											class="navBadge" id="menu_k_111">画</a><a href="search#q=%E9%9B%95%E5%A1%91&p=1"
+											class="navBadge" id="menu_k_111">雕塑</a>
+									</div>
+								</div>
+							</div>
+						</div></li>
+					<li><a href="imgsets" target="_blank">高品专辑</a></li>
+				</ul>
+
+
+				<div class="navMobileSub">
+					<dl class="numb1">
+						<dt>
+							<span class="icon-font icon-1-arrowLeft"></span>创意图片
+						</dt>
+						<dd>
+							<a href="search#q=%E6%97%85%E6%B8%B8&p=2" id="menu_m_00">旅游</a>
+						</dd>
+						<dd>
+							<a href="search#q=%E5%95%86%E5%8A%A1&p=1" id="menu_m_01">商务</a>
+						</dd>
+						<dd>
+							<a href="search#q=%E6%95%99%E8%82%B2&p=1" id="menu_m_02">教育</a>
+						</dd>
+						<dd>
+							<a href="search#q=%E5%9C%B0%E6%A0%87%E5%BB%BA%E7%AD%91&p=1" id="menu_m_03">地标建筑</a>
+						</dd>
+						<dd>
+							<a href="search#q=%E5%8A%A8%E7%89%A9&p=1" id="menu_m_04">动物</a>
+						</dd>
+						<dd>
+							<a href="search#q=%E8%B4%AD%E7%89%A9&p=1" id="menu_m_05">购物</a>
+						</dd>
+					</dl>
+					<dl class="numb2">
+						<dt>
+							<span class="icon-font icon-1-arrowLeft"></span>编辑图片
+						</dt>
+						<dd>
+							<a href="photostock691" id="menu_m_10">纪实</a>
+						</dd>
+						<dd>
+							<a href="photostock666" id="menu_m_11">历史</a>
+						</dd>
+						<dd>
+							<a href="photostock680" id="menu_m_12">艺术</a>
+						</dd>
+						<dd>
+							<a href="photostock682" id="menu_m_13">娱乐</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!--navLeft-->
+
+
+
+			<div id="userCenterMobileMenu" class="hoverShowTarget"
+				targetParent="navUserCenter">
+
+				<ul class="navMobile" style="display: none">
+					<li><a href="my/person" class="iconUser">个人信息</a></li>
+					<li class="active"><a href="my/lightbox" class="iconFolder">收藏</a>
+						<span style="display: none;" class="icon-font icon-2-arrowRight"></span></li>
+					<li><a href="my/myqp" class="iconHistory">下载记录</a></li>
+					<li><a href="#" class="iconInvoice" style="display: none">发票</a></li>
+					<li><a href="#" class="iconSet" style="display: none">套餐</a></li>
+					<li><a href="logout.do" class="btnLogOut btnPurple">退出登录</a></li>
+				</ul>
+
+				<ul class="navMobile">
+					<li><a href="my/person" class="iconUser">个人信息</a></li>
+					<li><a href="my/lightbox" class="iconFolder">收藏</a></li>
+					<li><a href="my/myqp" class="iconHistory">下载记录</a></li>
+					<!-- 				<li><a href="#" class="iconInvoice">发票</a></li> -->
+					<!-- 				<li><a href="#" class="iconSet">套餐</a></li> -->
+					<li><a href="logout.do" class="iconLogOut btnLogOut">退出登录</a></li>
+				</ul>
+
+				<div class="navMobileSub">
+					<div class="favFolderControl">
+						<span class="icon-font icon-46-createNew btnCreateNewInFav"></span>
+						<span class="icon-font icon-50-trash"></span>
+					</div>
+
+					<div class="favouriteFolderList" style="display:none">
+						<div class="favFolderBox" lightBoxId="1">
+							<a href="userFavourite.html" class="folder">
+								<div class="favFolderName">秋天图片收集1</div>
+								<div class="favFolderAmount">
+									<span>10</span>张图
+								</div>
+							</a> <span class="btnClose icon-font icon-cross"></span>
+						</div>
+						<!--favListBox-->
+						<div class="favFolderBox" lightBoxId="2">
+							<a href="userFavourite2.html" class="folder">
+								<div class="favFolderName">秋天图片收集2</div>
+								<div class="favFolderAmount">
+									<span>10</span>张图
+								</div>
+							</a> <span class="btnClose icon-font icon-cross"></span>
+						</div>
+						<!--favListBox-->
+						<div class="favFolderBox" lightBoxId="3">
+							<a href="userFavourite.html" class="folder">
+								<div class="favFolderName">秋天图片收集3</div>
+								<div class="favFolderAmount">
+									<span>10</span>张图
+								</div>
+							</a> <span class="btnClose icon-font icon-cross"></span>
+						</div>
+						<!--favListBox-->
+						<div class="favFolderBox" lightBoxId="4">
+							<a href="userFavourite2.html" class="folder">
+								<div class="favFolderName">秋天图片收集4</div>
+								<div class="favFolderAmount">
+									<span>10</span>张图
+								</div>
+							</a> <span class="btnClose icon-font icon-cross"></span>
+						</div>
+						<!--favListBox-->
+					</div>
+				</div>
+			</div>
+			<!--userCenterMobileMenu-->
+		</div>
+		<!--navWrap-->
+		<div class="lightBoxWrapOut">
+			<div class="lightBoxWrap hidden-sm hidden-xs">
+				<div class="leftPanel">
+					<div class="lightBoxList selectWrap">
+						<div class="selectValue">
+							我的收藏版一<span class="num">6</span><span>图片</span>
+						</div>
+						<div class="selectList">
+							<ul>
+								<li class="active" lightBoxId="1">我的收藏版一<span class="num">6</span><span>图片</span></li>
+								<li lightBoxId="2">我的收藏版二<span class="num">2</span><span>图片</span></li>
+								<li lightBoxId="3">我的收藏版三<span class="num">2</span><span>图片</span></li>
+								<li lightBoxId="4">我的收藏<span class="num">2</span><span>图片</span></li>
+								<li lightBoxId="5">我的收藏<span class="num">2</span><span>图片</span></li>
+								<li lightBoxId="6">我的收藏<span class="num">2</span><span>图片</span></li>
+							</ul>
+							<div class="createNew">
+								<input name="" type="text" class="listName"
+									placeholder="创造新的收藏版" />
+								<div class="btnAdd"></div>
+							</div>
+						</div>
+					</div>
+					<!--lightBoxList-->
+
+					<div class="btnWrap iconWrap">
+						<a href="#" class="icon-font icon-31-shoppingCart2"></a> <a
+							href="javascript:void(0)" class="icon-font icon-22-download"
+							onclick="DownloadAllinBox()"></a> <a href="javascript:void(0)"
+							class="icon-font icon-14-setting" onclick="goLightBox()"></a>
+					</div>
+				</div>
+				<!--leftPanel-->
+				<div class="rightPanel">
+					<div class="jcarousel-wrapper">
+						<div class="jcarousel">
+							<ul>
+
+							</ul>
+						</div>
+						<a href="my/lightbox" class="btnMore">查看所有</a>
+						<div class="currentPage"></div>
+						<div class="closeJcarousel">&times;</div>
+						<p class="jcarousel-pagination"></p>
+
+						<a href="#"
+							class="jcarousel-control-prev icon-font icon-1-arrowLeft"></a> <a
+							href="#"
+							class="jcarousel-control-next icon-font icon-2-arrowRight"></a>
+					</div>
+				</div>
+				<!--rightPanel-->
+			</div>
+			<!--lightBoxWrap-->
+		</div>
+		<!--lightBoxWrapOut-->
+
+
+	</div>
+	<!--container-->
+</div>
+<!--topBar-->
+

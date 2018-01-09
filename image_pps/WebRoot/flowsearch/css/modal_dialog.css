@@ -1,0 +1,143 @@
+/*footer*/
+#sectionBtm .greyBg{
+    background: none;
+    padding-top: 0;
+    margin-top: 0;
+    overflow: visible;
+}
+.boxContact{
+    margin-bottom: 40px;
+}
+#sectionBtm .greyBg .boxMedia .icon.icon-16-sina{
+    background: #424344;
+    color: #969798;
+    font-size: 24px;
+}
+#sectionBtm .greyBg .boxMedia{
+    display: inline-block;
+    width: 67px;
+    height: 67px;
+    float: left;
+    border: none 0;
+    margin: 20px 0 10px 20px;
+}
+#sectionBtm .greyBg .boxMedia:first-child{
+    margin-left: 0;
+}
+#sectionBtm .aboutTitleFooter{
+    font-size: 16px;
+}
+#sectionBtm .greyBg .boxMedia .icon{
+    width: auto;
+    height: auto;
+    line-height: 67px;
+    margin: 0;
+}
+#sectionBtm .greyBg .boxMedia .label{
+    width: 100%;
+}
+
+#sectionBtm dt{
+    height: 34px;
+    font-size: 16px;
+    line-height: 16px;
+}
+#sectionBtm dd a{
+    font-size: 12px;
+    line-height: 22px;
+    color: #969798;
+}
+#sectionBtm .footerMobileLink{
+    font-size: 16px;
+    line-height: 36px;
+    border-top: 1px solid #3d3d3d;
+    padding: 30px 0;
+}
+
+@media (max-width: 991px) {
+
+    #sectionBtm{
+        text-align: center;
+    }
+    #sectionBtm dl{
+        display: none;
+    }
+    #sectionBtm .greyBg .boxMedia{
+        float: none;
+        margin: 0;
+    }
+    #sectionBtm .greyBg .boxMedia:first-child{
+        display: none;
+    }
+    #sectionBtm .greyBg .boxMedia .icon.icon-16-sina{
+        font-size: 50px;
+        background: none;
+        color: #fff;
+    }
+	#logo {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: center!important;
+    }
+	
+}
+
+/*Cover bootstrap.css*/
+.modal-header .new_close {
+    margin-top: -2px;
+	
+	line-height: 1;
+	height: auto;    
+    position: relative;
+    right: 0;
+    text-align: right;
+    top: 0;
+    vertical-align: middle;
+    width: auto;
+}
+button .new_close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+}
+.new_close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+}
+.delete_btn{
+	cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 50px;
+    height: 100%;
+    line-height: 80px;
+    font-size: 16px;
+    text-align: center;
+    z-index: 9;
+}
+.modal-header .close:before {
+    display:none;
+}
+.modal-footer  #no_delete,.modal-footer  #yes_delete{
+	border:1px solid #e5e5e5;
+}
+@media (min-width: 768px){
+	.modal-dialog {
+    width: 300px;
+    margin: 100px auto;
+    }
+}

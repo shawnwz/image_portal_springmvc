@@ -1,0 +1,7 @@
+#f_links{clear:left;padding:0 0 0 25px;border-top:1px solid #222}
+p.copy{margin-top:40px;font-size:10px;color:#666;font:normal normal normal 10px/normal 'Trebuchet MS',Trebuchet,Verdana,Helvetica,Arial,Geneva,sans-serif;margin-top:35px}
+div#footer-iconlinks a{position:relative;left:3px;top:-3px}
+#liveHelpChatLink.disabled{color:#7A7A7A;border-bottom:0;cursor:default}
+.addThisIcon{background-image:url(/Images/share-icon.png);height:16px;width:16px;float:left;position:relative;top:-1px;left:-1px}
+.shareThisSeparator{float:left;margin:0 2px 0 2px}
+.shareThisText{float:left;margin-left:2px}

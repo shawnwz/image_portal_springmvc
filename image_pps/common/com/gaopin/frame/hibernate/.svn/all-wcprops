@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/master/!svn/ver/9/image_pps/common/com/gaopin/frame/hibernate
+END
+LikeWithExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/master/!svn/ver/9/image_pps/common/com/gaopin/frame/hibernate/LikeWithExpression.java
+END
+HibernateExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/master/!svn/ver/3/image_pps/common/com/gaopin/frame/hibernate/HibernateExpression.java
+END
+LikeWithType.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/master/!svn/ver/9/image_pps/common/com/gaopin/frame/hibernate/LikeWithType.java
+END
+HibernateEqualsBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/master/!svn/ver/9/image_pps/common/com/gaopin/frame/hibernate/HibernateEqualsBuilder.java
+END
+CompareExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/master/!svn/ver/3/image_pps/common/com/gaopin/frame/hibernate/CompareExpression.java
+END
+InExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/master/!svn/ver/3/image_pps/common/com/gaopin/frame/hibernate/InExpression.java
+END
+NotInExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/master/!svn/ver/3/image_pps/common/com/gaopin/frame/hibernate/NotInExpression.java
+END
+CompareType.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/master/!svn/ver/3/image_pps/common/com/gaopin/frame/hibernate/CompareType.java
+END
+BetweenExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/master/!svn/ver/3/image_pps/common/com/gaopin/frame/hibernate/BetweenExpression.java
+END
+LogicalExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/master/!svn/ver/3/image_pps/common/com/gaopin/frame/hibernate/LogicalExpression.java
+END
+NullExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/master/!svn/ver/3/image_pps/common/com/gaopin/frame/hibernate/NullExpression.java
+END
+NotNullExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/master/!svn/ver/3/image_pps/common/com/gaopin/frame/hibernate/NotNullExpression.java
+END
+LogicalType.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/master/!svn/ver/3/image_pps/common/com/gaopin/frame/hibernate/LogicalType.java
+END

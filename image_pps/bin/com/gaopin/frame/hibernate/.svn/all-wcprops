@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/frame/hibernate
+END
+NotNullExpression.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/frame/hibernate/NotNullExpression.class
+END
+LogicalType.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/frame/hibernate/LogicalType.class
+END
+LikeWithExpression.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/frame/hibernate/LikeWithExpression.class
+END
+HibernateExpression.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/frame/hibernate/HibernateExpression.class
+END
+LikeWithType.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/frame/hibernate/LikeWithType.class
+END
+HibernateEqualsBuilder.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/frame/hibernate/HibernateEqualsBuilder.class
+END
+CompareExpression.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/frame/hibernate/CompareExpression.class
+END
+InExpression.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/frame/hibernate/InExpression.class
+END
+NotInExpression.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/frame/hibernate/NotInExpression.class
+END
+CompareType.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/frame/hibernate/CompareType.class
+END
+BetweenExpression.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/frame/hibernate/BetweenExpression.class
+END
+LogicalExpression.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/frame/hibernate/LogicalExpression.class
+END
+NullExpression.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/frame/hibernate/NullExpression.class
+END

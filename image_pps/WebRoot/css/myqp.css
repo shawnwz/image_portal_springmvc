@@ -1,0 +1,1923 @@
+
+/* My Profile Page Styles
+
+Header and Main Styles */
+#accountsMasterContent
+{
+	min-height: 500px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+#AccountsContent
+{
+	clear: both;
+	color: #000;
+	padding: 0 14px 8px;
+	margin-left: 20px;
+	width: 927px;
+}
+
+.AccountsContentExpanded
+{
+	clear: both;
+	color: #000;
+	padding: 0 10px 0 20px;
+	margin-top: 5px;
+	width: 927px;
+}
+
+.AccountsContentExpanded_noPaymentPane
+{
+	clear: both;
+	color: #000;
+	padding: 0 10px 0 20px;
+	margin-top: 5px;
+	width: 927px;
+}
+
+#AccountsNavigation
+{
+	float: left;
+	height: 80px;
+	width: 956px;
+}
+
+	#AccountsNavigation .MyAccount
+	{
+		color: #b7b7b7;
+		float: left;
+		font-size: 14px;
+		line-height: 14px;
+		margin-top: 33px;
+		min-width: 134px;
+		padding-right: 10px;
+		text-align: center;
+	}
+
+	#AccountsNavigation .Tab
+	{
+		float: left;
+		height: 80px;
+		margin-left: -9px;
+		text-align: center;
+		width: 110px;
+	}
+
+		#AccountsNavigation .Tab a
+		{
+			border-bottom: none;
+		}
+
+		#AccountsNavigation .Tab .Icon
+		{
+			height: 50px;
+			text-align: center;
+			width: 100px;
+		}
+
+			#AccountsNavigation .Tab .Icon img
+			{
+				margin: 0 auto;
+				padding-left: 7px;
+				padding-top: 5px;
+			}
+
+		#AccountsNavigation .Tab .Title
+		{
+			color: #b7b7b7;
+			display: inline-block;
+			font-size: 10px;
+			height: 30px;
+			line-height: 12px;
+			margin-top: -5px;
+			padding-left: 10px;
+			padding-right: 10px;
+			text-align: center;
+			width: 90px;
+		}
+
+	#AccountsNavigation .ApplyForCredit
+	{
+		float: right;
+		margin-top: 13px;
+		padding-right: 12px;
+		text-align: right;
+		width: 88px;
+	}
+
+		#AccountsNavigation .ApplyForCredit a
+		{
+			border: none;
+			text-align: center;
+		}
+
+#AccountsRound
+{
+	width: 975px;
+}
+
+	#AccountsRound .Top
+	{
+		margin: 10px 0 0 20px;
+	}
+
+	#AccountsRound .Bottom
+	{
+		margin-left: 20px;
+	}
+
+/* MyProfile Accordian Styles */
+
+#ProfileContent
+{
+	color: #000;
+}
+
+	#ProfileContent .PaneContent
+	{
+		padding: 0 10px 15px 10px;
+		width: 907px;
+	}
+
+		#ProfileContent .PaneContent .FormRight
+		{
+			width: 100%;
+		}
+
+		#ProfileContent .PaneContent .PaneContentLead
+		{
+			padding: 12px 0 12px 0;
+		}
+
+	#ProfileContent .PaneContentRound
+	{
+		overflow: hidden;
+	}
+
+	#ProfileContent .PaneContentRoundActive
+	{
+		overflow: visible !important;
+	}
+
+	#ProfileContent .PaneHeader,
+	#ProfileContent .PaneHeader .Right,
+	#ProfileContent .PaneHeader .Right .Center,
+	#ProfileContent .PaneHeaderExpanded,
+	#ProfileContent .PaneHeaderExpanded .Right,
+	#ProfileContent .PaneHeaderExpanded .Right .Center
+	{
+		background-color: transparent;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		height: 34px;
+		overflow: hidden !important;
+	}
+
+	#ProfileContent .PaneHeader,
+	#ProfileContent .PaneHeaderExpanded
+	{
+		margin-top: 5px;
+		padding-left: 5px;
+	}
+
+		#ProfileContent .PaneHeader .Right,
+		#ProfileContent .PaneHeaderExpanded .Right
+		{
+			padding-right: 5px;
+		}
+
+			#ProfileContent .PaneHeader .Right .Center,
+			#ProfileContent .PaneHeaderExpanded .Right .Center
+			{
+				background-repeat: repeat-x;
+				color: #a1a1a1;
+				font-size: 14px;
+				line-height: 14px;
+				padding: 9px 0 11px 13px;
+			}
+
+	#ProfileContent .PaneHeader
+	{
+		background-position: 0 0;
+	}
+
+		#ProfileContent .PaneHeader:hover
+		{
+			background-position: 0 -102px;
+		}
+
+			#ProfileContent .PaneHeader:hover .Right
+			{
+				background-position: right -136px;
+			}
+
+				#ProfileContent .PaneHeader:hover .Right .Center
+				{
+					background-position: 0 -170px;
+				}
+
+	#ProfileContent .PaneHeaderExpanded
+	{
+		background-position: 0 -204px;
+	}
+
+		#ProfileContent .PaneHeaderExpanded .Right
+		{
+			background-position: right -238px;
+		}
+
+			#ProfileContent .PaneHeaderExpanded .Right .Center
+			{
+				background-position: 0 -272px;
+			}
+
+	#ProfileContent .TitleBar
+	{
+		background-color: #363636;
+		border-bottom: 0;
+		padding-bottom: 7px;
+		padding-top: 5px;
+	}
+
+		#ProfileContent .TitleBar .Title
+		{
+			color: #666666;
+			font-size: 20px;
+			text-transform: uppercase;
+		}
+
+	#ProfileContent .Delete
+	{
+		border-left: solid 1px #c3c3c3;
+		padding: 0 6px 0 10px;
+	}
+
+	#ProfileContent .Edit
+	{
+		margin: 0 8px 0 16px;
+	}
+
+	#ProfileContent .Empty
+	{
+		padding-top: 12px;
+		color: #1a1a1a;
+	}
+
+	#ProfileContent .IWant
+	{
+		clear: both;
+		padding-bottom: 6px;
+		padding-top: 17px;
+		width: 100%;
+	}
+
+	#ProfileContent .IWantShipping
+	{
+		clear: both;
+		padding-bottom: 6px;
+		padding-top: 8px;
+		width: 100%;
+	}
+
+#ShippingInfoDetail
+{
+	float: left;
+	margin-right: 2px;
+	margin-bottom: 11px;
+	overflow: hidden;
+	padding: 0 8px 9px 8px;
+	width: 432px;
+	height: 90px; /*Fixed 18765*/
+}
+
+	#ShippingInfoDetail .Title
+	{
+		float: left;
+		height: 12px;
+		line-height: 12px;
+		padding: 6px 0 6px 0;
+		width: 100%;
+	}
+
+#PreferencesDetail .PaneContentLead
+{
+	font-size: 14px;
+}
+
+#PreferencesDetail .EmailPreferences,
+#PreferencesDetail .DirectMailPreferences,
+#PreferencesDetail .PaymentAndShippingPreferences
+{
+	padding: 10px;
+}
+
+#PreferencesDetail .EmailPreferences,
+#PreferencesDetail .DirectMailPreferences
+{
+	margin-bottom: 2px;
+}
+
+	#PreferencesDetail .EmailPreferences .EmailLanguageControls
+	{
+		background: url("/images/dividerHorizontal.gif") bottom repeat-x;
+		padding-bottom: 11px;
+	}
+
+	#PreferencesDetail .EmailPreferences .EmailOptInControls
+	{
+		line-height: 14px;
+	}
+
+	#PreferencesDetail .EmailPreferences .EmailOptInControls
+	{
+		line-height: 14px;
+		padding-top: 10px;
+	}
+
+	#PreferencesDetail .DirectMailPreferences .DirectMailAddress
+	{
+		background: url("/images/dividerHorizontal.gif") top repeat-x;
+		line-height: 14px;
+		margin-top: 10px;
+		padding-left: 9px;
+		padding-top: 11px;
+	}
+
+		#PreferencesDetail .DirectMailPreferences .DirectMailAddress .Edit
+		{
+			margin-left: 18px;
+		}
+
+#PreferencesDetail .PaymentAndShippingPreferences .Preferred .Payment
+{
+	float: left;
+	line-height: 30px;
+}
+
+	#PreferencesDetail .PaymentAndShippingPreferences .Preferred .Payment td.alignRightPreference
+	{
+		white-space: nowrap;
+	}
+
+	#PreferencesDetail .PaymentAndShippingPreferences .Preferred .Payment .PaymentRight
+	{
+		padding: 0 0 0 8px;
+		width: 900px !important;
+		height: 40px;
+	}
+
+		#PreferencesDetail .PaymentAndShippingPreferences .Preferred .Payment .PaymentRight .PPA_Notice
+		{
+			margin-top: 5px;
+		}
+
+#PreferencesDetail .PaymentAndShippingPreferences .Preferred .Shipping
+{
+	float: left;
+	margin-left: 13px;
+}
+
+	#PreferencesDetail .PaymentAndShippingPreferences .Preferred .Shipping select
+	{
+		margin-left: 5px;
+	}
+
+#PreferencesDetail .PaymentAndShippingPreferences .Preferred .ExpressCheckout
+{
+}
+
+	#PreferencesDetail .PaymentAndShippingPreferences .Preferred .ExpressCheckout img
+	{
+		margin-left: 5px;
+	}
+
+#PreferencesDetail .PreferencesButtons
+{
+	padding-top: 11px;
+	padding-bottom: 18px;
+	display: inline-block;
+}
+
+	#PreferencesDetail .PreferencesButtons .GlassButton
+	{
+		margin-right: 6px;
+	}
+
+.DefaultAddress
+{
+	border: solid 1px #c3c3c3 !important;
+}
+
+#personalInfoModalPopup,
+#editBusinessInformationModalPopup,
+.ChangePasswordContent,
+#paymentTargetModalPopup,
+#editShippingAddressModalPopup,
+#editMailingAddressModalPopup,
+#changeSuccessDiv,
+#changePasswordSuccessDiv
+{
+	width: 350px;
+}
+/* Styles for Modal Popups in My profile- My Account*/
+
+/*#personalInfoModalPopup,
+#editBusinessInformationModalPopup,
+#editShippingAddressModalPopup,
+#editMailingAddressModalPopup,
+#paymentTargetModalPopup
+{
+	z-index:99999;
+	background-color:#dbdbdb;
+	filter: alpha(opacity=100);
+	opacity: 1.0;
+	
+}*/
+
+
+#modalPaymentTargetWindow
+{
+	height: 555px !important;
+}
+
+
+#personalInfoModalPopupWindow,
+#editBusinessInformationModalPopupWindow,
+#editShippingAddressModalPopupWindow,
+#editMailingAddressModalPopupWindow,
+#modalPaymentTargetWindow
+{
+	margin: 10px 0;
+	filter: alpha(opacity=100);
+	opacity: 1.0;
+	z-index: 99999 !important;
+}
+
+	#personalInfoModalPopupWindow .FormButtons,
+	#editBusinessInformationModalPopupWindow .FormButtons,
+	#editShippingAddressModalPopupWindow .FormButtons,
+	#editMailingAddressModalPopupWindow .FormButtons,
+	#modalPaymentTargetWindow .FormButtons
+	{
+		/*margin:10px 0;*/
+		background-color: #DBDBDB;
+		overflow: visible;
+	}
+
+	#personalInfoModalPopupWindow .FormLeft,
+	#editBusinessInformationModalPopupWindow .FormLeft,
+	#editShippingAddressModalPopupWindow .FormLeft,
+	#editMailingAddressModalPopupWindow .FormLeft,
+	#modalPaymentTargetWindow .FormLeft
+	{
+		width: 120px;
+	}
+
+.addEditCreditCardDiv .FormRight input
+{
+	margin-bottom: 6px;
+}
+
+.addEditCreditCardDiv .FormRight select
+{
+	margin-bottom: 6px;
+	border-top: 1px solid #dbdbdb;
+}
+
+#personalInfoModalPopupWindow .FormRight,
+#editBusinessInformationModalPopupWindow .FormRight,
+#editShippingAddressModalPopupWindow .FormRight,
+#modalPaymentTargetWindow .FormRight
+{
+	width: 220px;
+}
+
+#editMailingAddressModalPopupWindow .FormRight
+{
+	width: 200px;
+}
+
+#personalInfoModalPopupWindow .FormLeft span,
+#editBusinessInformationModalPopupWindow .FormLeft span,
+#editShippingAddressModalPopupWindow .FormLeft span,
+#editMailingAddressModalPopupWindow .FormLeft span,
+#modalPaymentTargetWindow .FormLeft span
+{
+	margin-right: 0;
+}
+
+#personalInfoModalPopupWindow .FormRow,
+#editBusinessInformationModalPopupWindow .FormRow,
+#editShippingAddressModalPopupWindow .FormRow,
+#editMailingAddressModalPopupWindow .ErrorRow,
+#modalPaymentTargetWindow .FormRow
+{
+	background-color: #E8E8E8 !important;
+}
+
+#personalInfoModalPopupWindow .GlassButton,
+#editBusinessInformationModalPopupWindow .GlassButton,
+#editShippingAddressModalPopupWindow .GlassButton,
+#editMailingAddressModalPopupWindow .GlassButton,
+#modalPaymentTargetWindow .GlassButton
+{
+	float: none;
+}
+
+.creditCardField
+{
+	width: 99%;
+}
+/* End for Styles for Modal Popups in My profile- My Account*/
+
+#DirectMailDisplay
+{
+	margin-left: 10px;
+}
+
+.expiringOrderText
+{
+	color: #f7941d;
+	font-weight: bold;
+}
+
+.expiredOrderText
+{
+	color: #f00;
+	font-weight: bold;
+}
+
+#orderHistory .OrderHistoryHeading
+{
+	/*padding-bottom: 10px;*/
+}
+
+#orderHistory .OrderHistoryContent
+{
+	/*padding: 10px;*/
+	background-color: #d8d8d8;
+}
+
+/* Fixed issue 18676 */
+#orderHistory .OrderHistoryRecords
+{
+	/* float:left; */
+	/* width:734; */
+	color: #000;
+	width: 100%;
+}
+
+
+
+#orderHistory .OrdersPerPage20Selected
+{
+	background-image: url(/images/iconOrdersPerPage.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	float: left;
+}
+
+#orderHistory .OrdersPerPage40Selected
+{
+	background-image: url(/images/iconOrdersPerPage.gif);
+	background-repeat: no-repeat;
+	background-position: -15px 0;
+	height: 16px;
+	width: 15px;
+	float: left;
+}
+
+#orderHistory .OrdersPerPage80Selected
+{
+	background-image: url(/images/iconOrdersPerPage.gif);
+	background-repeat: no-repeat;
+	background-position: -30px 0;
+	height: 16px;
+	width: 15px;
+	float: left;
+}
+
+#orderHistory .OrdersPerPage100Selected
+{
+	background-image: url(/images/iconOrdersPerPage.gif);
+	background-repeat: no-repeat;
+	background-position: -45px 0;
+	height: 16px;
+	width: 15px;
+	float: left;
+}
+
+#orderHistory .OrdersPerPage20
+{
+	background-image: url(/images/iconOrdersPerPage.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	background-position: 0 -16px;
+	float: left;
+}
+
+#orderHistory .OrdersPerPage40
+{
+	background-image: url(/images/iconOrdersPerPage.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	background-position: -15px -16px;
+	float: left;
+}
+
+#orderHistory .OrdersPerPage80
+{
+	background-image: url(/images/iconOrdersPerPage.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	background-position: -30px -16px;
+	float: left;
+}
+
+#orderHistory .OrdersPerPage100
+{
+	background-image: url(/images/iconOrdersPerPage.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	background-position: -45px -16px;
+	float: left;
+}
+
+#orderHistory .ListDisplay
+{
+	background-image: url(/images/iconListDisplayOption.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	background-position: 0 -16px;
+	float: left;
+}
+
+#orderHistory .ThumbNailDisplay
+{
+	background-image: url(/images/iconThumbnailDisplayOption.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	background-position: 0 -16px;
+	float: left;
+}
+
+#orderHistory .ListDisplaySelected
+{
+	background-image: url(/images/iconListDisplayOption.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	background-position: 0 0;
+	float: left;
+}
+
+#orderHistory .ThumbNailDisplaySelected
+{
+	background-image: url(/images/iconThumbnailDisplayOption.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	background-position: 0 0;
+	float: left;
+}
+
+#orderHistory .ToolTipPopupTop
+{
+	background-color: #808080;
+	padding: 10px;
+	color: darkGray;
+	font-size: medium;
+}
+
+#orderHistory .ToolTipPopupBottom
+{
+	background-color: #fff;
+	padding: 10px;
+	color: #000;
+}
+
+
+#orderHistory .PagingHeader
+{
+}
+
+#orderHistory .PagingTitle
+{
+	padding-top: 1px;
+	padding-bottom: 3px;
+	float: left;
+}
+
+#orderHistory .PagingControl
+{
+	float: right;
+}
+
+#OrderHistory .PaginControlNextEnabled
+{
+	background-image: url(../src/Images/PreviousButtonEnabled.PNG);
+}
+
+.OrderHistoryRecords .OrderHistoryRecordProjectName
+{
+	color: #4385C0;
+	width: 100%;
+	clear: both;
+	font-weight: bold;
+	border: none 1px yellow;
+	margin-bottom: 5px;
+	padding-top: 0;
+	padding-left: 12px;
+}
+
+.OrderHistoryRecords .OrderDetailsOrderCreditStatus
+{
+	color: #1a1a1a;
+	width: 100%;
+	clear: both;
+	font-weight: bold;
+	border: none 1px yellow;
+	margin-bottom: 5px;
+	padding-top: 0;
+}
+
+.OrderHistoryRecords .infoIcon
+{
+	height: 14px;
+	width: 14px;
+	background: url(/Images/info.gif) no-repeat 0 0;
+	cursor: pointer;
+	margin-left: 2px !important;
+}
+
+.OrderHistoryRecords .infoIcon2
+{
+	height: 14px;
+	width: 14px;
+	cursor: pointer;
+	margin-left: 2px !important;
+}
+
+#orderHistoryContentMain .OrderHistoryRecordsDetailsExpirations
+{
+	color: Black;
+	padding-bottom: 15px;
+	padding-top: 0;
+	float: right;
+	width: 314px;
+	height: 30px;
+}
+
+#orderHistoryContentMain .OrderHistoryRecordsDetailsTotal
+{
+	color: Black;
+	padding-bottom: 15px;
+	padding-top: 0;
+	width: 210px;
+	float: right;
+	height: 30px;
+}
+
+#orderHistoryContentMain .OrderHistoryRecordsDetailsDate
+{
+	color: black;
+	padding-bottom: 15px;
+	padding-top: 0;
+	width: 198px;
+	height: 30px;
+	float: right;
+}
+
+#orderHistoryContentMain .OrderDetailsProjectName
+{
+	font-weight: bold;
+}
+
+#orderHistoryContentMain .Seperator
+{
+	background-image: url(/images/divider.gif);
+	background-repeat: repeat-x;
+	float: right;
+	width: 100%;
+	clear: both;
+	height: 1px;
+	padding-bottom: 10px;
+}
+
+
+#Pager .PagerLabel
+{
+	padding: 13px 11px 12px 0;
+	height: 10px;
+	font-size: 10px;
+}
+
+#Pager .PagerLabelRight
+{
+	padding: 13px 11px 12px 0;
+	height: 10px;
+	font-size: 10px;
+}
+
+
+#orderHistory .Content
+{
+	background-color: #E8E8E8;
+	padding: 23px 12px;
+	color: Black;
+}
+
+#orderHistory .OrderRecordTitle
+{
+	color: Black;
+	font-weight: bold;
+	padding-bottom: 40px;
+	padding-top: 20px;
+	padding-left: 12px;
+	float: left;
+	border: none 1px red;
+	width: 100%;
+}
+
+#orderHistory .OrderHistoryHeading
+{
+	height: 22px;
+	padding-bottom: 12px;
+}
+
+.OrderHistoryHeading .Printer
+{
+	float: right;
+	padding-left: 7px;
+	padding-right: 7px;
+	margin-top: 5px;
+	color: #fff;
+}
+
+.OrderHistoryHeading .PageTitle
+{
+	float: left;
+	padding-top: 7px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.OrderHistoryContent .ExpirationText
+{
+	float: left;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-left: 10px;
+	vertical-align: bottom;
+	color: #1a1a1a;
+}
+
+
+#orderHistory .OrderHistoryContent
+{
+	/*padding: 12px 13px 16px 13px;*/
+	background-color: #d8d8d8;
+	color: Black;
+}
+
+.OrderHistoryContent .OrderHistoryContentPager,
+.DetailsView .LightboxContentPager
+{
+	border-top: solid 1px #999;
+	border-bottom: solid 1px #999;
+	height: 37px;
+	clear: left;
+}
+
+.OrderHistoryContentPager .PagerLeft,
+.LightboxContentPager .PagerLeft
+{
+	float: left;
+	padding: 13px 0 12px 0;
+}
+
+.OrderHistoryContentPager .PagerRight,
+.LightboxContentPager .PagerRight
+{
+	float: right;
+	padding-top: 6px;
+	padding-right: 10px;
+}
+
+
+#headerHistory #Pager .PrevButton,
+#OrderHistorySearchResultsFooter #Pager .PrevButton
+{
+	background-image: url(/images/btnPageArrowsd8d8d8.gif);
+	background-position: top left;
+}
+
+#headerHistory #Pager .NextButton,
+#OrderHistorySearchResultsFooter #Pager .NextButton
+{
+	background-image: url(/images/btnPageArrowsd8d8d8.gif);
+	background-position: top right;
+}
+
+#headerHistory #Pager .PrevButtonDisabled,
+#OrderHistorySearchResultsFooter #Pager .PrevButtonDisabled
+{
+	background-image: url(/images/btnPageArrowsd8d8d8.gif);
+	background-position: bottom left;
+}
+
+#headerHistory #Pager .NextButtonDisabled,
+#OrderHistorySearchResultsFooter #Pager .NextButtonDisabled
+{
+	background-image: url(/images/btnPageArrowsd8d8d8.gif);
+	background-position: bottom right;
+}
+
+#headerHistory #Pager .PagerLabelPostFix,
+#OrderHistorySearchResultsFooter #Pager .PagerLabelPostFix
+{
+	color: Black;
+}
+
+.OrderHistoryContent .OrderHistoryContentMain
+{
+	margin-top: 23px;
+	clear: both;
+}
+
+#orderHistoryContentMain .OrderHistoryNav
+{
+	float: left;
+	width: auto;
+	color: #000;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+
+.OrderHistoryNav .Title
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.OrderHistoryNav .TitleSort
+{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.OrderHistoryNav .NavigationContent
+{
+	margin-top: 15px;
+	font-size: 12px;
+	color: #dd6028;
+}
+
+.OrderHistoryNav .NavigationSeparator
+{
+	padding-bottom: 30px;
+	border-bottom: solid 1px #999;
+}
+
+#orderHistoryContentMain .OrderHistoryRecords
+{
+	min-height: 80px; /*allow for height of nav control.*/
+	color: #000;
+}
+
+.OrderHistoryRecords .ProjectName
+{
+	color: #DD6028;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Trebuchet MS;
+}
+
+
+#orderHistory .ToolTipPopupTop
+{
+	background-color: #808080;
+	padding: 10px;
+	color: darkGray;
+	font-size: medium;
+}
+
+#orderHistory .ToolTipPopupBottom
+{
+	background-color: #fff;
+	padding: 10px;
+	color: #000;
+}
+
+#headerHistory
+{
+	border-bottom: 1px solid #999999;
+	border-top: 1px solid #999999;
+	float: left;
+	height: 26px;
+	line-height: 26px;
+	margin: 3px 0;
+	padding-bottom: 10px;
+	vertical-align: middle;
+	width: 98.5%;
+}
+
+	#headerHistory #imagePaging, #OrderHistorySearchResultsFooter #imagePaging
+	{
+		display: block;
+		float: right;
+		right: 32px;
+		width: auto;
+	}
+
+.imagePaging
+{
+	margin-right: 6px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.itemsPerPageListHistory
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.labelOrderHistoryhHeader
+{
+	color: #1a1a1a;
+	margin-top: 7px !important;
+}
+
+.floatLeft
+{
+	float: left !important;
+	margin-left: 10px;
+	padding-top: 2px;
+}
+
+.seperaterInSearchHeader
+{
+	border-right: 1px solid #999999;
+	width: 10px;
+	height: 28px !important;
+	margin-top: 3px;
+}
+
+.sortOptionText
+{
+	color: #1a1a1a;
+	float: left;
+	font-weight: bold;
+}
+
+#sortBlockId
+{
+	margin: 3px 5px;
+}
+
+.sortBlock
+{
+	background: url(/images/BTN-gray-border-only.gif) no-repeat 0 0 !important;
+	border-bottom: 0;
+	float: left;
+	height: 24px !important;
+	position: relative;
+	background-color: Transparent;
+	margin: 0 5px;
+}
+
+	.sortBlock, .sortBlock .Right, .sortBlock .Center
+	{
+		padding: 0 !important;
+	}
+
+		.sortBlock a
+		{
+			border: 0;
+			color: white !important;
+			display: block;
+			font-size: 12px;
+			height: 25px !important;
+		}
+
+		.sortBlock .Center
+		{
+			background: transparent url(/images/BTN-gray-border-only.gif) repeat-x scroll 0 -48px !important;
+			height: 24px !important;
+			margin: 0 4px 0 3px !important;
+			padding: 0 19px 0 6px !important;
+		}
+
+		.sortBlock .Right
+		{
+			background: url(/images/BTN-gray-border-only.gif) no-repeat 100% -24px !important;
+			height: 24px !important;
+		}
+
+		.sortBlock .GlassButton
+		{
+			padding: 0;
+			text-transform: uppercase;
+		}
+
+			.sortBlock .GlassButton a
+			{
+				font-size: 11px;
+			}
+
+.mainShadowContainer,
+.bottomLeftShadow,
+.topRightShadow
+{
+	background-image: url(/images/shadow.png);
+	background-repeat: no-repeat;
+}
+
+.mainShadow
+{
+	left: -2px;
+	margin: 5px 0 0 -15px;
+	position: relative;
+	top: -4px !important;
+}
+
+.mainShadowContainer
+{
+	background-position: right bottom;
+	left: 17px;
+	padding: 0 14px 14px 0;
+	position: relative;
+}
+
+.bottomLeftShadow
+{
+	background-position: 0 -611px;
+	bottom: 7px;
+	height: 15px;
+	left: -15px;
+	position: absolute;
+	width: 15px;
+}
+
+.topRightShadow
+{
+	background-position: -604px 3px;
+	height: 11px;
+	position: absolute;
+	right: 3px;
+	top: -11px;
+	width: 15px;
+}
+
+#sortOptionsMenuDiv
+{
+	min-width: 200px !important;
+}
+
+	#sortOptionsMenuDiv .MenuDiv
+	{
+		width: 100%;
+	}
+
+	#sortOptionsMenuDiv .MenuItem
+	{
+		width: 182px;
+	}
+
+		#sortOptionsMenuDiv .MenuItem span
+		{
+			width: 100%;
+			display: block;
+		}
+
+#sortOptionTrigger .arrowMeUp
+{
+	float: left;
+	left: 15px;
+	position: relative;
+}
+
+#sortOptionTrigger a:hover,
+#sortOptionsMenuDiv a:hover
+{
+	border-bottom: 0;
+}
+
+#OrderHistorySearchResultsFooter
+{
+	border-bottom: 1px solid #999999;
+	border-top: 1px solid #999999;
+	height: 26px;
+	padding: 6px 0;
+	margin: 10px 8px 30px 8px;
+}
+
+.labelInSearchHeader
+{
+	margin-left: 10px;
+	color: #1a1a1a;
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 7px !important;
+}
+
+#imagePagingFooter
+{
+	margin-right: 6px;
+	margin-top: 0;
+	margin-bottom: 6px;
+	float: right;
+}
+
+.selectOrderHREF
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0 0 0 0;
+}
+
+.OH-border-only1
+{
+	padding-left: 4px;
+}
+
+	.OH-border-only1 div
+	{
+		display: inline-block;
+	}
+
+	.OH-border-only1, .OH-border-only1 .right1, .OH-border-only1 .right1 .center1
+	{
+		background-color: transparent;
+		background-image: url(/images/btnGray-outline.png);
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		color: white;
+		cursor: pointer;
+		font-size: 19px;
+		font-weight: bold;
+		height: 24px;
+	}
+
+		.OH-border-only1 .right1
+		{
+			background-position: right -24px;
+			padding-right: 4px;
+		}
+
+			.OH-border-only1 .right1 .center1
+			{
+				background-position: 0 -48px;
+				background-repeat: repeat-x;
+				color: #ffffff;
+				padding: 0 8px;
+				text-align: center;
+			}
+
+.titleWrapper
+{
+	padding-left: 8px;
+	background-color: #dbdbdb;
+	height: 26px;
+	color: #797979;
+	/*display:inline-block; */
+	*display: inline;
+}
+/* fixed 17281 */
+.creditCardTitleEdit
+{
+	height: 18px;
+}
+/*
+Too generic!
+.title
+{
+	color: #b7b7b7;
+	display:inline-block;
+	font-size: 10px;
+	height: 30px;
+	line-height: 12px;
+	margin-top:-5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align:center;
+	width: 90px;
+}
+*/
+
+.profileContentWrapper
+{
+	background-color: #E8E8E8;
+	color: #1A1A1A;
+	line-height: 16px;
+	margin-bottom: 0.3em !important;
+}
+
+.businessContentWrapper
+{
+	background-color: #E8E8E8;
+	color: #1A1A1A;
+	line-height: 16px;
+	margin-bottom: 0.3em !important;
+}
+
+.mailContentWrapper
+{
+	background-color: #E8E8E8;
+	color: #1A1A1A;
+	line-height: 16px;
+	margin-bottom: 0.3em !important;
+}
+
+.editPaymentInformationDiv
+{
+	width: 360px;
+}
+
+#addEditCreditCardDiv .RightFormTd
+{
+	padding-right: 7px;
+}
+
+.FillAddress span
+{
+	margin: 0 0 0 0 !important;
+}
+
+.FillAddress
+{
+	margin: 6px 0 4px 10px;
+}
+
+.shipBold
+{
+	font-weight: bold;
+}
+
+.tableBottomMargin
+{
+	margin-bottom: 8px;
+}
+
+#addEditCreditCardDiv .tableWidth
+{
+	width: 350px;
+}
+
+div.ButtonRow350
+{
+	width: 700px;
+}
+
+.infoBlock
+{
+	vertical-align: top;
+}
+
+	.infoBlock .Title
+	{
+		background-color: #F0F0F0;
+	}
+
+#spacer
+{
+	margin-left: 5px;
+}
+
+#addEditCreditCardDiv .infoBlock
+{
+	width: 350px;
+	/*    min-height: 400px; */
+	/*border: 1px solid #000;*/
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	margin: 1px;
+	zoom: 1;
+	*display: inline;
+	/* _height: 400px; */
+}
+
+.infoBlock td
+{
+	/*	height:31px; */
+}
+
+.infoBlock input
+{
+	height: 18px !important;
+}
+
+.infoBlock select
+{
+	height: 20px !important;
+}
+
+.infoBlock .RightFormTd
+{
+	padding: 5px 0 5px 12px;
+}
+
+.infoBlock .iconhelp
+{
+	vertical-align: middle;
+}
+
+.infoBlock .imageCheckbox
+{
+	margin: 0;
+	display: inline-block;
+	*display: inline;
+	width: 250px;
+}
+
+td.FormLeftProfile
+{
+	width: 20%;
+}
+
+td.FormRightEmailTop, td.FormRightEmail
+{
+	width: 80%;
+}
+
+#DeleteMessage .FormButtons
+{
+	margin: 5px 0 10px 0;
+}
+
+.preferredCorporateAccount
+{
+	float: left;
+}
+
+.ppaMessage
+{
+	line-height: 14px;
+}
+
+.ppaIcon
+{
+	float: left;
+	height: 17px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	width: 16px;
+}
+
+/* for Picplan orderhistory List page */
+.activityPicPlan
+{
+	background-color: #ffffff;
+	line-height: 35px;
+	padding-left: 10px;
+}
+
+#orderHistory.picPlanOrder #picPlan .OrderHistoryContent
+{
+	/*padding: 10px;*/
+	background-color: #E8E8E8;
+}
+
+#orderHistory.picPlanOrder .picPlanorderRecordTitle
+{
+	color: Black;
+	padding-bottom: 10px;
+	padding-left: 12px;
+	padding-top: 30px;
+	width: 100%;
+}
+
+.picPlanHeaderRow
+{
+	background-color: #e8e8e8;
+	padding: 10px 10px 0 10px;
+	text-align: left;
+}
+
+
+.ondemandTable
+{
+	background-color: #fff;
+	line-height: 18px;
+	margin: 10px 10px 0;
+	width: 97.8%;
+}
+
+	.ondemandTable thead tr
+	{
+		background-color: #b7b7b7;
+	}
+
+	.ondemandTable th, .ondemandTable td
+	{
+		padding: 5px 2px 5px 10px;
+	}
+
+	.ondemandTable th
+	{
+		font-weight: bold;
+	}
+
+#subscriptions th
+{
+	width: 18px;
+}
+
+	#subscriptions th#ddlPlans
+	{
+		width: 60%;
+	}
+
+#paymentMethod
+{
+	margin: 2px 10px 10px;
+}
+
+	#paymentMethod td:first-child
+	{
+		width: 16%;
+	}
+
+#corpAccount, #card
+{
+	display: none;
+}
+
+span[id$=expirationInfo]
+{
+	display: inline-block;
+	margin: 0 20px;
+}
+
+#planDetails
+{
+	margin: 2px 10px 10px;
+}
+
+.ccodalert
+{
+	background-color: #fff799;
+}
+
+div[id$=alertMessage]
+{
+	color: #ed1c24;
+	padding: 10px 10px 10px 32px;
+	background: url("/images/alertRed.gif") no-repeat 12px 10px #FFF799;
+}
+
+.projectName
+{
+	background-color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	margin: 10px 10px 0;
+	padding: 10px;
+}
+
+a[id$=viewAgreementLink]
+{
+	float: right;
+}
+
+span[id$=lblProjectLicensee]
+{
+	font-size: 22px;
+	display: block;
+}
+
+.imgSpacer
+{
+	height: 18px;
+}
+
+.space
+{
+	margin-right: 2px;
+	width: 20%;
+}
+
+.picPlanDropdowns
+{
+	background-color: #e8e8e8;
+	padding: 2px 10px 10px 10px;
+	text-align: left;
+}
+
+.borderline
+{
+	border-top: 2px solid #ffffff;
+}
+
+.dropdownCSS
+{
+	width: 98%;
+}
+
+select[id$=dropdownPeriod]
+{
+	*width: auto;
+}
+
+div[id$=paymentMethodAction]
+{
+	*display: inline;
+}
+
+.orderHeader
+{
+	background-color: #b7b7b7;
+	padding: 5px 5px 5px 10px;
+	font-weight: bold;
+	width: 18.3%;
+	line-height: 18px;
+}
+
+#picPlanOrderDetailsBody
+{
+	background-color: #ffffff;
+	border: 1px solid #b7b7b7;
+}
+
+.orderBodyLast
+{
+	border-right: 0;
+	padding: 5px 3px 5px 10px;
+	width: 18.3%;
+	margin: 1px;
+	border-top: 2px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	background-color: #ffffff;
+	border-right: 0;
+}
+
+.orderBody
+{
+	padding: 5px 3px 5px 10px;
+	width: 18.3%;
+	margin: 1px;
+	border-top: 2px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	border-right: 2px solid #e8e8e8;
+	background-color: #ffffff;
+}
+
+.picPlanZeroOrder
+{
+	min-height: 300px;
+	padding-top: 150px;
+	font-size: 14px;
+	color: #666666;
+	font-family: Trebuchet MS;
+	text-align: center;
+}
+
+#picPlanOrderDetailsHeader .thumbWrap
+{
+	text-align: center;
+	height: 50px;
+	padding: 0 !important;
+	width: 50px;
+	border: 1px solid #b7b7b7;
+}
+
+#picPlanOrderDetailsHeader .corbisId
+{
+	float: right;
+	margin-top: -30px;
+	margin-right: 40px;
+}
+
+.NoThanksLink
+{
+	float: right;
+	padding: 5px;
+	width: 100%;
+}
+
+.NoThanks
+{
+	float: right;
+}
+
+.errorMsg
+{
+	margin-bottom: 15px;
+}
+
+.cardList
+{
+	float: right;
+	margin-right: 10px;
+}
+
+.paymentblock
+{
+	float: left;
+}
+
+
+ul#accnt-nav
+{
+	list-style-type: none;
+	line-height: 30px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+	ul#accnt-nav li
+	{
+		margin: 0 45px 0 0;
+		font-size: 15px;
+		text-align: left;
+		float: left;
+	}
+
+	ul#accnt-nav .acc_tab
+	{
+		font-size: 18px !important;
+		color: #aaa;
+	}
+
+	ul#accnt-nav a.active-page
+	{
+		font-weight: bold;
+		color: #fff;
+	}
+
+		ul#accnt-nav a.active-page:hover
+		{
+			cursor: default;
+			border-bottom: none;
+		}
+
+#headerHistory .items50
+{
+	background-position: 0 0;
+}
+
+#headerHistory .items100
+{
+	background-position: -15px 0;
+}
+
+#headerHistory .items200
+{
+	background-position: -30px 0;
+}
+
+#headerHistory .items50Selected
+{
+	background-position: 0 -16px;
+}
+
+#headerHistory .items100Selected
+{
+	background-position: -15px -16px;
+}
+
+#headerHistory .items200Selected
+{
+	background-position: -30px -16px;
+}
+
+/* end */
+
+
+#AccountsContent
+{
+	background-color: #363636;
+}
+
+#AccountsNavigation .Tab
+{
+	background: url("/Images/accountTabDark.gif") 0px 3px no-repeat;
+}
+
+#AccountsNavigation .Active
+{
+	background: url("/Images/accountTabActiveDark.gif") 0px 3px no-repeat;
+}
+
+.ApplyForCredit
+{
+        background: url(/Images/accountTabDark.gif) no-repeat  0 -11px;   
+        padding:20px 0 10px 10px;
+}
+
+#AccountsRound .Left,
+#AccountsRound .Right
+{
+	background-color: #363636;
+	background-image: url("/Images/rc5px363636-1a1a1a.gif");
+}
+
+#ProfileContent .PaneContent
+{
+	background-color: #dbdbdb;
+}
+
+#ProfileContent .PaneContent .FormRow
+{
+	background-color: #e8e8e8;
+}
+
+#ProfileContent .PaneContentRound .Left,
+#ProfileContent .PaneContentRound .Right
+{
+	background-color: #dbdbdb;
+	background-image: url("/Images/rc5pxdbdbdb-363636.gif");
+}
+
+#ProfileContent .PaneHeader,
+#ProfileContent .PaneHeader .Right,
+#ProfileContent .PaneHeader .Right .Center,
+#ProfileContent .PaneHeaderExpanded,
+#ProfileContent .PaneHeaderExpanded .Right,
+#ProfileContent .PaneHeaderExpanded .Right .Center
+{
+	background-image: url("/Images/barDarkSprite.gif");
+}
+
+#ProfileContent .PaneHeader .Right
+{
+	background-position: right -34px;
+}
+
+#ProfileContent .PaneHeader .Right .Center
+{
+	background-position: 0px -68px;
+}
+
+#ShippingInfoDetail
+{
+	border: solid 1px #dbdbdb;
+}
+
+#PreferencesDetail .EmailPreferences,
+#PreferencesDetail .DirectMailPreferences,
+#PreferencesDetail .PaymentAndShippingPreferences
+{
+	background-color: #e8e8e8;
+}
+
+/* todo: */
+/* this part should be moved to a common css */
+/*
+this area also conflict with searchresult page pager control, removed by Mike Z
+#Pager .PrevButton,
+#Pager .PrevButtonDisabled
+{
+	background-image: url("/Images/btnPageArrowsdbdbdb.gif");	
+}
+#Pager .NextButton,
+#Pager .NextButtonDisabled
+{
+	background-image: url("/Images/orange-arrowbuttonRT-up.gif");	
+}
+*/
+
+
+
+
+
+.PrintButtonRoundedCorners
+{
+	background: #363636;
+	border: 1px solid #676767 !important;
+	color: #FFF;
+	cursor:hand;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bold;
+	height: 22px;
+	line-height: 22px;
+	padding:1px 7px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+    white-space:nowrap;
+    float: right;
+    margin: 3px 0 8px;
+}
+.PrintButtonRoundedCorners span {background: url(/Images/rc5px676767-363636.gif) no-repeat; display: block; font-size: 1px; height: 4px; position: absolute; width: 4px; z-index: 1}
+.PrintButtonRoundedCorners .top-left {background-position: 0 0; left: -1px; top: -1px}
+.PrintButtonRoundedCorners .top-right {background-position: 0 -4px; right: -1px; top: -1px}
+.PrintButtonRoundedCorners .bottom-left {background-position: 0 -8px; bottom: -1px; left: -1px}
+.PrintButtonRoundedCorners .bottom-right {background-position: 0 -12px; bottom: -1px; right: -1px}

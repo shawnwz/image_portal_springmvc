@@ -1,0 +1,24 @@
+db.url=jdbc:mysql://124.202.155.73:3306/gaopin_images?useUnicode=true&characterEncoding=UTF-8
+db.user=root
+db.password=07ac211b992005eff804f71ce794b699
+#db.password=JuStCJvuXPdNHNSR
+
+
+#hibernate settings
+hibernate.show_sql=false
+hibernate.format_sql=false
+hibernate.use_sql_comments=false
+#threadpool configure
+threadpool.corePoolSize=5
+threadpool.maxPoolSize=20
+threadpool.queueCapacity=2000
+threadpool.keepAliveSeconds=1800
+
+
+#memcache
+memcache.name=image_gaopin
+memcache.servers=127.0.0.1:11211
+memcache.weights=1
+memcache.initConn=5
+memcache.minConn=5
+memcache.maxConn=100

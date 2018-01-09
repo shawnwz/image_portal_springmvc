@@ -1,0 +1,41 @@
+#header-container{background:url("/Images/header/globalnav-utility.gif") repeat-x 0 0 #1A1A1A;height:149px;position:relative;min-width:1005px;width:100%}
+#header-logo{background:url("/images/Corbis_logo.png") no-repeat 0 10px;bottom:72px;display:block;height:51px;left:16px;position:absolute;width:262px}
+#header-logo:hover{border:0}
+html>body #header-container{*z-index:1}
+html>body #header-logo{*left:15px}
+#searchbar{width:265px;color:#808080;font-size:15px;font-weight:bold;height:25px;line-height:25px;padding:0 5px;float:left;border:0;-moz-border-radius-topleft:4px;-moz-border-radius-bottomleft:4px;border-top-left-radius:4px;border-bottom-left-radius:4px}
+#search_go-button{font-weight:bold;color:#fff;border-left:1px solid #366A9A;float:left;-webkit-border-top-right-radius:3px;-webkit-border-bottom-right-radius:3px;-moz-border-radius-topright:3px;-moz-border-radius-bottomright:3px;border-top-right-radius:3px;border-bottom-right-radius:3px;margin:0 10px 0 0;background:url(/Images/header/go-button.png) repeat-x scroll 0 -60px;height:25px;line-height:23px;padding:0 14px;margin:0;border:0 none;border-left:1px solid #366a9a}
+#search_go-button:hover{background-position:0 -120px;border:0;border-left:1px solid #366A9A;background:url(/Images/header/go-button.png) repeat-x scroll 0 -150px}
+#unsupportedBrowser{background:url(/Images/alertYellow.gif) no-repeat 10px 13px #FFC;position:absolute;top:5px;left:290px;padding:10px 20px 10px 35px;font-size:11px;color:#1a1a1a;border:solid 1px #1a1a1a}
+#hideBadBrowser{width:15px;height:15px;background:url(/Images/iconClose.gif) no-repeat;display:inline-block;position:relative;top:2px;left:10px;border-bottom:0}
+#search-header-menu{top:107px;left:0;position:absolute;width:100%;background:url("/Images/header/globalnav-search.gif") repeat-x 0 0 #1A1A1A}
+#advanced-search-menu-block{float:left;position:relative;width:140px;top:15px}
+#advanced_search:hover{border:0}
+#advanced_search2{position:relative;top:0}
+#search-header-menu-container .search-header-menu-arrow{padding-left:5px}
+#search_box-form{padding:11px 10px 0 21px;float:left;margin-left:-1px}
+.search-header-menu-block{float:left;position:relative;width:110px;height:42px;display:inline;top:4px;cursor:default}
+.search-header-menu-block.active{height:42px;background:#444;-moz-border-radius:7px 7px 0 0;border-radius:7px 7px 0 0;-moz-box-shadow:2px 2px 2px rgba(0,0,0,0.4);-webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.4);box-shadow:2px 2px 2px rgba(0,0,0,0.4)}
+.search-header-menu-block a{cursor:default}
+.ctip .search-header-menu-block{top:0}
+.search-header-menu-sep{background-color:#444;border-left:1px solid #202020;float:left;height:41px;width:1px;position:relative}
+.search-header-menu-item{color:white;font-size:14px;position:absolute;top:10px;right:20px}
+.search-header-menu-item:hover{border-bottom:0}
+#ReturnToSearchLinkId{float:right;margin-right:20px;width:140px}
+#ReturnToSearchLinkAnchorId{font-size:11px;position:absolute;top:10px;right:0;cursor:pointer}
+#searchbar.sb_watermark{color:#666}
+div.impossibleSearch_ctip{width:300px;height:auto;color:Black}
+div.impossibleSearch_ctip_content{-moz-border-radius-bottomright:7px;-moz-border-radius-bottomleft:7px;-webkit-border-bottom-left-radius:7px;-webkit-border-bottom-right-radius:7px;border-bottom-left-radius:7px;border-bottom-right-radius:7px;background:#E8E8E8;padding:10px 10px 10px 10px}
+div.impossibleSearch_ctip_title{-moz-border-radius-topright:7px;-moz-border-radius-topleft:7px;-webkit-border-top-left-radius:7px;-webkit-border-top-right-radius:7px;border-top-left-radius:7px;border-top-right-radius:7px;background:#DBDBDB;padding:10px;font-size:14px;color:#666}
+div.impossibleSearch_ctip p{margin-bottom:14px}
+#impossibleSearchError{color:Red;border-bottom:0;background:url(/Images/redleftarrow.gif) no-repeat 0 4px;padding-left:15px;margin-bottom:0}
+div.impossibleSearch_ctip div.ctip-content div{margin-top:14px;text-align:right}
+#mso_fade_page{bottom:0;position:absolute;width:100%;top:149px;z-index:2}
+#searchbar,body #options_applied{font-weight:normal}
+#search_go-button,#searchbar{font-family:Trebuchet MS;font-size:18px}
+#searchbar{padding:0 5px;height:25px;overflow-x:hidden;text-overflow:clip;width:260px;float:left;margin:0 0 0 3px}.browse_menu-list-desc a,.browse_menu-list-desc p{font-size:12px!important;font-weight:normal!important}
+.browse_menu-list-desc p{margin:4px 0 0 0!important}
+.browse_menu-list-img{width:40px;height:40px}
+#searchflyout{font-size:13px!important}
+#searchbar.sb_watermark,#search_go-button,#searchflyout .title{font-weight:normal!important}
+#languageholder,#customerserviceholder,#advanced_search,#customerserviceholder,#signinholder{font-size:12px}

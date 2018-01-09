@@ -1,0 +1,1 @@
+(function(a){a(".footer-linkicon").click(function(){window.open(a(this).next().attr("href"),""+new Date().getTime());return false;});if((typeof(CI)!="undefined")&&CI.UI&&CI.UI.Notifications){CI.UI.Notifications.showCookieNotification();}})(jQuery);

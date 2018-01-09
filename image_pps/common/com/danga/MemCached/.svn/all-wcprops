@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/master/!svn/ver/3/image_pps/common/com/danga/MemCached
+END
+SockIOPool.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/master/!svn/ver/3/image_pps/common/com/danga/MemCached/SockIOPool.java
+END
+LineInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/master/!svn/ver/3/image_pps/common/com/danga/MemCached/LineInputStream.java
+END
+NativeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/master/!svn/ver/3/image_pps/common/com/danga/MemCached/NativeHandler.java
+END
+MCBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/master/!svn/ver/3/image_pps/common/com/danga/MemCached/MCBean.java
+END
+MemCachedClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/master/!svn/ver/3/image_pps/common/com/danga/MemCached/MemCachedClient.java
+END
+ContextObjectInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/master/!svn/ver/3/image_pps/common/com/danga/MemCached/ContextObjectInputStream.java
+END
+ErrorHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/master/!svn/ver/3/image_pps/common/com/danga/MemCached/ErrorHandler.java
+END
+NestedIOException.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/master/!svn/ver/3/image_pps/common/com/danga/MemCached/NestedIOException.java
+END
+ByteBufArrayInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/master/!svn/ver/3/image_pps/common/com/danga/MemCached/ByteBufArrayInputStream.java
+END

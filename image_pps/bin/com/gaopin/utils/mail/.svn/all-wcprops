@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/utils/mail
+END
+MailSenderInfo.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/utils/mail/MailSenderInfo.class
+END
+MailSender.class
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/utils/mail/MailSender.class
+END
+MailSender$MyAuthenticator.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/master/!svn/ver/3/image_pps/bin/com/gaopin/utils/mail/MailSender$MyAuthenticator.class
+END

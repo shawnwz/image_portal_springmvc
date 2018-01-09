@@ -1,0 +1,689 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,user-scalable=no"/>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Gao Pin Images</title>
+<!-- InstanceEndEditable -->
+<link rel="Shortcut Icon" href="images/favorite.ico" type="image/x-icon" />
+<link rel="Bookmark" href="images/favorite.ico" type="image/x-icon" />
+<link rel="icon" href="images/favorite.ico" type="image/x-icon" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/layout.css" rel="stylesheet" type="text/css" />
+<link href="css/font.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery.selectBox.css" rel="stylesheet" type="text/css" />
+<link href="css/nav.css" rel="stylesheet" type="text/css" />
+<link href="css/cont.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.ui.datepicker-zh-CN.js"></script>
+<link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/favourite.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.10564.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/banner.js"></script>
+<script type="text/javascript" src="js/jquery.md5.js"></script>
+<script type="text/javascript" src="js/youziku.js"></script>
+<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="js/jquery.infinitescroll.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+<link href="css/jcarousel.responsive.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.selectBox.js"></script>
+<script type="text/javascript" src="js/icheck.js"></script>
+<link href="css/blue.css" rel="stylesheet" type="text/css" />
+<link href="css/tooltipster.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.tooltipster.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="js/form.js"></script>
+<!--[if lte IE 9]>
+<script type="text/javascript" src="js/respond.min.js"></script>
+<![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.tinyscrollbar.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="js/favourite.js"></script>
+<!-- InstanceEndEditable -->
+<script type="text/javascript" src="js/default.js"></script>
+<script type="text/javascript" src="js/search.js"></script>
+</head>
+
+<!-- InstanceBeginEditable name="bodyClass" -->
+<body class="pageFavourite">
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="nav" -->
+<div id="topBar">
+	<div class="navWrap">
+			<div id="logo"><a href="index.html"><img src="images/logo.png"/></a></div>
+			<div id="navRight">
+				<ul>
+					<li><a href="#" class="icon-font icon-3-chat visible-md visible-lg"></a></li>
+					<li><a href="#" class="icon-font icon-15-shoppingCart visible-md visible-lg"></a></li>
+					<li><a href="#" class="icon-font icon-11-favourite visible-md visible-lg"></a></li>
+					<li><a href="#" class="hoverShow icon-font icon-17-user" id="navUserCenter" targetShow="userCenterMobileMenu"><span class="logInName visible-md-inline-block visible-lg-inline-block">显示姓名</span></a></li>
+					<li><a href="#" class="hoverShow icon-font icon-5-collapse visible-xs visible-sm" id="navMobileMenu" target="navLeft"></a></li>
+				</ul>
+			</div>
+			<div id="navLeft" class="hoverShowTarget" targetParent="navMobileMenu">
+				<ul class="Source-Han-Light">
+					<li><a href="#">创意图片</a>
+						<ul>
+							<li><a href="#">导航之一</a></li>
+							<li><a href="#">导航之二</a></li>
+						</ul>
+					</li>
+					<li><a href="#">编辑图片</a>
+						<ul>
+							<li><a href="#">导航之一</a></li>
+							<li><a href="#">导航之二</a></li>
+							<li><a href="#">导航之3</a></li>
+						</ul>
+					</li>
+					<li><a href="#">高品专辑</a>
+						<ul>
+							<li><a href="#">导航之一</a></li>
+							<li><a href="#">导航之二</a></li>
+							<li><a href="#">导航之3</a></li>
+							<li><a href="#">导航之4</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!--navLeft-->
+			
+			
+			
+			<div id="userCenterMobileMenu" class="hoverShowTarget" targetParent="navUserCenter">
+				
+				<ul class="navMobile">
+					<li><a href="userCenter.html" class="iconUser">个人信息</a></li>
+					<li><a href="#" class="iconFolder">收藏夹</a> <span class="icon-font icon-2-arrowRight visible-xs visible-sm"></span></li>
+					<li><a href="userHistory.html" class="iconHistory">下载记录</a></li>
+					<li><a href="#" class="iconInvoice">发票</a></li>
+					<li><a href="#" class="iconSet">套餐</a></li>
+					<li><a href="#" class="iconLogOut btnLogOut">退出登录</a></li>
+				</ul>
+				
+				<div class="navMobileSub visible-xs visible-sm">
+					<div class="favFolderControl">
+						<span class="icon-font icon-46-createNew btnCreateNewInFav"></span>
+						<span class="icon-font icon-50-trash"></span>
+					</div>
+			
+					<div class="favouriteFolderList">
+						<div class="favFolderBox" lightBoxId="1">
+							<a href="userFavourite.html" class="folder">
+								<div class="favFolderName">秋天图片收集1</div>
+								<div class="favFolderAmount">共<span>10</span>张图片</div>
+							</a>
+							<span class="btnClose icon-font icon-cross"></span>
+						</div><!--favListBox-->
+						<div class="favFolderBox" lightBoxId="2">
+							<a href="userFavourite2.html" class="folder">
+								<div class="favFolderName">秋天图片收集2</div>
+								<div class="favFolderAmount">共<span>10</span>张图片</div>
+							</a>
+							<span class="btnClose icon-font icon-cross"></span>
+						</div><!--favListBox-->
+						<div class="favFolderBox" lightBoxId="3">
+							<a href="userFavourite.html" class="folder">
+								<div class="favFolderName">秋天图片收集3</div>
+								<div class="favFolderAmount">共<span>10</span>张图片</div>
+							</a>
+							<span class="btnClose icon-font icon-cross"></span>
+						</div><!--favListBox-->
+						<div class="favFolderBox" lightBoxId="4">
+							<a href="userFavourite2.html" class="folder">
+								<div class="favFolderName">秋天图片收集4</div>
+								<div class="favFolderAmount">共<span>10</span>张图片</div>
+							</a>
+							<span class="btnClose icon-font icon-cross"></span>
+						</div><!--favListBox-->
+					</div>
+				</div>
+			</div><!--userCenterMobileMenu-->
+	
+		</div><!--navWrap-->
+	
+	<div class="lightBoxWrapOut">
+		<div class="lightBoxWrap hidden-sm hidden-xs">
+			<div class="leftPanel">
+				<div class="lightBoxList selectWrap">
+					<div class="selectValue">我的收藏版一<span class="num">6</span><span>图片</span></div>
+					<div class="selectList">
+						<ul>
+							<li class="active" lightBoxId="1">我的收藏版一<span class="num">6</span><span>图片</span></li>
+							<li lightBoxId="2">我的收藏版二<span class="num">2</span><span>图片</span></li>
+							<li lightBoxId="3">我的收藏版三<span class="num">2</span><span>图片</span></li>
+							<li lightBoxId="4">我的收藏四<span class="num">2</span><span>图片</span></li>
+							<li lightBoxId="5">我的收藏五<span class="num">2</span><span>图片</span></li>
+							<li lightBoxId="6">我的收藏六<span class="num">2</span><span>图片</span></li>
+						</ul>
+						<div class="createNew"><input name="" type="text" class="listName" placeholder="创造新的收藏版"/><div class="btnAdd"></div></div>
+					</div>
+				</div><!--lightBoxList-->
+				
+				<div class="btnWrap iconWrap">
+					<a href="#" class="icon-font icon-31-shoppingCart2"></a>
+					<a href="#" class="icon-font icon-22-download"></a>
+					<a href="#" class="icon-font icon-14-setting"></a>
+				</div>
+			</div><!--leftPanel-->
+			<div class="rightPanel">
+				<div class="jcarousel-wrapper">
+					<div class="jcarousel">
+						<ul>
+							<li><a href="#"><img src="images/search/thumb305_1.jpg" width="80" imgId="100"/></a><span class="icon-font icon-8-delete"></span></li>
+							<li><a href="#"><img src="images/search/thumb305_2.jpg" width="80" imgId="101"/></a><span class="icon-font icon-8-delete"></span></li>
+							<li><a href="#"><img src="images/search/thumb305_3.jpg" width="80" imgId="102"/></a><span class="icon-font icon-8-delete"></span></li>
+							<li><a href="#"><img src="images/search/thumb305_4.jpg" width="80" imgId="103"/></a><span class="icon-font icon-8-delete"></span></li>
+							<li><a href="#"><img src="images/search/thumb305_1.jpg" width="80" imgId="104"/></a><span class="icon-font icon-8-delete"></span></li>
+							<li><a href="#"><img src="images/search/thumb305_2.jpg" width="80" imgId="105"/></a><span class="icon-font icon-8-delete"></span></li>
+							
+						</ul>
+					</div>
+					<a href="#" class="btnMore">查看所有</a>
+					<div class="currentPage"></div>
+					<div class="closeJcarousel"> &times; </div>
+					<p class="jcarousel-pagination"></p>
+					
+					<a href="#" class="jcarousel-control-prev icon-font icon-1-arrowLeft"></a>
+					<a href="#" class="jcarousel-control-next icon-font icon-2-arrowRight"></a>
+				</div>
+			</div><!--rightPanel-->
+		</div><!--lightBoxWrap-->
+	</div><!--lightBoxWrapOut-->
+	
+	
+
+</div><!--topBar-->
+<!-- InstanceEndEditable -->
+
+
+<!-- InstanceBeginEditable name="cont" -->
+
+
+<div class="userCenterWrap">
+	<div class="leftNav hidden-xs hidden-sm">
+		<ul>
+			<li><a href="userCenter.html" class="iconUser">个人信息</a></li>
+			<li class="active"><a href="#" class="iconFolder">收藏夹</a></li>
+			<li><a href="#" class="iconHistory">下载记录</a></li>
+			<li><a href="#" class="iconInvoice">发票</a></li>
+			<li><a href="#" class="iconSet">套餐</a></li>
+		</ul>
+	</div><!--leftNav-->
+	<div class="rightList hidden-xs hidden-sm">
+		<div class="header">收藏夹列表</div>
+		<a href="#" class="btnCreateNewInFav"><span class="icon-font icon-46-createNew"></span>创建一个新收藏夹</a>
+        <div id="scrollbar">
+            <div class="scrollbar"><div class="track"><div class="thumb"></div></div></div><!--scrollbar-->
+            <div class="viewport">
+                <div class="overview favouriteFolderList">
+					
+					<div class="favFolderBox active" lightBoxId="1">
+						<a href="userFavourite.html" class="folder">
+							<div class="favFolderName">秋天图片收集1</div>
+							<div class="favFolderAmount">共<span>10</span>张图片</div>
+						</a>
+						<span class="btnClose icon-font icon-cross"></span>
+					</div><!--favListBox-->
+					<div class="favFolderBox" lightBoxId="2">
+						<a href="userFavourite2.html" class="folder">
+							<div class="favFolderName">秋天图片收集2</div>
+							<div class="favFolderAmount">共<span>10</span>张图片</div>
+						</a>
+						<span class="btnClose icon-font icon-cross"></span>
+					</div><!--favListBox-->
+					<div class="favFolderBox" lightBoxId="3">
+						<a href="userFavourite.html" class="folder">
+							<div class="favFolderName">秋天图片收集3</div>
+							<div class="favFolderAmount">共<span>10</span>张图片</div>
+						</a>
+						<span class="btnClose icon-font icon-cross"></span>
+					</div><!--favListBox-->
+					<div class="favFolderBox" lightBoxId="4">
+						<a href="userFavourite2.html" class="folder">
+							<div class="favFolderName">秋天图片收集4</div>
+							<div class="favFolderAmount">共<span>10</span>张图片</div>
+						</a>
+						<span class="btnClose icon-font icon-cross"></span>
+					</div><!--favListBox-->
+					
+					
+					
+					
+                </div>
+            </div>
+        </div>
+	</div><!--rightList-->
+	<div class="midCont">
+		<div class="favTop">
+			<div class="row">
+			
+				<form id="lightBoxInfoForm">
+					<div class="col-lg-4 col-md-12 form-group">
+						<div class="row">
+							<div class="col-lg-12 col-md-6  col-xs-6">
+								<input class="form-control lightBoxInfoName editLive visible-lg visible-md" cols="" rows="1" id="lightBoxInfoName" name="lightBoxInfoName" value="秋天图片收集"/>
+								<div class="visible-sm visible-xs">
+									<select>
+										<option>秋天图片收集</option>
+										<option>秋天图片收集2</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-lg-12 col-md-6  col-xs-6">
+								<div class="shareWrap">
+									<span class="visible-lg-inline-block visible-md-inline-block">分享到：</span>
+									<!--<a href="#" class="icon-font icon-42-users fancybox fancybox.iframe" data-toggle="modal" data-target="#myModal"></a>-->
+									<a href="lbFormShareMember.html?width=750&height=300" class="icon-font icon-42-users fancybox fancybox.iframe"></a>
+									<a href="lbFormShareEmail.html?width=750&height=660" class="icon-font icon-15-shoppingCart fancybox fancybox.iframe"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-8 col-md-12">
+						<div class="row">
+							<div class="form-group col-lg-6 col-md-12 col-sm-6">
+								<div class="row">
+									<label class="col-lg-4 col-md-2 control-label">客户：</label>
+									<div class="col-lg-8 col-md-10">
+										<input type="text" class="form-control editLive" id="lightBoxInfoClient" name="lightBoxInfoClient">
+									</div>
+								</div><!--row-->
+							</div>
+							<div class="form-group col-lg-6 col-md-12 col-sm-6">
+								<div class="row">
+									<label class="col-lg-4 col-md-2 control-label">项目：</label>
+									<div class="col-lg-8 col-md-10">
+										<input type="text" class="form-control editLive" id="lightBoxInfoProject" name="lightBoxInfoProject">
+									</div>
+								</div><!--row-->
+							</div>
+							<div class="form-group col-lg-12">
+								<div class="row">
+									<label class="col-md-2 control-label editLive">笔记：</label>
+									<div class="col-md-10">
+										<textarea class="form-control editLive" cols="" rows="" id="lightBoxInfoNote" name="lightBoxInfoNote"></textarea>
+									</div>
+								</div><!--row-->
+							</div>
+						</div>
+					</div><!--col-md-9-->
+				</form>
+			</div>
+		</div><!--favTop-->
+			<div class="favouriteBar">
+			
+				<div class="pull-left">
+					<div class="label visible-lg visible-md">全部：</div>
+					<div class="btnWrap iconWrap twoIcon">
+						<a href="#" class="icon-font icon-31-shoppingCart2"></a>
+						<!--<a href="#" class="icon-font icon-22-download"></a>-->
+						<a href="#" class="icon-font icon-50-trash"></a>
+					</div>
+					<div class="pagination-sm visible-xs">
+						<a href="#" class="icon-font icon-1-arrowLeft"></a>
+						<input name="" type="text" value="1"/>
+						<span class="total"> / 127</span>
+						<a href="#" class="icon-font icon-2-arrowRight"></a>
+					</div>
+				</div>
+				<div class="pull-right">
+					<select>
+						<option>最近添加</option>
+						<option>2</option>
+					</select>
+				</div>
+			</div><!--favouriteBar-->	
+		<div class="favouriteGalleryWrap">
+		
+
+			
+			
+			<div class="favouriteGallery layout3 globalDetail">
+		
+				<div href="#" class="galleryThumb">
+					<div class="imgWrap">
+						<a href="http://www.baidu.com"><img src="images/search/thumb305_1.jpg" imgid="101" width="305" height="290"/></a>
+						<div class="btnWrap">
+							<a href="javascript:void(0)" class="icon-font icon-22-download"></a>
+							<a href="javascript:void(0)" class="icon-font icon-31-shoppingCart2"></a>
+							<a href="javascript:void(0)" class="icon-font icon-50-trash"></a>
+						</div>
+					</div>
+					<div class="thumbDetail">
+						RF<br/>
+						1234567891234<br/><a href="#">创意类</a>   /   <a href="#">Blink</a><br/>
+						标题<br/>
+						拍摄地点<br/>
+						拍摄日期<br/>
+						<div class="btnWrap">
+							<a href="javascript:void(0)" class="icon-font icon-43-paid"></a>
+						</div>
+					</div>
+				</div>
+				
+				<div href="#" class="galleryThumb">
+					<div class="imgWrap">
+						<a href="#"><img src="images/search/thumb305_2.jpg" imgid="102" width="305" height="251"/></a>
+						<div class="btnWrap">
+							<a href="javascript:void(0)" class="icon-font icon-22-download"></a>
+							<a href="javascript:void(0)" class="icon-font icon-31-shoppingCart2"></a>
+							<a href="javascript:void(0)" class="icon-font icon-50-trash"></a>
+						</div>
+					</div>
+					<div class="thumbDetail">
+						RF<br/>
+						1234567891234<br/><a href="#">创意类</a>   /   <a href="#">Blink</a><br/>
+						标题<br/>
+						拍摄地点<br/>
+						拍摄日期<br/>
+						<div class="btnWrap"></div>
+					</div>
+				</div>
+				
+				<div href="#" class="galleryThumb">
+					<div class="imgWrap">
+						<a href="#"><img src="images/search/thumb305_3.jpg" imgid="103" width="305" height="557"/></a>
+						<div class="btnWrap">
+							<a href="javascript:void(0)" class="icon-font icon-22-download"></a>
+							<a href="javascript:void(0)" class="icon-font icon-31-shoppingCart2"></a>
+							<a href="javascript:void(0)" class="icon-font icon-50-trash"></a>
+						</div>
+					</div>
+					<div class="thumbDetail">
+						RF<br/>
+						1234567891234<br/><a href="#">创意类</a>   /   <a href="#">Blink</a><br/>
+						标题<br/>
+						拍摄地点<br/>
+						拍摄日期<br/>
+						<div class="btnWrap"></div>
+					</div>
+				</div>
+				
+				<div href="#" class="galleryThumb">
+					<div class="imgWrap">
+						<a href="#"><img src="images/search/thumb305_4.jpg" imgid="104" width="305" height="183"/></a>
+						<div class="btnWrap">
+							<a href="javascript:void(0)" class="icon-font icon-22-download"></a>
+							<a href="javascript:void(0)" class="icon-font icon-31-shoppingCart2"></a>
+							<a href="javascript:void(0)" class="icon-font icon-50-trash"></a>
+						</div>
+					</div>
+					<div class="thumbDetail">
+						RF<br/>
+						1234567891234<br/><a href="#">创意类</a>   /   <a href="#">Blink</a><br/>
+						标题<br/>
+						拍摄地点<br/>
+						拍摄日期<br/>
+						<div class="btnWrap"></div>
+					</div>
+				</div>
+				
+				<div href="#" class="galleryThumb">
+					<div class="imgWrap">
+						<a href="#"><img src="images/search/thumb305_2.jpg" imgid="105" width="305" height="251"/></a>
+						<div class="btnWrap">
+							<a href="javascript:void(0)" class="icon-font icon-22-download"></a>
+							<a href="javascript:void(0)" class="icon-font icon-31-shoppingCart2"></a>
+							<a href="javascript:void(0)" class="icon-font icon-50-trash"></a>
+						</div>
+					</div>
+					<div class="thumbDetail">
+						RF<br/>
+						1234567891234<br/><a href="#">创意类</a>   /   <a href="#">Blink</a><br/>
+						标题<br/>
+						拍摄地点<br/>
+						拍摄日期<br/>
+						<div class="btnWrap"></div>
+					</div>
+				</div>
+				<div href="#" class="galleryThumb">
+					<div class="imgWrap">
+						<a href="#"><img src="images/search/thumb305_1.jpg" imgid="106" width="305" height="290"/></a>
+						<div class="btnWrap">
+							<a href="javascript:void(0)" class="icon-font icon-22-download"></a>
+							<a href="javascript:void(0)" class="icon-font icon-31-shoppingCart2"></a>
+							<a href="javascript:void(0)" class="icon-font icon-50-trash"></a>
+						</div>
+					</div>
+					<div class="thumbDetail">
+						RF<br/>
+						1234567891234<br/><a href="#">创意类</a>   /   <a href="#">Blink</a><br/>
+						标题<br/>
+						拍摄地点<br/>
+						拍摄日期<br/>
+						<div class="btnWrap"></div>
+					</div>
+				</div>
+				
+				<div href="#" class="galleryThumb">
+					<div class="imgWrap">
+						<a href="#"><img src="images/search/thumb305_2.jpg" imgid="107" width="305" height="251"/></a>
+						<div class="btnWrap">
+							<a href="javascript:void(0)" class="icon-font icon-22-download"></a>
+							<a href="javascript:void(0)" class="icon-font icon-31-shoppingCart2"></a>
+							<a href="javascript:void(0)" class="icon-font icon-50-trash"></a>
+						</div>
+					</div>
+					<div class="thumbDetail">
+						RF<br/>
+						1234567891234<br/><a href="#">创意类</a>   /   <a href="#">Blink</a><br/>
+						标题<br/>
+						拍摄地点<br/>
+						拍摄日期<br/>
+						<div class="btnWrap"></div>
+					</div>
+				</div>
+				
+				<div href="#" class="galleryThumb">
+					<div class="imgWrap">
+						<a href="#"><img src="images/search/thumb305_3.jpg" imgid="108" width="305" height="557"/></a>
+						<div class="btnWrap">
+							<a href="javascript:void(0)" class="icon-font icon-22-download"></a>
+							<a href="javascript:void(0)" class="icon-font icon-31-shoppingCart2"></a>
+							<a href="javascript:void(0)" class="icon-font icon-50-trash"></a>
+						</div>
+					</div>
+					<div class="thumbDetail">
+						RF<br/>
+						1234567891234<br/><a href="#">创意类</a>   /   <a href="#">Blink</a><br/>
+						标题<br/>
+						拍摄地点<br/>
+						拍摄日期<br/>
+						<div class="btnWrap"></div>
+					</div>
+				</div>
+				
+				<div href="#" class="galleryThumb">
+					<div class="imgWrap">
+						<a href="#"><img src="images/search/thumb305_4.jpg" imgid="109" width="305" height="183"/></a>
+						<div class="btnWrap">
+							<a href="javascript:void(0)" class="icon-font icon-22-download"></a>
+							<a href="javascript:void(0)" class="icon-font icon-31-shoppingCart2"></a>
+							<a href="javascript:void(0)" class="icon-font icon-50-trash"></a>
+						</div>
+					</div>
+					<div class="thumbDetail">
+						RF<br/>
+						1234567891234<br/><a href="#">创意类</a>   /   <a href="#">Blink</a><br/>
+						标题<br/>
+						拍摄地点<br/>
+						拍摄日期<br/>
+						<div class="btnWrap"></div>
+					</div>
+				</div>
+				
+				<div href="#" class="galleryThumb">
+					<div class="imgWrap">
+						<a href="#"><img src="images/search/thumb305_1.jpg" imgid="110" width="305" height="290"/></a>
+						<div class="btnWrap">
+							<a href="javascript:void(0)" class="icon-font icon-22-download"></a>
+							<a href="javascript:void(0)" class="icon-font icon-31-shoppingCart2"></a>
+							<a href="javascript:void(0)" class="icon-font icon-50-trash"></a>
+						</div>
+					</div>
+					<div class="thumbDetail">
+						RF<br/>
+						1234567891234<br/><a href="#">创意类</a>   /   <a href="#">Blink</a><br/>
+						标题<br/>
+						拍摄地点<br/>
+						拍摄日期<br/>
+						<div class="btnWrap"></div>
+					</div>
+				</div>
+			</div><!--favouriteGallery-->
+	
+	
+	
+	
+			<div class="pageNumWrap">
+				<a href="#" class="btnPrev icon-font icon-1-arrowLeft"></a>
+				<input name="" type="text" class="targetNum" value="1"/>
+				<a href="#" class="btnNext">
+					<span class="left">/  127 </span>
+					<span class="right SiYuan-ExtraLight">下一页</span>
+				</a>
+			</div>
+		</div><!--favouriteGalleryWrap-->	
+	</div><!--midCont-->
+	
+</div><!--userCenterWrap-->
+
+
+<!-- Modal -->
+<!--<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+
+<!-- Modal -->
+<!--<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>-->
+
+
+
+
+<!-- InstanceEndEditable -->
+<div id="sectionBtm">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12"><a href="#" class="logo"><img src="images/logoFooter.png"/></a></div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-sm-6 boxContact">
+						<h6 class="hotline">热线：</h6>
+						400-820-0268
+						<br/><br/>
+						<h6 class="email">服务电邮：</h6>
+						<a href="mailto:service@gaopinimages.com" target="_blank">service@gaopinimages.com</a>
+					</div>
+					<div class="col-sm-6 boxAddr hidden-xs">
+						<h6>北京</h6>
+						<div class="addrRow"><span class="label">电话：</span><span class="cont">+86 10 6500 8152</span></div>
+						<div class="addrRow"><span class="label">传真：</span><span class="cont">+86 10 6500 8192</span></div>
+						<div class="addrRow"><span class="label">地址：</span><span class="cont">北京朝阳区工体北路4号院22.OFFICE 2层</span></div> 
+						<div class="addrRow"><span class="label">邮编：</span><span class="cont">100027</span></div>
+					</div>
+				</div><!--row-->
+				<div class="row">
+					<div class="col-sm-6 boxAddr hidden-xs">
+						<h6>上海</h6>
+						<div class="addrRow"><span class="label">电话：</span><span class="cont">+86 21 5407 5711</span></div>
+						<div class="addrRow"><span class="label">传真：</span><span class="cont">+86 21 5407 5712</span></div>
+						<div class="addrRow"><span class="label">地址：</span><span class="cont">上海黄浦区四川中路外滩181大楼401</span></div>
+						<div class="addrRow"><span class="label">邮编：</span><span class="cont">200002</span></div>
+					</div>
+					<div class="col-sm-6 boxAddr hidden-xs">
+						<h6>广州</h6>
+						<div class="addrRow"><span class="label">电话：</span><span class="cont">+86 20 3847 3900</span></div>
+						<div class="addrRow"><span class="label">传真：</span><span class="cont">+86 20 3847 3901</span></div>
+						<div class="addrRow"><span class="label">地址：</span><span class="cont">广州天河区体育东横街3号设计大厦17楼17B02</span></div>
+						<div class="addrRow"><span class="label">邮编：</span><span class="cont">510620</span></div>
+					</div>
+				</div><!--row-->
+			</div>
+			<div class="col-md-6">
+				
+				<div class="greyBg">
+					<div class="col-sm-6 boxMedia ">
+						<div class="header Source-Han-Light">微博</div>
+						<a href="#" class="icon icon-font icon-16-sina"></a>
+						<div class="label hidden-xs">分享最新热门资讯 </div>
+					</div>
+					<div class="col-sm-6 boxMedia hidden-xs">
+						<div class="header Source-Han-Light">微信</div>
+						<div class="icon"><img src="images/iconWeChat.gif"/></div>
+						<div class="label">参与互动给你惊喜</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div><!--sectionBtm-->
+
+<div id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 col-md-12 copyright"><div>&copy; 2014 由高品(上海)图像服务有限公司提供。本网站所有影像均由高品(上海)图像服务有限公司授权发布。侵权必究。       沪ICP备09095511号</div></div>
+			<div class="col-lg-5 hidden-xs">
+				<ul>
+					<li><a href="#">网站使用协议</a></li>
+					<li><a href="#">隐私保护政策</a></li>
+					<li><a href="#">Cookie政策</a></li>
+					<li><a href="#">授权条款及条件</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+			
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,153 @@
+html, body, div, img, p, dl, dt, dd, span, h1, h2, h3 ,h4 {
+	margin:0;
+	padidng:0;
+}
+body {
+	font-family: \5FAE\8F6F\96C5\9ED1,AdobeHeitiStd,STXihei;
+	background-color: #181818;
+}
+img {
+	vertical-align: middle;
+	border:0;
+}
+ul,li {
+	list-style:none;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.kong {
+	height:60px;
+}
+#images {
+	margin:0 auto;
+	padding-bottom:50px;
+}
+#pic_one {
+	width:985px;
+	height:268px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-bottom:28px;
+	position:relative;
+}
+#cont_a01, #cont_a02 {
+	display:block;
+	width:479px;
+	height:268px;
+	position:relative;
+	overflow:hidden;
+}
+#cont_a01 {
+	float:left;
+}
+#cont_a02 {
+	float:right;
+}
+#cont_img01, #cont_img02, #cont_img03, #cont_img04, #cont_img05, #cont_img06 {
+	display:block;
+	max-widht:479px;
+	min-height: 268px;
+}
+
+
+a.a_png {
+	display:block;
+	width:479px;
+	height:268px;
+}
+a.a_png01 {
+	position:absolute;
+	left:0; top:0;
+	z-index:100;
+}
+a.a_png02 {
+	position:absolute;
+	right:0; top:0;
+	z-index:100;
+}
+a.b_png {
+	display:block;
+	width:479px;
+	height:226px;
+}
+
+a.a_png:hover, a.b_png:hover {
+	background:url(../images/menu_bg.png) repeat-x bottom;
+}
+
+
+#cont_a01 .yi,#cont_a02 .yi {
+	margin-bottom: 0px;
+	width:100%;
+	height:60px;
+	line-height:60px;
+	background:#333;
+	color:#d1d2d4;
+	font-size:26px;
+	padding-left:15px;
+	position:absolute;
+	bottom:0;
+}
+
+#pic_two, #pic_thr {
+	height:226px;
+	width:985px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-bottom:28px;
+	position:relative;
+}
+#banner_a01 .banner, #banner_a02 .banner, #banner_a03 .banner, #banner_a04 .banner {
+	width:459px;
+	height:92px;
+	background-color:#333;
+	color:#a0a0a0;
+	font-size:13px;
+	padding-right: 10px;
+	padding-left:15px;
+	padding-top:20px;
+	position:absolute;
+	bottom:0;
+	letter-spacing:1px;
+	margin-bottom: 0px;
+}
+#banner_a01, #banner_a02, #banner_a03, #banner_a04 {
+	display:block;
+	width:479px;
+	height:226px;
+	position:relative;
+	overflow:hidden;
+}
+#banner_a01, #banner_a03 {
+	float:left;
+}
+#banner_a02, #banner_a04 {
+	float:right;
+}
+#banner_a01 .banner .ban_bg, #banner_a02 .banner .ban_bg, #banner_a03 .banner .ban_bg, #banner_a04 .banner .ban_bg {
+	font-size:20px;
+	color:#6699cc;
+	line-height:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

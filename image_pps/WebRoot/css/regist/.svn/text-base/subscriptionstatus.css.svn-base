@@ -1,0 +1,18 @@
+#subscription-status{background:url(/packages/images/header/subscription-icon.gif) no-repeat;padding:0 7px 0 20px;margin:0 15px 0 0;border-right:1px solid #333;position:relative;display:inline;height:15px}
+#subscription-status.onhold{background:url(/packages/images/critical-alert.gif) no-repeat;color:#ED1C24;cursor:pointer}
+#subscription-dialog{width:375px;-webkit-border-bottom-left-radius:7px;-webkit-border-bottom-right-radius:7px;-moz-border-radius-bottomleft:7px;-moz-border-radius-bottomright:7px;border-bottom-left-radius:7px;border-bottom-right-radius:7px;background:#e8e8e8;font-size:14px;color:#1a1a1a;font-size:12px}
+#subscription-description{padding:10px;position:relative;margin:0}
+#subscription-onhold-account{overflow:auto;padding:10px;background-color:#FFF799;color:#ED1C24;font-weight:bold}
+#subscription-onhold-image{float:left;height:30px;padding-right:5px}
+#subscription-onhold-account span{float:left}
+#subscription-choose-account{position:relative;margin:5px 0 0 0;padding:5px 10px;border:solid 2px #dbdbdb;border-right:0;border-left:none;text-align:right}
+subscription-account{width:200px}
+#subscription-choose-account label{background:url(/packages/images/header/subscription-label.gif) no-repeat;font-weight:bold;padding:0 5px 3px 20px}
+#subscription-actions{padding:10px;position:relative;background:#D9D9D9;padding:10px;overflow:auto;-webkit-border-bottom-left-radius:7px;-webkit-border-bottom-right-radius:7px;-moz-border-radius-bottomleft:7px;-moz-border-radius-bottomright:7px;border-bottom-left-radius:7px;border-bottom-right-radius:7px}
+#subscription-actions a{float:right;margin:0 0 0 5px}
+#subscription-persist{padding:10px;position:relative;font-weight:bold}
+subscription-remember{position:relative;top:2px}
+#searchbuddy-subscription-notification{height:500px;width:190px;overflow:auto;position:absolute;top:0;left:0;background-color:#333;opacity:.90;z-index:1}
+#searchbuddy-subscription-notification div.message{color:#F1F1F1;position:absolute;top:145px;text-align:center;font-size:12px;width:159px;left:8px}
+#searchbuddy-subscription-notification div.message p{margin-bottom:10px}
+a.subscription-action.onhold img{background-position:0 -40px;opacity:.5;-ms-filter:"alpha(opacity=50)";filter:alpha(opacity=50);cursor:default}

@@ -1,0 +1,8 @@
+mongo:27017
+
+db.auth("gpImage","_gpImage")
+use imageDb
+db.cutedCorbisId.find({"corbisId":"133101834930"})
+
+最大尺寸的我给你放到orgi了
+主要是各个图的存放路径

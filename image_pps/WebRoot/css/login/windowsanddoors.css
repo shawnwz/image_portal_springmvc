@@ -1,0 +1,12 @@
+#f_links h4{font-weight:bold;margin:25px 0 5px 0}
+.corbis_brand{float:left;width:220px;padding:0 22px 0 0}
+.brand_logo{display:block;background:url(/Images/company_logos.png) no-repeat}
+#corbis_images_link{background-position:0 0;width:133px;height:19px}
+#corbis_motion_link{background-position:0 -19px;width:135px;height:18px}
+#veer_link{background-position:-60px -40px;width:44px;height:33px}
+#entertainment_link{background-position:0 -76px;width:224px;height:18px}
+.corbis_brand div{height:50px;vertical-align:middle;display:table-cell}
+.corbis_brand p{color:#666;font:normal normal normal 10px/normal 'Trebuchet MS',Trebuchet,Verdana,Helvetica,Arial,Geneva,sans-serif;margin:10px 0 0 0}
+.corbis_brand p a{color:#5D87C3;margin:0 0 0 4px}
+.corbis_brand a:hover{border-bottom:0}.othersite p,p.copy,p.links{font-size:12px}
+#othersites,#f_social{font-weight:normal}

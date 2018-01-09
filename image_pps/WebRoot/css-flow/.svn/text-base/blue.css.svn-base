@@ -1,0 +1,167 @@
+/* iCheck plugin Square skin, blue
+----------------------------------- */
+.icheckbox_square-blue,
+.iradio_square-blue {
+display: inline-block;
+*display: inline;
+vertical-align: middle;
+margin: 0 5px 0 0;
+padding: 0;
+width: 20px;
+height: 20px;
+border: 2px #323232 solid;
+cursor: pointer;
+}
+
+.iradio_square-blue{
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+
+}
+
+label:hover .icheckbox_square-blue{
+background:#fff;
+}
+label:hover .iradio_square-blue{
+background-color:#fff;
+}
+
+.icheckbox_square-blue.checked, .iradio_square-blue.checked{
+border: 2px #6031ba solid;
+color:#6031ba;
+text-align:center;
+}
+.icheckbox_square-blue.checked:before{
+font-family: 'icomoon';
+content: "\e116";
+
+font:16px;
+line-height:18px;
+}
+
+.iradio_square-blue.checked{
+background:url(../images/radioCore.png) center center no-repeat;
+}
+.doubleCancle .iradio_square-blue.checked{
+background:none; 
+}
+
+.doubleCancle .iradio_square-blue.checked:before{
+font-family: 'icomoon';
+content: "\e116";
+font:16px;
+line-height:18px;
+}
+
+.icheckbox_square-blue.disabled, .iradio_square-blue.disabled{
+border: 2px #999 solid;
+cursor: default;
+color:#999;
+}
+
+
+label.disabled{
+cursor:default!important;
+color:#999!important;
+}
+
+label{
+display:inline-block;
+}
+
+
+label.checked{
+color:#6031ba;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* scroll bar */
+
+#scrollbar{
+width:100%;
+padding:120px 0 20px 0;
+height:100%;
+margin:0px;
+position:absolute;
+left:0;
+top:0;
+}
+
+#scrollbar .viewport{
+overflow:hidden;
+position:relative;
+height:100%;
+}
+
+#scrollbar .overview{
+list-style:none;
+position:absolute;
+left:0;
+top:0;
+margin:0;
+margin-right:25px;
+}
+
+#scrollbar .scrollbar{
+position:absolute;
+background-position:0 0;
+right: 8px;
+top:120px;
+z-index:3;
+width:8px;
+}
+
+#scrollbar .track{
+height:100%;
+position:relative;
+width:8px;
+background:#e2e2e2;
+}
+
+#scrollbar .thumb{
+background:#7d7d7d;
+height:20px;
+width:100%;
+cursor:pointer;
+overflow:hidden;
+position:absolute;
+top:0;
+left:0px;
+}
+
+#scrollbar .disable{
+display:none;
+}
+
+.noSelect
+{
+user-select:none;
+-o-user-select:none;
+-moz-user-select:none;
+-khtml-user-select:none;
+-webkit-user-select:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

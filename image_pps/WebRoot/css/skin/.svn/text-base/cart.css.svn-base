@@ -1,0 +1,25 @@
+/* April 10, to be merged. */
+
+#cart_pricing_item_wrapper { padding: 25px 20px; display: block; float: left; width: 632px; }
+.shop_top{width:632px; height:90px;}
+.shop_bottom{width:630px; background:#ffffff; border:1px solid #e4e4e4;-moz-border-radius: 5px;-khtml-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px; margin-top:10px; padding:10px 0;}
+.shop_tab{width:177px; height:31px; margin-left:236px;}
+.shop_xx{padding-left:236px; height:25px; border-bottom:1px solid #e4e4e4; padding-bottom:10px;}
+.shop_tab li { display: block; float: left; }
+.shop_tab li a { color: #FFFFFF; }
+.shop_tab li.cart_pricing_item_quick_license { background-position: 0 -31px; }
+.shop_tab li.cart_pricing_item_quick_license.on { background-position: 0 0; }
+.shop_tab li.cart_pricing_item_custom_license { background-position: -88px 0; width: 89px;}
+.shop_tab li.cart_pricing_item_custom_license.on { background-position:-88px -31px; }
+
+#pricing_quick_license_method_selection { display: none; }
+
+.public_ul li.current_quick_license_method a{background:url(../images/shop_xx.gif) no-repeat 0 -25px;}
+.public_ul li.current_quick_license_method a span{background:url(../images/shop_xx.gif) no-repeat right -25px;}
+
+.pricing_custom_method_select_wrapper {  }
+.cart_empty { line-height: 120px; width: 100%; height: 120px; text-align: center; }
+
+.pricing_txt_title { padding-left: 10px; height: 25px; border-bottom: 1px solid #e4e4e4; padding-bottom: 10px; }
+.cart_pricing_click_to_update_price { cursor: pointer; }
+.cart_item_pricing_hint { height: 18px; }

@@ -1,0 +1,4 @@
+#newFeatures{background:url("") no-repeat scroll 8px 0 transparent;bottom:38px;height:14px;left:12px;padding-left:10px;position:absolute;width:500px;z-index:1}
+#nf_new{background:url() 0 -14px repeat-x;float:left;color:#fff;font-size:9px;height:12px;padding:1px 3px 0;vertical-align:baseline;line-height:9px}
+#nf_text{background:url() 0 -28px no-repeat;float:left;height:14px;font-size:10px}#nf_new,#nf_text{font-size:12px}
+#nf_text,#nf_new{line-height:12px!important}

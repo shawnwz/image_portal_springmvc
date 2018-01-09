@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/master/!svn/ver/506/image_pps/src/service/com/gaopin/service/pps/impl
+END
+SearchRuleServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/impl/SearchRuleServiceImpl.java
+END
+VirtualCdServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/impl/VirtualCdServiceImpl.java
+END
+ImageSetServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/impl/ImageSetServiceImpl.java
+END
+ImageInfoServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/master/!svn/ver/213/image_pps/src/service/com/gaopin/service/pps/impl/ImageInfoServiceImpl.java
+END
+ImageGroupServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/master/!svn/ver/308/image_pps/src/service/com/gaopin/service/pps/impl/ImageGroupServiceImpl.java
+END
+KeywordCollectionServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/impl/KeywordCollectionServiceImpl.java
+END
+BottomPageServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/impl/BottomPageServiceImpl.java
+END
+ImageGalleryServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/master/!svn/ver/371/image_pps/src/service/com/gaopin/service/pps/impl/ImageGalleryServiceImpl.java
+END
+PhotographerServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/impl/PhotographerServiceImpl.java
+END
+LotteryAwardsServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/master/!svn/ver/457/image_pps/src/service/com/gaopin/service/pps/impl/LotteryAwardsServiceImpl.java
+END
+IndexPageServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/impl/IndexPageServiceImpl.java
+END
+SearchServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/master/!svn/ver/293/image_pps/src/service/com/gaopin/service/pps/impl/SearchServiceImpl.java
+END
+DownloadServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/master/!svn/ver/367/image_pps/src/service/com/gaopin/service/pps/impl/DownloadServiceImpl.java
+END
+ClarificationServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/impl/ClarificationServiceImpl.java
+END
+VariablesServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/master/!svn/ver/457/image_pps/src/service/com/gaopin/service/pps/impl/VariablesServiceImpl.java
+END
+BatchDownloadServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/master/!svn/ver/474/image_pps/src/service/com/gaopin/service/pps/impl/BatchDownloadServiceImpl.java
+END
+UserServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/impl/UserServiceImpl.java
+END
+LightBoxServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/impl/LightBoxServiceImpl.java
+END
+ImageCategoryServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/impl/ImageCategoryServiceImpl.java
+END
+LotteryDrawServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/master/!svn/ver/506/image_pps/src/service/com/gaopin/service/pps/impl/LotteryDrawServiceImpl.java
+END
+KeywordServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/impl/KeywordServiceImpl.java
+END
+ContentProviderServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/impl/ContentProviderServiceImpl.java
+END
+UserPrivilegeServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/master/!svn/ver/9/image_pps/src/service/com/gaopin/service/pps/impl/UserPrivilegeServiceImpl.java
+END
+CartServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/master/!svn/ver/406/image_pps/src/service/com/gaopin/service/pps/impl/CartServiceImpl.java
+END
+LotteryKeywordsServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/master/!svn/ver/457/image_pps/src/service/com/gaopin/service/pps/impl/LotteryKeywordsServiceImpl.java
+END
+CollectionServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/master/!svn/ver/457/image_pps/src/service/com/gaopin/service/pps/impl/CollectionServiceImpl.java
+END

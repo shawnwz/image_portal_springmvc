@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+#topBar{
+padding:20px;
+position:relative;
+z-index:999;
+}
+
+#navLeft a, #navRight a, #logo a{
+line-height:50px;
+display:block;
+height:50px;
+padding:0 15px;
+font-size:16px;
+}
+
+#topBar li:hover a{
+background:#323232;
+color:#fff;
+}
+
+#navLeft ul ul li:hover a{
+background:#6b6b6b;
+}
+
+#navLeft{
+ 
+float:left;
+position:relative;
+z-index:2;
+}
+
+#navRight{
+float:right;
+position:relative;
+z-index:2;
+}
+
+#logo{
+float:left;
+}
+
+.collapse{
+width:50px;
+height:50px;
+float:left;
+font-size:30px;
+text-align:center;
+cursor:pointer;
+vertical-align:middle;
+position:relative;
+z-index:2;
+}
+
+
+#navLeft ul li {
+float:left;
+position:relative;
+margin-right:30px;
+}
+#navLeft > ul > li > a{
+-webkit-transition:none;
+-moz-transition:none;
+-o-transition:none;
+transition:none;
+}
+
+#navLeft ul ul{
+position:absolute;
+width:140px;
+background:#323232;
+padding:10px 0;
+display:none;
+}
+
+#navLeft ul li:hover ul{
+display:block;
+}
+
+#navLeft ul ul li{
+margin:0;
+float:none;
+}
+
+#navLeft ul ul li a{
+font-size:14px;
+color:#fff;
+height:38px;
+line-height:38px;
+padding-left:20px;
+padding-right:20px;
+}
+
+#navRight ul{
+float:right;
+}
+
+#navRight ul li {
+float:left;
+}
+
+#navRight ul li a{
+ 
+font-size:22px;
+text-align:center;
+padding:0;
+}
+
+#logo a{
+padding-left:45px;
+padding-right:45px;
+display:inline-block;
+}
+
+#logo img{
+max-height:100%;
+}
+
+.collapse:hover,.expand .collapse{
+background:#323232;
+color:#fff;
+}
+
+
+
+.pageHome #navLeft{
+
+}
+.pageHome #logo{
+/*text-align:center;*/
+position:absolute;
+z-index:1;
+left:0;
+top:0;
+width:100%;
+height:100%;
+margin:20px 0;
+}
+
+
+
+
+
+
+@media (max-width: 991px) {
+
+#topBar{
+padding:0px;
+}
+
+#navLeft{
+position:static;
+}
+
+
+#navLeft, #navRight, #logo {
+padding:0;
+}
+
+#navLeft ul li:hover ul{
+display:none;
+}
+
+#navLeft ul{
+position:absolute;
+width:100%;
+top:50px;
+left:0;
+background:#323232;
+z-index:3;
+
+height:0px;
+overflow:hidden;
+
+-webkit-transition:all 0.3s;
+-moz-transition:all 0.3s;
+-o-transition:all 0.3s;
+transition:all 0.3s;
+}
+
+#navLeft.expand ul{
+height:270px;
+}
+#navLeft ul li:first-child{
+margin-top:10px;
+
+}
+
+#navLeft ul li {
+float: none;
+margin-right: 0px;
+}
+
+
+
+#navLeft ul li a{
+width:100%;
+color:#fff;
+}
+#navLeft ul li:hover a{
+background:#6b6b6b;
+}
+
+.pageHome #logo{
+padding:0;
+margin:0;
+}
+
+#logo a{
+padding-left:15px;
+padding-right:15px;
+}
+
+
+
+
+}
+
+
+
+.logInName{
+ font-size:11px;
+ display:inline-block;
+ line-height:20px;
+ vertical-align:bottom;
+ margin-bottom:10px;
+font-family: 'Microsoft YaHei', Helvetica, sans-serif;
+}
+/**/

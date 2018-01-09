@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,user-scalable=no"/>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Gao Pin Images</title>
+<!-- TemplateEndEditable -->
+<link rel="Shortcut Icon" href="../images/favorite.ico" type="image/x-icon" />
+<link rel="Bookmark" href="../images/favorite.ico" type="image/x-icon" />
+<link rel="icon" href="../images/favorite.ico" type="image/x-icon" />
+<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="../css/layout.css" rel="stylesheet" type="text/css" />
+<link href="../css/font.css" rel="stylesheet" type="text/css" />
+<link href="../css/jquery.selectBox.css" rel="stylesheet" type="text/css" />
+<link href="../css/nav.css" rel="stylesheet" type="text/css" />
+<link href="../css/cont.css" rel="stylesheet" type="text/css" />
+<link href="../css/responsive.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.ui.datepicker-zh-CN.js"></script>
+<link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/favourite.js"></script>
+<script type="text/javascript" src="../js/modernizr.custom.10564.js"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/banner.js"></script>
+<script type="text/javascript" src="../js/jquery.md5.js"></script>
+<script type="text/javascript" src="../js/youziku.js"></script>
+<script type="text/javascript" src="../js/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="../js/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="../js/jquery.infinitescroll.js"></script>
+<script type="text/javascript" src="../js/jquery.jcarousel.js"></script>
+<link href="../css/jcarousel.responsive.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery.selectBox.js"></script>
+<script type="text/javascript" src="../js/icheck.js"></script>
+<link href="../css/blue.css" rel="stylesheet" type="text/css" />
+<link href="../css/tooltipster.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery.tooltipster.js"></script>
+<script type="text/javascript" src="../js/jquery.validate.js"></script>
+<script type="text/javascript" src="../js/form.js"></script>
+<!--[if lte IE 9]>
+<script type="text/javascript" src="js/respond.min.js"></script>
+<![endif]-->
+<!-- TemplateBeginEditable name="head" -->
+<script type="text/javascript" src="../js/default.js"></script>
+<!-- TemplateEndEditable -->
+</head>
+
+<!-- TemplateBeginEditable name="bodyClass" -->
+<body class="page">
+<!-- TemplateEndEditable -->
+
+<!-- TemplateBeginEditable name="nav" -->
+<div id="topBar">
+	<div class="container1920">
+		
+		<div class="navWrap">
+			<div id="logo"><a href="../index.html"><img src="../images/logo.png"/></a></div>
+			<div id="navLeft" class="autoCloseWrap">
+				<div class="collapse visible-xs visible-sm icon-font icon-5-collapse"></div>
+				<ul class="Source-Han-Light">
+					<li><a href="#">创意图片</a>
+						<ul>
+							<li><a href="#">导航之一</a></li>
+							<li><a href="#">导航之二</a></li>
+						</ul>
+					</li>
+					<li><a href="#">编辑图片</a>
+						<ul>
+							<li><a href="#">导航之一</a></li>
+							<li><a href="#">导航之二</a></li>
+							<li><a href="#">导航之3</a></li>
+						</ul>
+					</li>
+					<li><a href="#">高品专辑</a>
+						<ul>
+							<li><a href="#">导航之一</a></li>
+							<li><a href="#">导航之二</a></li>
+							<li><a href="#">导航之3</a></li>
+							<li><a href="#">导航之4</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div id="navRight">
+				<ul>
+					<li class="visible-md visible-lg"><a href="#" class="icon-font icon-3-chat"></a></li>
+					<li class="visible-md visible-lg"><a href="#" class="icon-font icon-15-shoppingCart"></a></li>
+					<li class="visible-md visible-lg"><a href="javascript:void(0)" class="icon-font icon-11-favourite"></a></li>
+					<li><a href="login.html" class="icon-font icon-17-user"></a></li>
+				</ul>
+			</div>
+ 		</div><!--navWrap-->
+	</div><!--container1920-->
+</div><!--topBar-->
+<!-- TemplateEndEditable -->
+
+
+<!-- TemplateBeginEditable name="cont" -->
+
+<!-- TemplateEndEditable -->
+<div id="sectionBtm">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12"><a href="#" class="logo"><img src="../images/logoFooter.png"/></a></div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-sm-6 boxContact">
+						<h6 class="hotline">热线：</h6>
+						400-820-0268
+						<br/><br/>
+						<h6 class="email">服务电邮：</h6>
+						<a href="mailto:service@gaopinimages.com" target="_blank">service@gaopinimages.com</a>
+					</div>
+					<div class="col-sm-6 boxAddr hidden-xs">
+						<h6>北京</h6>
+						<div class="addrRow"><span class="label">电话：</span><span class="cont">+86 10 6500 8152</span></div>
+						<div class="addrRow"><span class="label">传真：</span><span class="cont">+86 10 6500 8192</span></div>
+						<div class="addrRow"><span class="label">地址：</span><span class="cont">北京朝阳区工体北路4号院22.OFFICE 2层</span></div> 
+						<div class="addrRow"><span class="label">邮编：</span><span class="cont">100027</span></div>
+					</div>
+				</div><!--row-->
+				<div class="row">
+					<div class="col-sm-6 boxAddr hidden-xs">
+						<h6>上海</h6>
+						<div class="addrRow"><span class="label">电话：</span><span class="cont">+86 21 5407 5711</span></div>
+						<div class="addrRow"><span class="label">传真：</span><span class="cont">+86 21 5407 5712</span></div>
+						<div class="addrRow"><span class="label">地址：</span><span class="cont">上海黄浦区四川中路外滩181大楼401</span></div>
+						<div class="addrRow"><span class="label">邮编：</span><span class="cont">200002</span></div>
+					</div>
+					<div class="col-sm-6 boxAddr hidden-xs">
+						<h6>广州</h6>
+						<div class="addrRow"><span class="label">电话：</span><span class="cont">+86 20 3847 3900</span></div>
+						<div class="addrRow"><span class="label">传真：</span><span class="cont">+86 20 3847 3901</span></div>
+						<div class="addrRow"><span class="label">地址：</span><span class="cont">广州天河区体育东横街3号设计大厦17楼17B02</span></div>
+						<div class="addrRow"><span class="label">邮编：</span><span class="cont">510620</span></div>
+					</div>
+				</div><!--row-->
+			</div>
+			<div class="col-md-6">
+				
+				<div class="greyBg">
+					<div class="col-sm-6 boxMedia ">
+						<div class="header Source-Han-Light">微博</div>
+						<a href="#" class="icon icon-font icon-16-sina"></a>
+						<div class="label hidden-xs">分享最新热门资讯 </div>
+					</div>
+					<div class="col-sm-6 boxMedia hidden-xs">
+						<div class="header Source-Han-Light">微信</div>
+						<div class="icon"><img src="../images/iconWeChat.gif"/></div>
+						<div class="label">参与互动给你惊喜</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div><!--sectionBtm-->
+
+<div id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 col-md-12 copyright"><div>&copy; 2014 由高品(上海)图像服务有限公司提供。本网站所有影像均由高品(上海)图像服务有限公司授权发布。侵权必究。       沪ICP备09095511号</div></div>
+			<div class="col-lg-5 hidden-xs">
+				<ul>
+					<li><a href="#">网站使用协议</a></li>
+					<li><a href="#">隐私保护政策</a></li>
+					<li><a href="#">Cookie政策</a></li>
+					<li><a href="#">授权条款及条件</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+			
+</body>
+</html>

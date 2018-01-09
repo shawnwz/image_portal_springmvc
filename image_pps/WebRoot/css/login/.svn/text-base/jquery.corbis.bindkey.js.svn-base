@@ -1,0 +1,1 @@
+(function(a){a.fn.bindKey=function(d,c,e){var b=a(this);b.keydown(function(f){if(typeof e!=="undefined"){if(f.keyCode===d&&e.call(b)){c.call(b);}}else{if(f.keyCode===d){c();}}});};a.fn.bindEnterKey=function(b,c){a(this).bindKey(13,b,c);};})(window.jQuery);

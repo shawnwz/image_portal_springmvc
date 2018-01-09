@@ -1,0 +1,9 @@
+#language-status{display:inline;color:#69C;cursor:pointer}
+#language-status img{vertical-align:bottom;margin:0 3px 3px 0}
+#language-menu{color:#69C;width:120px}
+#language-menu li{list-style:none;background-color:#CCC;color:#69C;padding:4px 30px 4px 8px;border-color:#E5E5E5 #E5E5E5 #AAA;border-style:solid;border-width:1px;cursor:pointer}
+#language-menu li:hover{background-color:#b4b4b4}
+#language-menu li.selected{background:#CCC url(/Images/BG-languageCheck.jpg) no-repeat right -4px}
+#language-menu li.selected:hover{background:#b4b4b4 url(/Images/BG-languageCheck.jpg) no-repeat right -36px}
+#language-menu li a{outline:0}
+#language-menu li a:hover{border-bottom:0}

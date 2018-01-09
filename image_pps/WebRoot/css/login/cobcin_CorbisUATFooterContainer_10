@@ -1,0 +1,10 @@
+function AT_tags(){
+  try{var tags = new Array();
+    var imgs = new Array();
+    tags = ['https://pixel.quantserve.com/pixel/p-7HbdNxrKtaLNf.gif?labels=_fp.event.Landing+Page','http://edge.aperture.displaymarketplace.com/audmeasure.gif?liveConClientID=5321466014865&PixelID=1974&EventType=View&PageID=3','https://pixel.mathtag.com/event/img?mt_id=151722&mt_adid=106205&v1=&v2=&v3=&s1=&s2=&s3=','http://cc.chango.com/c/o?pid=2273'];
+    for(var i=0; i<tags.length; i++)
+    { imgs[i] = new Image();
+      imgs[i].src = tags[i];}
+    this.csk='Test';
+  }catch(e){this.csk='Error';}}
+var AT_csk = new AT_tags();

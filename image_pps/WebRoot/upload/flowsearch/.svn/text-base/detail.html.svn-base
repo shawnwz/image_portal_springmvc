@@ -1,0 +1,788 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,user-scalable=no"/>
+<!-- InstanceBeginEditable name="doctitle" -->
+    <title>Gao Pin Images</title>
+    <!-- InstanceEndEditable -->
+<link rel="Shortcut Icon" href="images/favorite.ico" type="image/x-icon" />
+<link rel="Bookmark" href="images/favorite.ico" type="image/x-icon" />
+<link rel="icon" href="images/favorite.ico" type="image/x-icon" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/layout.css" rel="stylesheet" type="text/css" />
+<link href="css/font.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery.selectBox.css" rel="stylesheet" type="text/css" />
+<link href="css/nav.css" rel="stylesheet" type="text/css" />
+<link href="css/cont.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.ui.datepicker-zh-CN.js"></script>
+<link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/favourite.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.10564.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/banner.js"></script>
+<script type="text/javascript" src="js/jquery.md5.js"></script>
+<script type="text/javascript" src="js/youziku.js"></script>
+<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="js/jquery.infinitescroll.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+<link href="css/jcarousel.responsive.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.selectBox.js"></script>
+<script type="text/javascript" src="js/icheck.js"></script>
+<link href="css/blue.css" rel="stylesheet" type="text/css" />
+<link href="css/tooltipster.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.tooltipster.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="js/form.js"></script>
+<!--[if lte IE 9]>
+<script type="text/javascript" src="js/respond.min.js"></script>
+<![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+    <link href="css/jqModal.css" rel="stylesheet" type="text/css" />
+    <link href="css/sub.css" rel="stylesheet" type="text/css" />
+	
+ 	<script type="text/javascript" src="js/default.js"></script>
+	<script type="text/javascript" src="js/search.js"></script>
+    <script type="text/javascript" src="js/jquery.jqModal.js"></script>
+    <script type="text/javascript" src="js/sub.js"></script>
+    <!-- InstanceEndEditable -->
+</head>
+
+<!-- InstanceBeginEditable name="bodyClass" -->
+<body class="pageDetail">
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="nav" -->
+
+<div id="topBar">
+    <div class="container">
+        <div class="navWrap">
+		<div id="logo"><a href="index.html"><img src="images/logo.png"/></a></div>
+		<div id="navRight">
+			<ul>
+				<li class="visible-md visible-lg"><a href="#" class="icon-font icon-3-chat"></a></li>
+				<li class="visible-md visible-lg"><a href="#" class="icon-font icon-15-shoppingCart"></a></li>
+				<li class="visible-md visible-lg"><a href="#" class="icon-font icon-11-favourite"></a></li>
+				
+			</ul>
+		</div>
+		<div id="navLeft" class="autoCloseWrap">
+			<div class="collapse visible-xs visible-sm icon-font icon-5-collapse"></div>
+			<ul class="Source-Han-Light">
+				<li><a href="#">创意图片</a>
+					<ul>
+						<li><a href="#">导航之一</a></li>
+						<li><a href="#">导航之二</a></li>
+					</ul>
+				</li>
+				<li><a href="#">编辑图片</a>
+					<ul>
+						<li><a href="#">导航之一</a></li>
+						<li><a href="#">导航之二</a></li>
+						<li><a href="#">导航之3</a></li>
+					</ul>
+				</li>
+				<li><a href="#">高品专辑</a>
+					<ul>
+						<li><a href="#">导航之一</a></li>
+						<li><a href="#">导航之二</a></li>
+						<li><a href="#">导航之3</a></li>
+						<li><a href="#">导航之4</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div><!--navLeft-->
+	</div><!--navWrap-->
+	
+	<div class="lightBoxWrapOut">
+		<div class="lightBoxWrap hidden-sm hidden-xs">
+			<div class="leftPanel">
+				<div class="lightBoxList selectWrap">
+					<div class="selectValue">我的收藏版一<span class="num">6</span><span>图片</span></div>
+					<div class="selectList">
+						<ul>
+							<li class="active" lightBoxId="1">我的收藏版一<span class="num">6</span><span>图片</span></li>
+							<li lightBoxId="2">我的收藏版二<span class="num">2</span><span>图片</span></li>
+							<li lightBoxId="3">我的收藏版三<span class="num">2</span><span>图片</span></li>
+							<li lightBoxId="4">我的收藏四<span class="num">2</span><span>图片</span></li>
+							<li lightBoxId="5">我的收藏五<span class="num">2</span><span>图片</span></li>
+							<li lightBoxId="6">我的收藏六<span class="num">2</span><span>图片</span></li>
+						</ul>
+						<div class="createNew"><input name="" type="text" class="listName" placeholder="创造新的收藏版"/><div class="btnAdd"></div></div>
+					</div>
+				</div><!--lightBoxList-->
+				
+				<div class="btnWrap iconWrap">
+					<a href="#" class="icon-font icon-31-shoppingCart2"></a>
+					<a href="#" class="icon-font icon-22-download"></a>
+					<a href="#" class="icon-font icon-14-setting"></a>
+				</div>
+			</div><!--leftPanel-->
+			<div class="rightPanel">
+				<div class="jcarousel-wrapper">
+					<div class="jcarousel">
+						<ul>
+							<li><a href="#"><img src="images/search/thumb305_1.jpg" width="80" imgId="100"/></a><span class="icon-font icon-8-delete"></span></li>
+							<li><a href="#"><img src="images/search/thumb305_2.jpg" width="80" imgId="101"/></a><span class="icon-font icon-8-delete"></span></li>
+							<li><a href="#"><img src="images/search/thumb305_3.jpg" width="80" imgId="102"/></a><span class="icon-font icon-8-delete"></span></li>
+							<li><a href="#"><img src="images/search/thumb305_4.jpg" width="80" imgId="103"/></a><span class="icon-font icon-8-delete"></span></li>
+							<li><a href="#"><img src="images/search/thumb305_1.jpg" width="80" imgId="104"/></a><span class="icon-font icon-8-delete"></span></li>
+							<li><a href="#"><img src="images/search/thumb305_2.jpg" width="80" imgId="105"/></a><span class="icon-font icon-8-delete"></span></li>
+							
+						</ul>
+					</div>
+					<a href="#" class="btnMore">查看所有</a>
+					<div class="currentPage"></div>
+					<div class="closeJcarousel"> &times; </div>
+					<p class="jcarousel-pagination"></p>
+					
+					<a href="#" class="jcarousel-control-prev icon-font icon-1-arrowLeft"></a>
+					<a href="#" class="jcarousel-control-next icon-font icon-2-arrowRight"></a>
+				</div>
+			</div><!--rightPanel-->
+		</div><!--lightBoxWrap-->
+	</div><!--lightBoxWrapOut-->
+
+
+    </div><!--container1920-->
+</div><!--topBar-->
+
+<!-- InstanceEndEditable -->
+
+
+<!-- InstanceBeginEditable name="cont" -->
+
+
+<div id="sectionCont">
+
+<div class="container">
+
+<div class="detailWrap">
+
+<div class="row">
+    <div class="col-md-12 shareDiv">
+        <a href="javascript:;" class="icon-font icon-2-arrowRight"></a>
+        <a href="javascript:;" class="icon-font icon-1-arrowLeft funcLeft"></a>
+        <a href="javascript:;" class="shareAlink hidden-sm hidden-xs icon-font icon-icon-37-plane funcLeft"></a>
+    </div>
+</div><!-- row -->
+
+<div class="row detailPhotoRow picDetailWrap">
+    <div class="col-md-7 detailPhoto">
+        <img src="images/detail/pageImage.jpg" alt="" imgId="100"/>
+    </div>
+    <div class="col-md-4 detailPhotoDesc">
+        <div class="detailTitle Source-Han-Light">图片的短名字</div>
+        <p class="descP">描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述</p>
+        <div class="detailTab hide">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="active"><a href="#detailTab1" role="tab" data-toggle="tab">CM</a></li>
+                <li><a href="#detailTab2" role="tab" data-toggle="tab">PX</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane active" id="detailTab1">
+                    <form role="form" action="">
+                        <div class="radioMargin">
+                            <label>
+                                <input type="radio" name="cm"/>
+                                <span class="model">XS</span>
+                                <span class="price">￥420</span>
+                            </label>
+                            <span class="detailSpan Source-Han-Light">30 MB - 2668cm × 4000cm   @ 72 ppi</span>
+                        </div>
+                        <div class="radioMargin">
+                            <label for="label2">
+                                <input type="radio" name="cm" id="labelcm2"/>
+                                <span class="model">S</span>
+                                <span class="price">￥550</span>
+                            </label>
+                            <span class="detailSpan Source-Han-Light">30 MB - 2668cm × 4000cm   @ 300 ppi</span>
+                        </div>
+                        <div class="radioMargin">
+                            <label for="label3">
+                                <input type="radio" name="cm" id="labelcm3"/>
+                                <span class="model">M</span>
+                                <span class="price">￥960</span>
+                            </label>
+                            <span class="detailSpan Source-Han-Light">30 MB - 2668cm × 4000cm   @ 300 ppi</span>
+                        </div>
+                        <div class="radioMargin">
+                            <label for="label4">
+                                <input type="radio" name="cm" id="labelcm4"/>
+                                <span class="model">L</span>
+                                <span class="price">￥1,200</span>
+                            </label>
+                            <span class="detailSpan Source-Han-Light">30 MB - 2668cm × 4000cm   @ 300 ppi</span>
+                        </div>
+                        <div class="radioMargin">
+                            <label for="label5">
+                                <input type="radio" name="cm" id="labelcm5"/>
+                                <span class="model">XL</span>
+                                <span class="price">￥10,550</span>
+                            </label>
+                            <span class="detailSpan Source-Han-Light">30 MB - 2668cm × 4000cm   @ 300 ppi</span>
+                        </div>
+                    </form>
+                </div>
+                <div class="tab-pane" id="detailTab2">
+                    <form role="form" action="">
+
+                        <div class="radioMargin">
+                            <label for="label1">
+                                <input type="radio" name="px" id="label1"/>
+                                <span class="model">XS</span>
+                                <span class="price">￥420</span>
+                            </label>
+                            <span class="detailSpan Source-Han-Light">30 MB - 2668px × 4000px   @ 72 ppi</span>
+                        </div>
+                        <div class="radioMargin">
+                            <label for="label2">
+                                <input type="radio" name="px" id="label2"/>
+                                <span class="model">S</span>
+                                <span class="price">￥550</span>
+                            </label>
+                            <span class="detailSpan Source-Han-Light">30 MB - 2668px × 4000px   @ 300 ppi</span>
+                        </div>
+                        <div class="radioMargin">
+                            <label for="label3">
+                                <input type="radio" name="px" id="label3"/>
+                                <span class="model">M</span>
+                                <span class="price">￥960</span>
+                            </label>
+                            <span class="detailSpan Source-Han-Light">30 MB - 2668px × 4000px   @ 300 ppi</span>
+                        </div>
+                        <div class="radioMargin">
+                            <label for="label4">
+                                <input type="radio" name="px" id="label4"/>
+                                <span class="model">L</span>
+                                <span class="price">￥1,200</span>
+                            </label>
+                            <span class="detailSpan Source-Han-Light">30 MB - 2668px × 4000px   @ 300 ppi</span>
+                        </div>
+                        <div class="radioMargin">
+                            <label for="label5">
+                                <input type="radio" name="px" id="label5"/>
+                                <span class="model">XL</span>
+                                <span class="price">￥10,550</span>
+                            </label>
+                            <span class="detailSpan Source-Han-Light">30 MB - 2668px × 4000px   @ 300 ppi</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div><!-- detailTab -->
+        <div class="btnBox">
+            <a href="javascript:void(0)" class="btnCountacUs" data-toggle="modal" data-target="#myModal"><span class="icon-font icon-icon-38_calculate"></span>联系我们查询更多信息</a>
+        </div>
+        <div class="funcBox">
+            <div class="btnWrap iconWrap funcIcon btns2">
+                <!--<a href="#" class="icon-font icon-22-download"><span>下载</span></a>-->
+                <a href="#" class="icon-font icon-11-favourite"><span>收藏</span></a>
+                <a href="#" class="icon-font icon-29-search2"><span>相似</span></a>
+            </div>
+        </div>
+        <div class="fullSescription">
+            <div class="scriptionLine">
+                <span class="scriptionLeftSpan">图片编号</span>
+                <span>42-61959560</span>
+            </div>
+            <div class="scriptionLine">
+                <span class="scriptionLeftSpan">摄影师</span>
+                <span><a href="javascript:;">Arctic Images</a></span>
+            </div>
+            <div class="scriptionLine posFex">
+                <span class="scriptionLeftSpan">授权类型</span>
+                <span>Royalty Free <a href="javascript:;" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="描述描述描述描述描述描述描述描述描述描述描述描述。">(RF)</a></span>
+            </div>
+            <div class="scriptionLine">
+                <span class="scriptionLeftSpan">肖像权状态</span>
+                <span>没有授权</span>
+            </div>
+            <div class="scriptionLine">
+                <span class="scriptionLeftSpan">产权状态</span>
+                <span>没有授权</span>
+            </div>
+            <div class="scriptionLine posFex">
+                <span class="scriptionLeftSpan">限制说明</span>
+                <span><a href="javascript:;" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="描述描述描述描述描述描述描述描述描述描述描述描述。">打开详细</a></span>
+            </div>
+            <div class="viewMore hidden-xs hidden-sm">查看更多 <span class="viewDown"></span></div>
+            <div class="moreDesc">
+                <div class="scriptionLine moreDescTime">
+                    <span class="scriptionLeftSpan">拍摄日期</span>
+                    <span>September 3, 2014</span>
+                </div>
+                <div class="scriptionLine">
+                    <span class="scriptionLeftSpan">拍摄地点</span>
+                    <span><a href="javascript:;">Iceland</a></span>
+                </div>
+                <div class="scriptionLine">
+                    <span class="scriptionLeftSpan">出处</span>
+                    <span>© Arctic Images / Corbis</span>
+                </div>
+                <div class="scriptionLine">
+                    <span class="scriptionLeftSpan">类别</span>
+                    <span><a href="javascript:;">Documentary</a></span>
+                </div>
+                <div class="scriptionLine">
+                    <span class="scriptionLeftSpan">图片库</span>
+                    <span><a href="javascript:;">Blink</a></span>
+                </div>
+                <div class="scriptionLine">
+                    <span class="scriptionLeftSpan">最大尺寸</span>
+                    <span>30 MB - 2668px × 4000px <br/>@ 72 ppi</span>
+                </div>
+            </div>
+            <div class="shareDiv visible-xs visible-sm">
+                <a href="javascript:;" class="icon-font icon-2-arrowRight"></a>
+                <a href="javascript:;" class="icon-font icon-1-arrowLeft"></a>
+                <a href="javascript:;" class="shareAlink icon-font icon-icon-37-plane funcLeft"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row hidden-sm hidden-xs">
+<div class="col-md-12">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs Source-Han-Light" role="tablist">
+        <li class="active"><a href="#tab1" role="tab" data-toggle="tab">相似图片</a></li>
+        <li><a href="#tab2" role="tab" data-toggle="tab">摄影师作品</a></li>
+        <div class="viweMoreDiv">
+            <a href="javascript:;">查看所有</a>
+        </div>
+    </ul>
+
+    <!-- Tab panes -->
+
+    <div class="tab-content row">
+        <div class="tab-pane active" id="tab1">
+            <div class="col-sm-11 col-md-11 mySlideTab">
+                <div class="mySlideShowDiv">
+                    <ul>
+                        <li>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image001.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image006.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image007.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image004.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image006.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image004.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image007.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image002.jpg">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image001.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image005.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image003.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image006.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image005.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image006.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image003.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image008.jpg">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image001.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image006.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image007.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image004.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image006.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image004.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image007.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image002.jpg">
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-1 col-md-1">
+                <a href="javascript:;" id="myTabLeft1" class="nextLi icon-font icon-2-arrowRight"></a>
+                <a href="javascript:;" id="myTabRight1" class="pervLi icon-font icon-1-arrowLeft"></a>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab2">
+
+            <div class="col-sm-11 col-md-11 mySlideTab">
+                <div class="mySlideShowDiv">
+                    <ul>
+                        <li>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image001.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image002.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image003.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image004.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image005.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image006.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image007.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image008.jpg">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image001.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image002.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image003.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image004.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image005.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image006.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image007.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image008.jpg">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image001.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image006.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image007.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image004.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image006.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image004.jpg">
+                                </a>
+                            </div>
+                            <div class="mySlideLi">
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image007.jpg">
+                                </a>
+                                <a href="javascript:void(0)" class="boxCollection">
+                                    <img src="images/detail/detail-image002.jpg">
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-1 col-md-1">
+                <a href="javascript:;" id="myTabLeft2" class="nextLi icon-font icon-2-arrowRight"></a>
+                <a href="javascript:;" id="myTabRight2" class="pervLi icon-font icon-1-arrowLeft"></a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="col-md-12">
+    <div class="keywordsRow">
+        <span class="keywordSpan">关键字</span>
+        <div class="keywordsBox">
+            <a href="javascript:;"><span class="badge">大自然</span></a>
+            <a href="javascript:;"><span class="badge">蔬菜</span></a>
+            <a href="javascript:;"><span class="badge">水果</span></a>
+            <a href="javascript:;"><span class="badge">非洲</span></a>
+            <a href="javascript:;"><span class="badge">大自然</span></a>
+            <a href="javascript:;"><span class="badge">蔬菜</span></a>
+            <a href="javascript:;"><span class="badge">水果</span></a>
+            <a href="javascript:;"><span class="badge">非洲</span></a>
+            <a href="javascript:;"><span class="badge">大自然</span></a>
+            <a href="javascript:;"><span class="badge">蔬菜</span></a>
+            <a href="javascript:;"><span class="badge">水果</span></a>
+            <a href="javascript:;"><span class="badge">非洲</span></a>
+            <a href="javascript:;"><span class="badge">大自然</span></a>
+            <a href="javascript:;"><span class="badge">蔬菜</span></a>
+            <a href="javascript:;"><span class="badge">水果</span></a>
+            <a href="javascript:;"><span class="badge">非洲</span></a>
+            <a href="javascript:;"><span class="badge">大自然</span></a>
+            <a href="javascript:;"><span class="badge">蔬菜</span></a>
+            <a href="javascript:;"><span class="badge">水果</span></a>
+            <a href="javascript:;"><span class="badge">非洲</span></a>
+            <a href="javascript:;"><span class="badge">大自然</span></a>
+            <a href="javascript:;"><span class="badge">蔬菜</span></a>
+            <a href="javascript:;"><span class="badge">水果</span></a>
+            <a href="javascript:;"><span class="badge">非洲</span></a>
+            <a href="javascript:;"><span class="badge">大自然</span></a>
+            <a href="javascript:;"><span class="badge">蔬菜</span></a>
+            <a href="javascript:;"><span class="badge">水果</span></a>
+            <a href="javascript:;"><span class="badge">非洲</span></a>
+            <a href="javascript:;"><span class="badge">大自然</span></a>
+            <a href="javascript:;"><span class="badge">蔬菜</span></a>
+            <a href="javascript:;"><span class="badge">水果</span></a>
+            <a href="javascript:;"><span class="badge">非洲</span></a>
+            <a href="javascript:;"><span class="badge">大自然</span></a>
+            <a href="javascript:;"><span class="badge">蔬菜</span></a>
+            <a href="javascript:;"><span class="badge">水果</span></a>
+            <a href="javascript:;"><span class="badge">非洲</span></a>
+        </div>
+    </div>
+</div>
+</div><!-- row -->
+
+</div><!-- detailWrap -->
+
+</div><!-- container -->
+
+</div><!--sectionCont-->
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a class="close" data-dismiss="modal"></a>
+            </div>
+            <div class="modal-body">
+                <div class="popupDiv dialog">
+                    <div class="popLeft">
+                        <div class="photoBox">
+                            <img src="images/detail/pageImage.jpg" alt=""/>
+                            <div class="popPhotoDesc">图片编号:204023333</div>
+                        </div>
+                        <div class="directContact">
+                            <div class="dirConTitle SiYuan-ExtraLight">直接联系</div>
+                            <div class="hotNumb"><span class="icon-font icon-7-contact"></span><span class="textSpanCon hidden-xs hidden-sm">热线 <br/></span>400-820-0268</div>
+                            <div class="mailNumb"><span class="icon-font icon-10-email"></span><span class="textSpanCon hidden-xs hidden-sm">服务邮件 <br/></span><a href="mailto:service@gaopinimages.com">service@gaopinimages.com</a></div>
+                        </div>
+                    </div>
+                    <div class="popRight">
+
+                        <select name="" class="selectStyle">
+                            <option>关于买图片的手续</option>
+                            <option>排序1</option>
+                            <option>排序2</option>
+                            <option>排序3</option>
+                        </select>
+                        <input type="text" placeholder="姓名"/>
+                        <input type="text" placeholder="电子邮件"/>
+                        <input class="phoneNum" type="text" placeholder="电话"/>
+
+                        <select name="" class="selectStyle">
+                            <option>州/省</option>
+                            <option>排序1</option>
+                            <option>排序2</option>
+                            <option>排序3</option>
+                        </select>
+
+                        <textarea rows="" cols="" placeholder="我在考虑买这个图片，请联系我。"></textarea>
+                        <a class="sendToUs SiYuan-ExtraLight" href="javascript:;">现在发送</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- InstanceEndEditable -->
+<div id="sectionBtm">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12"><a href="#" class="logo"><img src="images/logoFooter.png"/></a></div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-sm-6 boxContact">
+						<h6 class="hotline">热线：</h6>
+						400-820-0268
+						<br/><br/>
+						<h6 class="email">服务电邮：</h6>
+						<a href="mailto:service@gaopinimages.com" target="_blank">service@gaopinimages.com</a>
+					</div>
+					<div class="col-sm-6 boxAddr hidden-xs">
+						<h6>北京</h6>
+						<div class="addrRow"><span class="label">电话：</span><span class="cont">+86 10 6500 8152</span></div>
+						<div class="addrRow"><span class="label">传真：</span><span class="cont">+86 10 6500 8192</span></div>
+						<div class="addrRow"><span class="label">地址：</span><span class="cont">北京朝阳区工体北路4号院22.OFFICE 2层</span></div> 
+						<div class="addrRow"><span class="label">邮编：</span><span class="cont">100027</span></div>
+					</div>
+				</div><!--row-->
+				<div class="row">
+					<div class="col-sm-6 boxAddr hidden-xs">
+						<h6>上海</h6>
+						<div class="addrRow"><span class="label">电话：</span><span class="cont">+86 21 5407 5711</span></div>
+						<div class="addrRow"><span class="label">传真：</span><span class="cont">+86 21 5407 5712</span></div>
+						<div class="addrRow"><span class="label">地址：</span><span class="cont">上海黄浦区四川中路外滩181大楼401</span></div>
+						<div class="addrRow"><span class="label">邮编：</span><span class="cont">200002</span></div>
+					</div>
+					<div class="col-sm-6 boxAddr hidden-xs">
+						<h6>广州</h6>
+						<div class="addrRow"><span class="label">电话：</span><span class="cont">+86 20 3847 3900</span></div>
+						<div class="addrRow"><span class="label">传真：</span><span class="cont">+86 20 3847 3901</span></div>
+						<div class="addrRow"><span class="label">地址：</span><span class="cont">广州天河区体育东横街3号设计大厦17楼17B02</span></div>
+						<div class="addrRow"><span class="label">邮编：</span><span class="cont">510620</span></div>
+					</div>
+				</div><!--row-->
+			</div>
+			<div class="col-md-6">
+				
+				<div class="greyBg">
+					<div class="col-sm-6 boxMedia ">
+						<div class="header Source-Han-Light">微博</div>
+						<a href="#" class="icon icon-font icon-16-sina"></a>
+						<div class="label hidden-xs">分享最新热门资讯 </div>
+					</div>
+					<div class="col-sm-6 boxMedia hidden-xs">
+						<div class="header Source-Han-Light">微信</div>
+						<div class="icon"><img src="images/iconWeChat.gif"/></div>
+						<div class="label">参与互动给你惊喜</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div><!--sectionBtm-->
+
+<div id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 col-md-12 copyright"><div>&copy; 2014 由高品(上海)图像服务有限公司提供。本网站所有影像均由高品(上海)图像服务有限公司授权发布。侵权必究。       沪ICP备09095511号</div></div>
+			<div class="col-lg-5 hidden-xs">
+				<ul>
+					<li><a href="#">网站使用协议</a></li>
+					<li><a href="#">隐私保护政策</a></li>
+					<li><a href="#">Cookie政策</a></li>
+					<li><a href="#">授权条款及条件</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+			
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,374 @@
+/* HTML elements  */
+
+a, .actLikeLink 
+{
+	/* REBRANDING
+	color: #dd602b;
+	*/
+	color: #6699CC;
+	cursor: pointer;
+}
+
+a:active, a:hover, .actLikeLink:hover
+{
+	/* REBRANDING
+	border-bottom: dotted 1px #dd602b;
+	*/
+	border-bottom: dotted 1px #6699CC;
+}
+
+
+body
+{
+	background-color: #1a1a1a;
+	color: #999999;
+}
+
+body.unsupportedBrowser
+{
+	background-color: #404040
+}
+/* For 22642
+#FooterContent
+{
+	background: url("../Images/BG-footer.gif") left top repeat-x; 
+	border-top: 1px solid #484848;
+}*/
+
+	.zeroResults
+	{
+		position:relative;
+		bottom:-100px; 
+		margin-top:-100px;  
+	}
+/* For 22642
+#FooterContent .Curve
+{
+	background: url("../Images/BG-footer-curve.jpg") left top no-repeat; 
+}
+
+#FooterContent #Column .Header
+{
+	color: #808080;
+}
+*/
+
+#GlobalNav
+{
+	background: #3B3B3B url("/Images/header/globalnav-utility.gif") left top repeat-x;
+}
+
+/* Moved this to masterBase.css in stylesheets directory
+#Logo
+{
+	background-color: #4c4c4c;
+	background-image: url("../Images/corbis-logo.jpg");
+	border: solid 1px #666666;
+}
+
+#Logo .Over
+{
+	background-image: url("../Images/corbis-logo.jpg");
+}
+*/
+
+.BrowseImages .Icon img
+{
+	/* REBRANDING
+	background-image: url("../Images/orange-chevron-lrg-dark.gif");
+	*/
+	background-image: url("../Images/orange-chevron-lrg-dark.png");
+}
+
+.BrowseImages .Title
+{
+	color: #bbb;
+	cursor: pointer;
+}
+
+.BrowseImages:hover .Title
+{
+	border-bottom: dotted 1px #bbb;
+	
+}
+
+#LanguageSelector
+{
+	border-right: solid 1px #272727;
+}
+
+
+.LanguageMenuBottom
+{
+	color: #ccc;
+}
+
+.LanguageMenuBottom .MenuItem
+{
+	background-color: #ccc;
+}
+
+.SortOptionsMenuBottom
+{
+	color: #ccc;
+}
+
+.SortOptionsMenuBottom .MenuItem
+{
+	background-color: #ccc;
+	color: #666666;
+}
+
+.SortOptionsMenuBottomFour
+{
+	color: #ccc;
+}
+
+.SortOptionsMenuBottomFour .MenuItem
+{
+	background-color: #ccc;
+	color: #666666;
+}
+
+#ThemeSelector
+{
+	border-left: solid 1px #8c8c8c;
+}
+
+#ThemeSelector .Label
+{
+	color: #ccc;
+}
+
+#ThemeSelector .Dark
+{
+	background-color: #58585a;
+	/* REBRANDING
+	border: solid 1px #dd602b !important;
+	*/
+	
+	border: solid 1px #4385C0 !important;
+
+}
+
+#ThemeSelector .Light
+{
+	background-color: #fff;
+	border: solid 1px #000 !important;
+}
+
+#ThemeSelector .Arrow img
+{
+	background: url("../Images/small-chevron-dark.gif") top center no-repeat;
+}
+
+#Utility .Divider
+{
+	background-color: #5c5c5c;
+	border-right: solid 1px #202020;
+}
+
+#SignInStatus .Title div:hover
+{
+	border-bottom: 1px dotted #4385C0;
+}
+
+#SignInStatus .Links :hover
+{
+	border-bottom: 1px dotted #4385C0 !important;
+}
+
+#Search
+{
+	background:#3B3B3B url(/Images/header/globalnav-search.gif) repeat-x scroll left top;
+	border-bottom: solid 1px #0f0f0f;
+}
+
+#Search .Go,
+#Search .Go .Center
+{
+	background: url(/Images/header/go-button.png) repeat-x scroll 0 -60px;
+	height: 25px;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#Search .Go .Center:hover
+{
+    background-position: 0 -120px;
+    border: none;
+    border-left: 0px solid #366A9A;
+    background: url(/Images/header/go-button.png) repeat-x scroll 0 -150px;
+}
+
+
+.SignInContent #Or
+{
+	border-bottom: 1px solid #fff;
+}
+
+.SignInContent #Or span
+{
+	background-color: #000;
+	color: #fff;
+}
+
+#CheckoutWidget .Cart,
+#CheckoutWidget .Cart .Right,
+#CheckoutWidget .Cart .Right .Center,
+#CheckoutWidget .Checkout,
+#CheckoutWidget .Checkout .Right,
+#CheckoutWidget .Checkout .Right .Center
+{
+	background-image: url("../Images/cartBox-dark.gif");
+}
+
+#Breadcrumb
+{
+	border-color: #797979;
+}
+
+#CustomerServiceContent
+{
+	border: 1px solid #363636;
+	margin-bottom: 10px;
+}
+
+#CustomerServiceContent .PaneHeader,
+#CustomerServiceContent .PaneHeader .Right,
+#CustomerServiceContent .PaneHeader .Right .Center,
+#CustomerServiceContent .PaneHeaderExpanded,
+#CustomerServiceContent .PaneHeaderExpanded .Right,
+#CustomerServiceContent .PaneHeaderExpanded .Right .Center
+{
+	background-image: url("../../images/barDarkSprite.gif");
+}
+
+#CustomerServiceContent .PaneContent
+{
+	
+}
+
+#CustomerServiceContent .PaneContent .FormRow
+{
+	
+}
+
+#CustomerServiceContent .PaneContentRound .Left,
+#CustomerServiceContent .PaneContentRound .Right
+{
+	background-color: #dbdbdb;
+	background-image: url("../Images/rc5pxdbdbdb-363636.gif");
+}
+
+#CustomerServiceContent .PaneHeader .Right
+{
+	background-position: right -34px;
+}
+
+#CustomerServiceContent .PaneHeader .Right .Center
+{
+	background-position: 0px -68px;
+}
+
+#CustomerServiceContent .Faq .PaneContent,
+#CustomerServiceContent .Offices .PaneContent,
+#CustomerServiceContent .MyRep .PaneContent
+{
+	
+}
+
+#CustomerServiceContent .liveHelpContentHeader
+{
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+#CustomerServiceContent .liveHelpContentDetails
+{
+	padding-bottom: 15px;
+}
+
+#liveHelpContentChatPanel 
+{
+	display: inline-block;
+	height: 13px;
+	line-height: 13px;
+	cursor: pointer;
+	clear: both;
+}
+
+#liveHelpContentChatPanel.disabled a
+{
+	color: #666;
+}
+
+#liveHelpContentChatPanel.disabled a:hover
+{
+	border-bottom: none;
+	cursor: default;
+}
+
+#liveHelpContentSharePanel
+{
+	padding-top: 5px;
+	line-height: 16px;
+	cursor: pointer;
+	clear: both;
+}
+
+#liveHelpContentScreenLink
+{
+	float: left;
+}
+
+#liveHelpContentChatLink
+{
+	float: left;
+}
+
+#liveHelpContentScreenIcon
+{
+	background: url(/Images/customerservice/screenshare-icon.png) no-repeat 0 0;
+	width: 16px;
+	height: 17px;
+	margin-left: 5px;
+	float: left;
+}
+
+#liveHelpContentChatIcon
+{
+	background: url(/Images/customerservice/chat-icon.png) no-repeat 0 0;
+	width: 13px;
+	height: 12px;
+	display: inline-block;
+	margin-left: 5px;
+	float: left;
+}
+
+#liveHelpContentChatPanel.disabled #liveHelpContentChatIcon
+{
+	background-position: 0px -12px;
+}
+
+
+#CustomerServiceContent .MyRepTitle
+{
+	padding: 15px 0px;
+	font-weight: bold;
+}
+
+#CustomerServiceContent .SendUsFeedbackTitle
+{
+	font-weight: bold;
+}

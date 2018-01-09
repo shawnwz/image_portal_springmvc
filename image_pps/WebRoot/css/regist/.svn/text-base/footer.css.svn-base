@@ -1,0 +1,14 @@
+#Footer{background-color:#1A1A1A;min-width:1005px;border-top:1px solid #222;margin-top:10px;clear:both}
+#footer-linkpanel{padding:0 0 25px 25px;background-color:#161616;overflow:auto}
+div.footer-linkitem{width:220px;margin-right:22px;float:left;font-size:11px}
+div.footer-linkitem h4{font-weight:bold;padding:25px 0 6px 0;color:#b7b7b7}
+.footer-linkitem-break{clear:left}
+.footer-linkitem a{line-height:16px}
+.footer-linkitem ul{list-style:outside none}
+#footer-shareLink span{position:absolute;left:-3px;top:20px}
+img.footer-linkicon{cursor:pointer}
+body .iframe-ctip-content{background:#dbdbdb;-webkit-border-radius:7px;-moz-border-radius:7px;border-radius:7px;padding:10px 0 0 0;overflow:hidden}
+div.iframe-ctip{background:#dbdbdb;-webkit-border-radius:7px;-moz-border-radius:7px;border-radius:7px;-moz-box-shadow:0 0 5px #000;-webkit-box-shadow:0 0 5px #000;box-shadow:0 0 5px #000;visibility:hidden;position:fixed;left:50%;top:50%}
+#waiting-contents{position:fixed;top:50%;left:50%;text-align:center;z-index:101;margin-top:-35px;margin-left:-60px;padding:10px}
+#waiting-contents span{color:#4088D1;font-size:20px;padding-top:5px}div.footer-linkpanel-column{font-size:12px}
+div.footer-linkpanel-title{font-weight:normal}

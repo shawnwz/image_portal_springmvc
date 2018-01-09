@@ -1,0 +1,8 @@
+.hidden{display:none}
+.etrust-privacy-block .etrust-logo{margin:4px 0}
+.etrust-logo a,.etrust-logo a:hover,.etrust-logo a:active{border:medium none;display:inline-block}
+#acc_profileComplete .etrust-privacy-block,#reg-content .etrust-privacy-block{margin:8px 0 0 0;padding:12px 0;line-height:16px;border-top:1px solid #4D4D4D}
+#acc_profileComplete .etrust-privacy-block p,#reg-content #prv-plcy .etrust-privacy-block p{padding:0}
+#privacy-policy-footer{color:#999}
+#cartWrapper .etrust-privacy-block,#sco_holder .etrust-privacy-block,#CompletedOrder .etrust-privacy-block{line-height:16px;width:275px;margin:0 20px 30px}
+#reg-content .why-reg #prv-plcy{border-top:0 none;bottom:auto;line-height:auto;padding-top:auto;right:auto;width:auto}

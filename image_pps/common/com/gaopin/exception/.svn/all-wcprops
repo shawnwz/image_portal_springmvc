@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/master/!svn/ver/9/image_pps/common/com/gaopin/exception
+END
+ServiceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/master/!svn/ver/9/image_pps/common/com/gaopin/exception/ServiceException.java
+END
+BeanFactoryException.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/master/!svn/ver/9/image_pps/common/com/gaopin/exception/BeanFactoryException.java
+END
+BaseRuntimeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/master/!svn/ver/9/image_pps/common/com/gaopin/exception/BaseRuntimeException.java
+END

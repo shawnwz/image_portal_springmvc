@@ -1,0 +1,4 @@
+div.menu_ctip li{list-style:none;background-color:#CCC;color:#69C;padding:4px 30px 4px 8px;border-color:#E5E5E5 #E5E5E5 #AAA;border-style:solid;border-width:1px;cursor:pointer}
+div.menu_ctip li:hover{background-color:#b4b4b4}
+div.menu_ctip li.selected{background:#CCC url(/Images/BG-languageCheck.jpg) no-repeat right -4px}
+div.menu_ctip li.selected:hover{background:#b4b4b4 url(/Images/BG-languageCheck.jpg) no-repeat right -36px}
